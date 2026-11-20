@@ -1,24 +1,16 @@
 cmake_minimum_required(VERSION 3.21)
-
-project(AncesTaleextended VERSION 0.1 LANGUAGES CXX)
-
+project(AncesTaleextended VERSION 0.1.7 LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTOUIC ON)
 set(CMAKE_AUTORCC ON)
+find_package(Qt6 REQUIRED COMPONENTS Widgets Sql)
+qt_add_executable(AncesTaleextended main.cpp mainwindow.cpp mainwindow.h mainwindow.ui geographywidget.cpp geographywidget.h geography.qrc)
+target_link_libraries(AncesTaleextended PRIVATE Qt6::Widgets Qt6::Sql)
+configure_file(${CMAKE_CURRENT_SOURCE_DIR}/music_import.py ${CMAKE_CURRENT_BINARY_DIR}/music_import.py COPYONLY)
+install(TARGETS AncesTaleextended RUNTIME DESTINATION bin)
+install(FILES music_import.py DESTINATION bin)
 
-find_package(Qt6 REQUIRED COMPONENTS Widgets)
-
-qt_add_executable(AncesTaleextended
-    main.cpp
-    mainwindow.cpp
-    mainwindow.h
-    mainwindow.ui
-)
-
-target_link_libraries(AncesTaleextended PRIVATE Qt6::Widgets)
-
-install(TARGETS AncesTaleextended
-    RUNTIME DESTINATION bin
-)
+configure_file(${CMAKE_CURRENT_SOURCE_DIR}/tree_sync.py ${CMAKE_CURRENT_BINARY_DIR}/tree_sync.py COPYONLY)
+install(FILES tree_sync.py DESTINATION bin)
