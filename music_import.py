@@ -24,7 +24,7 @@ def main():
  if not allowed: raise ValueError('License not recognized as eligible; no download. Review manually.')
  if mode=='preview': return
  if mode!='download': raise ValueError('Invalid mode')
- dest=pathlib.Path(root)/'Music'; dest.mkdir(exist_ok=True); name=pathlib.Path(u.unquote(dp.path)).name; name=re.sub(r'[^\w. -]','_',name); folder=pathlib.Path(tempfile.mkdtemp(prefix='recording-',dir=dest))
+ dest=pathlib.Path.home()/'.musicsq'; dest.mkdir(mode=0o700,parents=True,exist_ok=True); name=pathlib.Path(u.unquote(dp.path)).name; name=re.sub(r'[^\w. -]','_',name); folder=pathlib.Path(tempfile.mkdtemp(prefix='recording-',dir=dest))
  try:
   with request(direct) as f, open(folder/name,'xb') as out:
    if u.urlparse(f.geturl()).netloc!='upload.wikimedia.org': raise ValueError('Unexpected download host')

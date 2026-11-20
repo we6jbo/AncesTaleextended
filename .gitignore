@@ -15,3 +15,9 @@ ghtree.json
 Music/
 __pycache__/
 *.pyc
+
+# Out-of-tree builds / no generated binaries in repository
+.buildsq/
+.musicsq/
+build/
+build-*/
