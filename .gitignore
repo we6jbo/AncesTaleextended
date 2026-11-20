@@ -5,3 +5,13 @@ CMakeFiles/
 CMakeCache.txt
 *.o
 *.user
+
+# Private AncesTaleextended data
+family_groups.db
+missing_family_records.json
+ghtree.json
+.install-backups/
+.local-logs/
+Music/
+__pycache__/
+*.pyc
