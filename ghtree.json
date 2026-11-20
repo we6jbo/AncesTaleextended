@@ -1,0 +1,2358 @@
+{
+  "aliases": [],
+  "identifiers": [
+    {
+      "display_name": "Barton J Waite",
+      "code": "TG740772",
+      "kind": "TG",
+      "permanent": 0
+    },
+    {
+      "display_name": "Charles McQuistion",
+      "code": "TG972783",
+      "kind": "TG",
+      "permanent": 0
+    },
+    {
+      "display_name": "Charles Rossow",
+      "code": "TG201598",
+      "kind": "TG",
+      "permanent": 0
+    },
+    {
+      "display_name": "George W Bowman Jr",
+      "code": "TG587699",
+      "kind": "TG",
+      "permanent": 0
+    },
+    {
+      "display_name": "Ica Foster Rice",
+      "code": "TG893959",
+      "kind": "TG",
+      "permanent": 0
+    },
+    {
+      "display_name": "James Elliott",
+      "code": "TG673245",
+      "kind": "TG",
+      "permanent": 0
+    },
+    {
+      "display_name": "James Elliott",
+      "code": "TG749502",
+      "kind": "TG",
+      "permanent": 0
+    },
+    {
+      "display_name": "James N Elliott",
+      "code": "TG654890",
+      "kind": "TG",
+      "permanent": 0
+    },
+    {
+      "display_name": "Johanna Kiehlbauch",
+      "code": "TG204672",
+      "kind": "TG",
+      "permanent": 0
+    },
+    {
+      "display_name": "Johanna Kiehlbauch Setzer",
+      "code": "TG206921",
+      "kind": "TG",
+      "permanent": 0
+    },
+    {
+      "display_name": "Leonard Marlow Sr",
+      "code": "TG204761",
+      "kind": "TG",
+      "permanent": 0
+    },
+    {
+      "display_name": "Louisa Kiehlbauch",
+      "code": "TG200915",
+      "kind": "TG",
+      "permanent": 0
+    },
+    {
+      "display_name": "Louise Rossow Deutscher",
+      "code": "TG204295",
+      "kind": "TG",
+      "permanent": 0
+    },
+    {
+      "display_name": "Mary Rice Shapley",
+      "code": "TG762503",
+      "kind": "TG",
+      "permanent": 0
+    },
+    {
+      "display_name": "Minnie Sophia Rossow Schroeder",
+      "code": "TG208990",
+      "kind": "TG",
+      "permanent": 0
+    },
+    {
+      "display_name": "Patrick Henry Shapley",
+      "code": "TG491628",
+      "kind": "TG",
+      "permanent": 0
+    },
+    {
+      "display_name": "Samuel Marlow Jr",
+      "code": "TG204221",
+      "kind": "TG",
+      "permanent": 0
+    },
+    {
+      "display_name": "Susannah Clark Bacon",
+      "code": "TG733873",
+      "kind": "TG",
+      "permanent": 0
+    },
+    {
+      "display_name": "Thomas Cleophas Hamilton",
+      "code": "TG407091",
+      "kind": "TG",
+      "permanent": 0
+    },
+    {
+      "display_name": "William Shapley",
+      "code": "TG618235",
+      "kind": "TG",
+      "permanent": 0
+    },
+    {
+      "display_name": "William Shapley",
+      "code": "TG637004",
+      "kind": "TG",
+      "permanent": 0
+    }
+  ],
+  "imports": [],
+  "people": [
+    {
+      "person_no": 0,
+      "display_name": "Abram Holderman",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Adeline Amanda Holderman Prickett",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Agnes Loretta Pendergast Hillman",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Agnes Maria Platt Hillman",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Alpha M. Bryant Bailey",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Anna Casey Cushman Emerson",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Anson Fredrick Perry",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Arno Erwin Schmelter",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Barton J Waite",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Benjamin Hill Clawson",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Beulah Berniece Bowman Kirk",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Caroline A Morris Boyer",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Carson Shapley",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Charles Henry Holderman",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Charles McQuistion",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Charles Rossow",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Charles Shapley",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Charlotte O'Neal Holderman",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Clare Levi Hillman",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Clyde Prickett",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Dyson Miller",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Edith Mae Boyer Stocks",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Edith Marie Perry Gabel",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Eleanor Emerson Davis",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Eleanor Gail Nordstrom Kennington",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Elijah Prickett",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Elizabeth Heyhoe Coke King Holderman",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Ella Marie Grounds Bowman",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Emily Hensel Ryan",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Ernest Dennis Perry",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Ernest Robert Schlorff",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Ervin F Schmelter",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Ethel E. Maynard",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Everett Milton Bailey",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "F. Howard Hillman",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Frank A. Schlorff",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Frank A. Schlorff VVeteran",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Frank Earl “Tub” Bailey",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Gael Agnes Hillman Welsh",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Gael Marguerite Maynard Biederman",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "George Clarence Bryant",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "George M Prickett",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "George T Bowman",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "George W Bowman Jr",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Gertrude E. “Gertie” Bryant Bailey",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Gilderoy Holderman",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Hannah M. Schlorff Hensel",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Harriet Holderman Miller",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Henry Clark Shapley",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Henry Francis \"Francis\" Bryant",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Hortense Hull Emerson",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Ica Foster Rice",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Irene Sophie Schmelter Zaitz",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Isaac Newton Ross",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Jacine Beatrice Bryant Emerson",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Jacine Beatrice Bryant Emerson [Find a Grave 63103033]",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "James Elliott",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "James N Elliott",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "James Thomas \"Tuffy\" Bowman Sr",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Jane Ellen Prickett",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Jane Ellen Prickett Miller",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Jason Lorenza Bryant",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Jeanette Siebrandt Schlorff",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Joel R. Prickett",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Johanna Kiehlbauch",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Johanna Kiehlbauch Setzer",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "John Schlorff",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Leland Josiah Andrews",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Leland Vaughn Shapley",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Leonard Marlow Sr",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Louisa Kiehlbauch",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Louise Rossow Deutscher",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Louise Schmelter Schlorff",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Lura Gladys Boyer Perry",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Marcia Jewell Emerson Gay",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Mark Raymond Emerson",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Martha Gravenow Schmelter",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Martha H. Coke Holderman",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Mary E. Holderman",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Mary E. Turner Bryant",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Mary Isabella Hillman Scofield",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Mary Johansson Schlorff",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Mary McCabe",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Mary Rice Shapley",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Mathia Lunde Shapley",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Mattie E. Boyer Ball",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Maude Belle Shapley Shankland",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Milton Rufus Bailey",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Minnie Schlorff Andrews",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Minnie Sophia Rossow Schroeder",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Myra Scofield Poe",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Nettie Emmaline Kirkendoll Bryant",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Olive Gertrude Stafford Shapley Dawley",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Otis Commodore Bailey",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Otis Emerson",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Patrick Henry Shapley",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Percy Wayne Shapley",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Phillip Hull Emerson",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Rachel Emma Lineberry Bailey",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Rev William Jasper Bowman",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Ronald Mayo Shapley",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Rosa Ann “Rosie” Prickett Smith Washburn Clawson",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Samuel H. Holderman",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Samuel Marlow Jr",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Stanley Cushman Emerson",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Susannah Clark Bacon",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Sylvia Adelia Shapley Roberts",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Thomas Cleophas Hamilton",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Venza E. Bowman Rodgers",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Walter F \"Bud\" Hensel",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Walter F. Hensel",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "William Ira “Will” Shapley",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "William Joseph Hillman",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "William Schlorff",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "William Shapley",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Mary Johannsen",
+      "details": "birth_date: 28 Nov 1868; birth_location: Tondern, Schleswig-Holstein, Deutschland; death_date: 01/01/1951; death_location: Shawano County, Wisconsin, United States",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Johannsen",
+      "details": "birth_date: 01/01/1833; birth_location: Germany; death_date: 26 March 1919; death_location: Germany",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Elena Margaretha Johannsen",
+      "details": "birth_date: 01/01/1836; birth_location: Germany; death_date: 01/01/1920; death_location: Germany",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "William (John Ludwig) Schlorf",
+      "details": "birth_date: 21JUL1867; death_date: 01/01/1937; death_location: Wisconsin, USA",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Minnie Schlorff",
+      "details": "birth_date: 1 Mar 1905; birth_location: 10920 Mackinaw Avenue, Chicago, Illinois; death_date: 12 Apr 1946; death_location: Minneapolis, Hennepin, Minnesota, United States",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Abram1 Holderman",
+      "details": "birth_date: 8 Feb 1781; birth_location: Chester County, Pennsylvania, USA; death_date: 8 May 1861; death_location: Kendall County, Illinois, USA",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Jacob Holderman",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Madalena Holderman",
+      "details": "",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Abram1 Holderman1",
+      "details": "birth_date: 8 Feb 1781; birth_location: Chester County, Pennsylvania, USA1; death_date: 8 May 1861; death_location: Kendall County, Illinois, USA1",
+      "name_permanent": 0
+    }
+  ],
+  "provisional_facts": [],
+  "relationships": [
+    {
+      "child": "Mary Johannsen",
+      "parent": "Johannsen",
+      "relation": "parent",
+      "confidence": 0.5,
+      "permanent": 0
+    },
+    {
+      "child": "Minnie Schlorff",
+      "parent": "Mary Johannsen",
+      "relation": "parent",
+      "confidence": 0.5,
+      "permanent": 0
+    },
+    {
+      "child": "Mary Johannsen",
+      "parent": "Elena Margaretha Johannsen",
+      "relation": "parent",
+      "confidence": 0.5,
+      "permanent": 0
+    },
+    {
+      "child": "Percy Wayne Shapley",
+      "parent": "William Shapley",
+      "relation": "parent",
+      "confidence": 0.5,
+      "permanent": 0
+    },
+    {
+      "child": "Abram1 Holderman",
+      "parent": "Jacob Holderman",
+      "relation": "parent",
+      "confidence": 0.5,
+      "permanent": 0
+    },
+    {
+      "child": "Abram1 Holderman",
+      "parent": "Madalena Holderman",
+      "relation": "parent",
+      "confidence": 0.5,
+      "permanent": 0
+    },
+    {
+      "child": "Abram1 Holderman1",
+      "parent": "Jacob Holderman",
+      "relation": "parent",
+      "confidence": 0.5,
+      "permanent": 0
+    },
+    {
+      "child": "Abram1 Holderman1",
+      "parent": "Madalena Holderman",
+      "relation": "parent",
+      "confidence": 0.5,
+      "permanent": 0
+    }
+  ],
+  "record_overrides": [],
+  "duplicate_records": [],
+  "spouse_relationships": [],
+  "duplicate_reviews": [],
+  "captured_people": [
+    {
+      "display_name": "Abram Holderman",
+      "tg_number": "",
+      "born": "8 Feb 1781",
+      "died": "8 May 1861",
+      "parents": [
+        "Jacob Holderman",
+        "Madalena Holderman"
+      ],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Adeline Amanda Holderman Prickett",
+      "tg_number": "",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Agnes Loretta Pendergast Hillman",
+      "tg_number": "",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Agnes Maria Platt Hillman",
+      "tg_number": "",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Alpha M. Bryant Bailey",
+      "tg_number": "",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Anna Casey Cushman Emerson",
+      "tg_number": "",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Anson Fredrick Perry",
+      "tg_number": "",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Arno Erwin Schmelter",
+      "tg_number": "",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Barton J Waite",
+      "tg_number": "TG740772",
+      "born": "1792",
+      "died": "1862/1870",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Benjamin Hill Clawson",
+      "tg_number": "",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Beulah Berniece Bowman Kirk",
+      "tg_number": "",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Caroline A Morris Boyer",
+      "tg_number": "",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Carson Shapley",
+      "tg_number": "",
+      "born": "1 Sep 1868",
+      "died": "1950 (aged 81–82)",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Charles Henry Holderman",
+      "tg_number": "",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Charles McQuistion",
+      "tg_number": "TG972783",
+      "born": "23 Nov 1813",
+      "died": "22 Dec 1872",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Charles Rossow",
+      "tg_number": "TG201598",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Charles Shapley",
+      "tg_number": "",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Charlotte O'Neal Holderman",
+      "tg_number": "",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Clare Levi Hillman",
+      "tg_number": "",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Clyde Prickett",
+      "tg_number": "",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Dyson Miller",
+      "tg_number": "",
+      "born": "23 Dec 1829",
+      "died": "4 Jan 1917 (aged 87)",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Edith Mae Boyer Stocks",
+      "tg_number": "",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Edith Marie Perry Gabel",
+      "tg_number": "",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Eleanor Emerson Davis",
+      "tg_number": "",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Eleanor Gail Nordstrom Kennington",
+      "tg_number": "",
+      "born": "28 May 1910",
+      "died": "26 Feb 1996 (aged 85)",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Elijah Prickett",
+      "tg_number": "",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Elizabeth Heyhoe Coke King Holderman",
+      "tg_number": "",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Ella Marie Grounds Bowman",
+      "tg_number": "",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Emily Hensel Ryan",
+      "tg_number": "",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Ernest Dennis Perry",
+      "tg_number": "",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Ernest Robert Schlorff",
+      "tg_number": "",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Ervin F Schmelter",
+      "tg_number": "",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Ethel E. Maynard",
+      "tg_number": "",
+      "born": "1912",
+      "died": "2010 (aged 97&ndash;98)",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Everett Milton Bailey",
+      "tg_number": "",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "F. Howard Hillman",
+      "tg_number": "",
+      "born": "1881",
+      "died": "1963 (aged 81–82)",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Frank A. Schlorff",
+      "tg_number": "",
+      "born": "15 Sep 1908",
+      "died": "11 May 2002 (aged 93)",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Frank A. Schlorff VVeteran",
+      "tg_number": "",
+      "born": "15 Sep 1908",
+      "died": "11 May 2002 (aged 93)",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Frank Earl “Tub” Bailey",
+      "tg_number": "",
+      "born": "19 Apr 1884",
+      "died": "26 Mar 1961 (aged 76)",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Gael Agnes Hillman Welsh",
+      "tg_number": "",
+      "born": "21 Sep 1884",
+      "died": "12 Apr 1982 (aged 97)",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Gael Marguerite Maynard Biederman",
+      "tg_number": "",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "George Clarence Bryant",
+      "tg_number": "",
+      "born": "17 Apr 1880",
+      "died": "29 Jan 1948 (aged 67)",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "George M Prickett",
+      "tg_number": "",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "George T Bowman",
+      "tg_number": "",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "George W Bowman Jr",
+      "tg_number": "TG587699",
+      "born": "Oct 1787",
+      "died": "5 Aug 1874",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Gertrude E. “Gertie” Bryant Bailey",
+      "tg_number": "",
+      "born": "19 Nov 1882",
+      "died": "23 Oct 1952 (aged 69)",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Gilderoy Holderman",
+      "tg_number": "",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Hannah M. Schlorff Hensel",
+      "tg_number": "",
+      "born": "1903",
+      "died": "Aug 1984 (aged 80–81)",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Harriet Holderman Miller",
+      "tg_number": "",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Henry Clark Shapley",
+      "tg_number": "",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Henry Francis \"Francis\" Bryant",
+      "tg_number": "",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Hortense Hull Emerson",
+      "tg_number": "",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Ica Foster Rice",
+      "tg_number": "TG893959",
+      "born": "1805",
+      "died": "01 Jan 1859",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Irene Sophie Schmelter Zaitz",
+      "tg_number": "",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Isaac Newton Ross",
+      "tg_number": "",
+      "born": "4 Apr 1812",
+      "died": "21 May 1889 (aged 77)",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Jacine Beatrice Bryant Emerson",
+      "tg_number": "",
+      "born": "26 Mar 1909",
+      "died": "3 Oct 1981 (aged 72)",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Jacine Beatrice Bryant Emerson [Find a Grave 63103033]",
+      "tg_number": "",
+      "born": "26 Mar 1909",
+      "died": "3 Oct 1981 (aged 72)",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "James Elliott",
+      "tg_number": "TG673245",
+      "born": "Apr 1817",
+      "died": "1906",
+      "parents": [
+        "John Elliott",
+        "Margaret Scott"
+      ],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "James N Elliott",
+      "tg_number": "TG654890",
+      "born": "12 Oct 1855",
+      "died": "1 Nov 1926",
+      "parents": [
+        "James Elliott",
+        "Margaret Elliott"
+      ],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "James Thomas \"Tuffy\" Bowman Sr",
+      "tg_number": "",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Jane Ellen Prickett",
+      "tg_number": "",
+      "born": "1835",
+      "died": "1852 (aged 16&ndash;17)",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Jane Ellen Prickett Miller",
+      "tg_number": "",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Jason Lorenza Bryant",
+      "tg_number": "",
+      "born": "15 Jul 1880",
+      "died": "25 Dec 1947 (aged 67)",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Jeanette Siebrandt Schlorff",
+      "tg_number": "",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Joel R. Prickett",
+      "tg_number": "",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Johanna Kiehlbauch",
+      "tg_number": "TG204672",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Johanna Kiehlbauch Setzer",
+      "tg_number": "TG206921",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "John Schlorff",
+      "tg_number": "",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Leland Josiah Andrews",
+      "tg_number": "",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Leland Vaughn Shapley",
+      "tg_number": "",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Leonard Marlow Sr",
+      "tg_number": "TG204761",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Louisa Kiehlbauch",
+      "tg_number": "TG200915",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Louise Rossow Deutscher",
+      "tg_number": "TG204295",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Louise Schmelter Schlorff",
+      "tg_number": "",
+      "born": "8 Feb 1912",
+      "died": "10 Jul 2011 (aged 99)",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Lura Gladys Boyer Perry",
+      "tg_number": "",
+      "born": "1888",
+      "died": "7 Aug 1963 (aged 74&ndash;75)",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Marcia Jewell Emerson Gay",
+      "tg_number": "",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Mark Raymond Emerson",
+      "tg_number": "",
+      "born": "14 Jun 1905",
+      "died": "25 Mar 1973 (aged 67)",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Martha Gravenow Schmelter",
+      "tg_number": "",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Martha H. Coke Holderman",
+      "tg_number": "",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Mary E. Holderman",
+      "tg_number": "",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Mary E. Turner Bryant",
+      "tg_number": "",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Mary Isabella Hillman Scofield",
+      "tg_number": "",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Mary Johansson Schlorff",
+      "tg_number": "",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Mary McCabe",
+      "tg_number": "",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Mary Rice Shapley",
+      "tg_number": "TG762503",
+      "born": "Feb 1849",
+      "died": "",
+      "parents": [
+        "Ica Foster Rice",
+        "Kezia Bair"
+      ],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Mathia Lunde Shapley",
+      "tg_number": "",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Mattie E. Boyer Ball",
+      "tg_number": "",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Maude Belle Shapley Shankland",
+      "tg_number": "",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Milton Rufus Bailey",
+      "tg_number": "",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Minnie Schlorff Andrews",
+      "tg_number": "",
+      "born": "1 Mar 1905",
+      "died": "12 Apr 1946 (aged 41)",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Minnie Sophia Rossow Schroeder",
+      "tg_number": "TG208990",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Myra Scofield Poe",
+      "tg_number": "",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Nettie Emmaline Kirkendoll Bryant",
+      "tg_number": "",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Olive Gertrude Stafford Shapley Dawley",
+      "tg_number": "",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Otis Commodore Bailey",
+      "tg_number": "",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Otis Emerson",
+      "tg_number": "",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Patrick Henry Shapley",
+      "tg_number": "TG491628",
+      "born": "10 APR 1846",
+      "died": "",
+      "parents": [
+        "William Shapley",
+        "Clarissa Gridley"
+      ],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Percy Wayne Shapley",
+      "tg_number": "",
+      "born": "6 May 1901",
+      "died": "11 Sep 1946 (aged 45)",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Phillip Hull Emerson",
+      "tg_number": "",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Rachel Emma Lineberry Bailey",
+      "tg_number": "",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Rev William Jasper Bowman",
+      "tg_number": "",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Ronald Mayo Shapley",
+      "tg_number": "",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Rosa Ann “Rosie” Prickett Smith Washburn Clawson",
+      "tg_number": "",
+      "born": "30 Jul 1869",
+      "died": "28 Oct 1952 (aged 83)",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Samuel H. Holderman",
+      "tg_number": "",
+      "born": "9 Oct 1828",
+      "died": "14 Dec 1886 (aged 58)",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Samuel Marlow Jr",
+      "tg_number": "TG204221",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Stanley Cushman Emerson",
+      "tg_number": "",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Susannah Clark Bacon",
+      "tg_number": "TG733873",
+      "born": "20 August 1790",
+      "died": "December 1870",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Sylvia Adelia Shapley Roberts",
+      "tg_number": "",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Thomas Cleophas Hamilton",
+      "tg_number": "TG407091",
+      "born": "1 Feb 1784",
+      "died": "23 Feb 1872",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Venza E. Bowman Rodgers",
+      "tg_number": "",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Walter F \"Bud\" Hensel",
+      "tg_number": "",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Walter F. Hensel",
+      "tg_number": "",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "William Ira “Will” Shapley",
+      "tg_number": "",
+      "born": "10 Oct 1871",
+      "died": "1 Sep 1940 (aged 68)",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "William Joseph Hillman",
+      "tg_number": "",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "William Schlorff",
+      "tg_number": "",
+      "born": "1867",
+      "died": "1937 (aged 69–70)",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "William Shapley",
+      "tg_number": "TG618235",
+      "born": "ABT 1798/9",
+      "died": "BET 1861 AND 1864",
+      "parents": [
+        "Patrick Henry Shapley",
+        "Mary Rice"
+      ],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private missing-family JSON"
+    },
+    {
+      "display_name": "Mary Johannsen",
+      "tg_number": "",
+      "born": "28 Nov 1868",
+      "died": "01/01/1951",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "birth_date: 28 Nov 1868; birth_location: Tondern, Schleswig-Holstein, Deutschland; death_date: 01/01/1951; death_location: Shawano County, Wisconsin, United States",
+      "source": "AncesTaleextended private family_groups.db"
+    },
+    {
+      "display_name": "Johannsen",
+      "tg_number": "",
+      "born": "01/01/1833",
+      "died": "26 March 1919",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "birth_date: 01/01/1833; birth_location: Germany; death_date: 26 March 1919; death_location: Germany",
+      "source": "AncesTaleextended private family_groups.db"
+    },
+    {
+      "display_name": "Elena Margaretha Johannsen",
+      "tg_number": "",
+      "born": "01/01/1836",
+      "died": "01/01/1920",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "birth_date: 01/01/1836; birth_location: Germany; death_date: 01/01/1920; death_location: Germany",
+      "source": "AncesTaleextended private family_groups.db"
+    },
+    {
+      "display_name": "William (John Ludwig) Schlorf",
+      "tg_number": "",
+      "born": "21JUL1867",
+      "died": "01/01/1937",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "birth_date: 21JUL1867; death_date: 01/01/1937; death_location: Wisconsin, USA",
+      "source": "AncesTaleextended private family_groups.db"
+    },
+    {
+      "display_name": "Minnie Schlorff",
+      "tg_number": "",
+      "born": "1 Mar 1905",
+      "died": "12 Apr 1946",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "birth_date: 1 Mar 1905; birth_location: 10920 Mackinaw Avenue, Chicago, Illinois; death_date: 12 Apr 1946; death_location: Minneapolis, Hennepin, Minnesota, United States",
+      "source": "AncesTaleextended private family_groups.db"
+    },
+    {
+      "display_name": "Percy Wayne Shapley",
+      "tg_number": "",
+      "born": "6 May 1901",
+      "died": "11 Sep 1946 (aged 45)",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "birth_date: 6 May 1901; birth_location: Floyd County, Iowa, USA; death_date: 11 Sep 1946 (aged 45); death_location: Pasco, Franklin County, Washington, USA",
+      "source": "AncesTaleextended private family_groups.db"
+    },
+    {
+      "display_name": "William Shapley",
+      "tg_number": "",
+      "born": "10 APR 1846",
+      "died": "01/01/1800",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "birth_date: 10 APR 1846; birth_location: Emmett, Calhoun, Michiga; death_date: 01/01/1800; death_location: United States",
+      "source": "AncesTaleextended private family_groups.db"
+    },
+    {
+      "display_name": "Abram1 Holderman",
+      "tg_number": "",
+      "born": "8 Feb 1781",
+      "died": "8 May 1861",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "birth_date: 8 Feb 1781; birth_location: Chester County, Pennsylvania, USA; death_date: 8 May 1861; death_location: Kendall County, Illinois, USA",
+      "source": "AncesTaleextended private family_groups.db"
+    },
+    {
+      "display_name": "Jacob Holderman",
+      "tg_number": "",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private family_groups.db"
+    },
+    {
+      "display_name": "Madalena Holderman",
+      "tg_number": "",
+      "born": "",
+      "died": "",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "",
+      "source": "AncesTaleextended private family_groups.db"
+    },
+    {
+      "display_name": "Abram1 Holderman",
+      "tg_number": "",
+      "born": "8 Feb 1781",
+      "died": "8 May 1861",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "birth_date: 8 Feb 1781; birth_location: Chester County, Pennsylvania, USA1; death_date: 8 May 1861; death_location: Kendall County, Illinois, USA1",
+      "source": "AncesTaleextended private family_groups.db"
+    },
+    {
+      "display_name": "Abram1 Holderman1",
+      "tg_number": "",
+      "born": "8 Feb 1781",
+      "died": "8 May 1861",
+      "parents": [],
+      "spouse": [],
+      "children": [],
+      "details": "birth_date: 8 Feb 1781; birth_location: Chester County, Pennsylvania, USA1; death_date: 8 May 1861; death_location: Kendall County, Illinois, USA1",
+      "source": "AncesTaleextended private family_groups.db"
+    }
+  ]
+}

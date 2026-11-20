@@ -1,0 +1,5609 @@
+{
+  "schema": "AncesTaleextended.missing_people.v1",
+  "classification": "private research working data; not approved for public release",
+  "sources": [
+    "geography.csv",
+    "recheck.csv",
+    "AncesTale(3).zip / AncesTale/lib/story.db",
+    "Pedigree-ver-1.0.0.0(1).json"
+  ],
+  "method": "Compare all archived database records against geography normalized names and known Pedigree identifiers; include every named recheck case, even already listed; retain uncertain duplicate records and hypothetical generations separately. Unknown fields are null. Recorded data are not independently verified. Geography estimates are context only.",
+  "counts": {
+    "geography_unique_serials": 129,
+    "archived_database_records": 210,
+    "missing_geography_records": 91,
+    "named_recheck_people": 24,
+    "output_people": 115,
+    "hypothetical_generations": 3,
+    "excluded_test_records": 2
+  },
+  "excluded_test_names": [
+    "Test",
+    "Test2"
+  ],
+  "identifier_alias_matches": [
+    {
+      "name": "Charles McQuistion",
+      "identifiers": [
+        "TG972783"
+      ],
+      "matched_geography_by": "shared Pedigree identifier"
+    },
+    {
+      "name": "John McAvoy",
+      "identifiers": [
+        "TG151970"
+      ],
+      "matched_geography_by": "shared Pedigree identifier"
+    },
+    {
+      "name": "Margaret Elliott",
+      "identifiers": [
+        "TG182976"
+      ],
+      "matched_geography_by": "shared Pedigree identifier"
+    },
+    {
+      "name": "Mary Rice Shapley",
+      "identifiers": [
+        "TG762503"
+      ],
+      "matched_geography_by": "shared Pedigree identifier"
+    },
+    {
+      "name": "Me",
+      "identifiers": [
+        "AKA_TE324543"
+      ],
+      "matched_geography_by": "shared Pedigree identifier"
+    },
+    {
+      "name": "Sarah Ann McAvoy",
+      "identifiers": [
+        "TG932996"
+      ],
+      "matched_geography_by": "shared Pedigree identifier"
+    }
+  ],
+  "people": [
+    {
+      "name": "Abram Holderman",
+      "identifiers": [
+        "TG09000050"
+      ],
+      "database_record_id": 3,
+      "birth_date": "8 Feb 1781",
+      "birth_location": "Chester County, Pennsylvania, USA",
+      "death_date": "8 May 1861",
+      "death_location": "Kendall County, Illinois, USA",
+      "mother_name": "Madalena Holderman",
+      "father_name": "Jacob Holderman",
+      "spouse_names": [
+        "Charlotte O'Neal Holderman"
+      ],
+      "children": [
+        {
+          "name": "Samuel H. Holderman",
+          "identifiers": [
+            "TG09000040"
+          ],
+          "other_parent_name": "Charlotte O'Neal Holderman",
+          "other_parent_identifiers": [
+            "TG09000051"
+          ],
+          "mother_name": null,
+          "father_name": null,
+          "relationship_status": "recorded in archived database; review conflicts"
+        }
+      ],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://www.findagrave.com/memorial/12773742/abram-holderman"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": []
+    },
+    {
+      "name": "Adeline Amanda Holderman Prickett",
+      "identifiers": [
+        "TG09000008"
+      ],
+      "database_record_id": 5,
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [
+        "Charles Prickett"
+      ],
+      "children": [
+        {
+          "name": "Rosa Ann “Rosie” Prickett Smith Washburn Clawson",
+          "identifiers": [
+            "TG09000032"
+          ],
+          "other_parent_name": "Charles Prickett",
+          "other_parent_identifiers": [
+            "TG728195"
+          ],
+          "mother_name": null,
+          "father_name": null,
+          "relationship_status": "recorded in archived database; review conflicts"
+        }
+      ],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://raw.githubusercontent.com/we6jbo/AncesTale/refs/heads/master/records/TG09000008.md"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Agnes Loretta Pendergast Hillman",
+      "identifiers": [
+        "TG09000009"
+      ],
+      "database_record_id": 6,
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [
+        "F. Howard Hillman"
+      ],
+      "children": [
+        {
+          "name": "Eleanor Gail Nordstrom Kennington",
+          "identifiers": [
+            "TG09000015"
+          ],
+          "other_parent_name": "F. Howard Hillman",
+          "other_parent_identifiers": [
+            "TG09000017"
+          ],
+          "mother_name": null,
+          "father_name": null,
+          "relationship_status": "recorded in archived database; review conflicts"
+        }
+      ],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://raw.githubusercontent.com/we6jbo/AncesTale/refs/heads/master/records/TG09000009.md"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Agnes Maria Platt Hillman",
+      "identifiers": [
+        "TG09000010"
+      ],
+      "database_record_id": 8,
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [
+        "Agnes Maria Platt",
+        "Fred Ernest Hillman"
+      ],
+      "children": [
+        {
+          "name": "Gail Agnes Hillman",
+          "identifiers": [
+            "TG286753"
+          ],
+          "other_parent_name": "Agnes Maria Platt",
+          "other_parent_identifiers": [
+            "TG148675"
+          ],
+          "mother_name": "Agnes Maria Platt",
+          "father_name": "Fred Ernest Hillman",
+          "relationship_status": "recorded in archived database; review conflicts"
+        },
+        {
+          "name": "F. Howard Hillman",
+          "identifiers": [
+            "TG09000017"
+          ],
+          "other_parent_name": "Fred Ernest Hillman",
+          "other_parent_identifiers": [
+            "TG796320"
+          ],
+          "mother_name": null,
+          "father_name": null,
+          "relationship_status": "recorded in archived database; review conflicts"
+        },
+        {
+          "name": "Gael Agnes Hillman Welsh",
+          "identifiers": [
+            "TG09000110"
+          ],
+          "other_parent_name": "Fred Ernest Hillman",
+          "other_parent_identifiers": [
+            "TG796320"
+          ],
+          "mother_name": null,
+          "father_name": null,
+          "relationship_status": "recorded in archived database; review conflicts"
+        },
+        {
+          "name": "Gail Agnes Hillman",
+          "identifiers": [
+            "TG286753"
+          ],
+          "other_parent_name": "Fred Ernest Hillman",
+          "other_parent_identifiers": [
+            "TG796320"
+          ],
+          "mother_name": "Agnes Maria Platt",
+          "father_name": "Fred Ernest Hillman",
+          "relationship_status": "recorded in archived database; review conflicts"
+        }
+      ],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://www.findagrave.com/memorial/87752705/agnes_maria-hillman"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [
+        "Possible duplicate or alternate name; not merged automatically."
+      ],
+      "possible_duplicate_names": [
+        "Agnes Maria Platt"
+      ],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Alpha M. Bryant Bailey",
+      "identifiers": [
+        "TG09000042"
+      ],
+      "database_record_id": 12,
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [],
+      "children": [],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://raw.githubusercontent.com/we6jbo/AncesTale/refs/heads/master/records/TG09000042.md"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Anna Casey Cushman Emerson",
+      "identifiers": [
+        "TG09000059"
+      ],
+      "database_record_id": 17,
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [
+        "Otis Emerson"
+      ],
+      "children": [
+        {
+          "name": "Mark Raymond Emerson",
+          "identifiers": [
+            "TG09000061"
+          ],
+          "other_parent_name": "Otis Emerson",
+          "other_parent_identifiers": [
+            "TG09000060"
+          ],
+          "mother_name": null,
+          "father_name": null,
+          "relationship_status": "recorded in archived database; review conflicts"
+        }
+      ],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://raw.githubusercontent.com/we6jbo/AncesTale/refs/heads/master/records/TG09000059.md"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Anson Fredrick Perry",
+      "identifiers": [
+        "TG09000097"
+      ],
+      "database_record_id": 18,
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [],
+      "children": [],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://raw.githubusercontent.com/we6jbo/AncesTale/refs/heads/master/records/TG09000097.md"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Arno Erwin Schmelter",
+      "identifiers": [
+        "TG09000067"
+      ],
+      "database_record_id": 20,
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [],
+      "children": [],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://raw.githubusercontent.com/we6jbo/AncesTale/refs/heads/master/records/TG09000067.md"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Barton J Waite",
+      "identifiers": [
+        "TG740772"
+      ],
+      "database_record_id": 24,
+      "birth_date": "1792",
+      "birth_location": "New York, United States",
+      "death_date": "1862/1870",
+      "death_location": "Calamus, Dodge, Wisconsin, United States",
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [
+        "Susannah Clark Bacon"
+      ],
+      "children": [
+        {
+          "name": "Alice Waite",
+          "identifiers": [
+            "TG907216"
+          ],
+          "other_parent_name": "Susannah Clark Bacon",
+          "other_parent_identifiers": [
+            "TG733873"
+          ],
+          "mother_name": "Susannah Clark Bacon",
+          "father_name": "Barton J Waite",
+          "relationship_status": "recorded in archived database; review conflicts"
+        }
+      ],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://raw.githubusercontent.com/we6jbo/AncesTale/refs/heads/master/records/TG740772.md"
+      },
+      "inclusion_reasons": [
+        "flagged in recheck.csv"
+      ],
+      "recheck_cases": [
+        {
+          "RecordType": "ParentDateCheck",
+          "PersonSerial": "TS000118",
+          "Name": "Barton J Waite",
+          "BirthYear": "1792",
+          "FullDateOfBirth": "",
+          "CaseID": "E3238048",
+          "Child": "Alice Waite",
+          "ParentAgeAtChildBirth": "48",
+          "RelatedCaseID": "",
+          "ReviewNote": "Year-only age is outside the requested maternal review range of 16-42. Confirm whether this parent is the mother and verify the child birth year first."
+        }
+      ],
+      "review_notes": [
+        "Review cases are not verified corrections; preserve recorded relationships pending evidence."
+      ],
+      "geography_serial": "TS000118",
+      "geography_context": [
+        {
+          "type": "Location",
+          "information": "New York, United States (recorded; verify source)"
+        },
+        {
+          "type": "Time period",
+          "information": "Around 1792 (1790s)"
+        }
+      ],
+      "missing_fields": [
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Benjamin Hill Clawson",
+      "identifiers": [
+        "TG09000078"
+      ],
+      "database_record_id": 25,
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [],
+      "children": [],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://raw.githubusercontent.com/we6jbo/AncesTale/refs/heads/master/records/TG09000078.md"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Beulah Berniece Bowman Kirk",
+      "identifiers": [
+        "TG09000011"
+      ],
+      "database_record_id": 26,
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [],
+      "children": [],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://raw.githubusercontent.com/we6jbo/AncesTale/refs/heads/master/records/TG09000011.md"
+      },
+      "inclusion_reasons": [
+        "flagged in recheck.csv"
+      ],
+      "recheck_cases": [
+        {
+          "RecordType": "UnverifiedPerson",
+          "PersonSerial": "TS000133",
+          "Name": "Beulah Berniece Bowman Kirk",
+          "BirthYear": "",
+          "FullDateOfBirth": "",
+          "CaseID": "E7941329",
+          "Child": "Raymon Vester Bowman",
+          "ParentAgeAtChildBirth": "",
+          "RelatedCaseID": "",
+          "ReviewNote": "Could not verify the child's birth date. Ask whether this person or the related person needs a date correction."
+        }
+      ],
+      "review_notes": [
+        "Review cases are not verified corrections; preserve recorded relationships pending evidence."
+      ],
+      "geography_serial": "TS000133",
+      "geography_context": [
+        {
+          "type": "Location",
+          "information": "Morgan County, Indiana, USA (possible family-region estimate from parent birth place; unverified)"
+        },
+        {
+          "type": "Time period",
+          "information": "Unknown; establish an approximate birth date first"
+        }
+      ],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Caroline A Morris Boyer",
+      "identifiers": [
+        "TG09000077"
+      ],
+      "database_record_id": 28,
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [],
+      "children": [],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://raw.githubusercontent.com/we6jbo/AncesTale/refs/heads/master/records/TG09000077.md"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Carson Shapley",
+      "identifiers": [
+        "TG09000012"
+      ],
+      "database_record_id": 29,
+      "birth_date": "1 Sep 1868",
+      "birth_location": "Sibley, Osceola County, Iowa, USA",
+      "death_date": "1950 (aged 81–82)",
+      "death_location": "Floyd, Floyd County, Iowa, USA",
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [
+        "Lura Gladys Boyer Perry 1888–1963 (m. 1940)",
+        "Mathia Lunde Shapley 1875–1936"
+      ],
+      "children": [
+        {
+          "name": "Sylvia Adelia Shapley Roberts",
+          "identifiers": [
+            "TG09000033"
+          ],
+          "other_parent_name": null,
+          "other_parent_identifiers": [],
+          "mother_name": null,
+          "father_name": null,
+          "relationship_status": "recorded in archived database; review conflicts"
+        }
+      ],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://www.findagrave.com/memorial/132638122"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Charles Henry Holderman",
+      "identifiers": [
+        "TG09000084"
+      ],
+      "database_record_id": 30,
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [],
+      "children": [],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://raw.githubusercontent.com/we6jbo/AncesTale/refs/heads/master/records/TG09000084.md"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Charles McQuistion",
+      "identifiers": [
+        "TG972783"
+      ],
+      "database_record_id": 31,
+      "birth_date": "23 Nov 1813",
+      "birth_location": "Butler, Pennsylvania, United States",
+      "death_date": "22 Dec 1872",
+      "death_location": "Butler County, Pennsylvania, United States",
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [
+        "Rebecca Grannis"
+      ],
+      "children": [
+        {
+          "name": "Charles McQuiston",
+          "identifiers": [
+            "TG804631"
+          ],
+          "other_parent_name": "Rebecca Grannis",
+          "other_parent_identifiers": [
+            "TG168177"
+          ],
+          "mother_name": "Rebecca Grannis",
+          "father_name": "Charles McQuistion",
+          "relationship_status": "recorded in archived database; review conflicts"
+        }
+      ],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://www.gmccuistion.com/getperson.php?personID=I11771&tree=gdm1"
+      },
+      "inclusion_reasons": [
+        "flagged in recheck.csv"
+      ],
+      "recheck_cases": [
+        {
+          "RecordType": "ParentDateCheck",
+          "PersonSerial": "TS000076",
+          "Name": "Marshall McQuiston",
+          "BirthYear": "1813",
+          "FullDateOfBirth": "23 Nov 1813",
+          "CaseID": "E1887282",
+          "Child": "Charles McQuiston",
+          "ParentAgeAtChildBirth": "45",
+          "RelatedCaseID": "",
+          "ReviewNote": "Year-only age is outside the requested maternal review range of 16-42. Confirm whether this parent is the mother and verify the child birth year first."
+        }
+      ],
+      "review_notes": [
+        "Review cases are not verified corrections; preserve recorded relationships pending evidence."
+      ],
+      "recheck_names": [
+        "Marshall McQuiston"
+      ],
+      "geography_serial": "TS000076",
+      "geography_context": [
+        {
+          "type": "Location",
+          "information": "23 Nov  Butler, Pennsylvania, United States (recorded; verify source)"
+        },
+        {
+          "type": "Time period",
+          "information": "Around 1813 (1810s)"
+        }
+      ],
+      "missing_fields": [
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Charles Rossow",
+      "identifiers": [
+        "TG201598"
+      ],
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [],
+      "children": [],
+      "unclassified_parent_names": [
+        "John Rossow"
+      ],
+      "unpaired_other_parent_names": [],
+      "source": {
+        "file": "Pedigree-ver-1.0.0.0(1).json",
+        "original_details": ""
+      },
+      "inclusion_reasons": [
+        "flagged in recheck.csv"
+      ],
+      "recheck_cases": [
+        {
+          "RecordType": "UnverifiedPerson",
+          "PersonSerial": "TS000144",
+          "Name": "Charles Rossow",
+          "BirthYear": "",
+          "FullDateOfBirth": "",
+          "CaseID": "E5610271",
+          "Child": "John Rossow",
+          "ParentAgeAtChildBirth": "",
+          "RelatedCaseID": "",
+          "ReviewNote": "Could not verify the child's birth date. Ask whether this person or the related person needs a date correction."
+        }
+      ],
+      "review_notes": [
+        "Review cases are not verified corrections; preserve recorded relationships pending evidence."
+      ],
+      "geography_serial": "TS000144",
+      "geography_context": [
+        {
+          "type": "Location",
+          "information": "Germany (possible family-region estimate from parent birth place; unverified)"
+        },
+        {
+          "type": "Time period",
+          "information": "Unknown; establish an approximate birth date first"
+        }
+      ],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Charles Shapley",
+      "identifiers": [
+        "TG09000089"
+      ],
+      "database_record_id": 34,
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [],
+      "children": [],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://raw.githubusercontent.com/we6jbo/AncesTale/refs/heads/master/records/TG09000089.md"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Charlotte O'Neal Holderman",
+      "identifiers": [
+        "TG09000051"
+      ],
+      "database_record_id": 35,
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [
+        "Abram Holderman"
+      ],
+      "children": [
+        {
+          "name": "Samuel H. Holderman",
+          "identifiers": [
+            "TG09000040"
+          ],
+          "other_parent_name": "Abram Holderman",
+          "other_parent_identifiers": [
+            "TG09000050"
+          ],
+          "mother_name": null,
+          "father_name": null,
+          "relationship_status": "recorded in archived database; review conflicts"
+        }
+      ],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://www.findagrave.com/memorial/12773754/charlotte-holderman"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Clare Levi Hillman",
+      "identifiers": [
+        "TG09000013"
+      ],
+      "database_record_id": 36,
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [],
+      "children": [],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://www.findagrave.com/memorial/198430047/clare_levi-hillman"
+      },
+      "inclusion_reasons": [
+        "flagged in recheck.csv"
+      ],
+      "recheck_cases": [
+        {
+          "RecordType": "UnverifiedPerson",
+          "PersonSerial": "TS000137",
+          "Name": "Clare Levi Hillman",
+          "BirthYear": "",
+          "FullDateOfBirth": "",
+          "CaseID": "E9874737",
+          "Child": "Fred Ernest Hillman",
+          "ParentAgeAtChildBirth": "",
+          "RelatedCaseID": "",
+          "ReviewNote": "Could not verify the child's birth date. Ask whether this person or the related person needs a date correction."
+        }
+      ],
+      "review_notes": [
+        "Review cases are not verified corrections; preserve recorded relationships pending evidence."
+      ],
+      "geography_serial": "TS000137",
+      "geography_context": [
+        {
+          "type": "Location",
+          "information": "Minnesota, USA (possible family-region estimate from parent birth place; unverified)"
+        },
+        {
+          "type": "Time period",
+          "information": "Unknown; establish an approximate birth date first"
+        }
+      ],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Clyde Prickett",
+      "identifiers": [
+        "TG09000014"
+      ],
+      "database_record_id": 38,
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [],
+      "children": [],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://raw.githubusercontent.com/we6jbo/AncesTale/refs/heads/master/records/TG09000014.md"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Dyson Miller",
+      "identifiers": [
+        "TG09000087"
+      ],
+      "database_record_id": 42,
+      "birth_date": "23 Dec 1829",
+      "birth_location": "Marion County, Ohio, USA",
+      "death_date": "4 Jan 1917 (aged 87)",
+      "death_location": "Aurora, Kane County, Illinois, USA",
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [],
+      "children": [],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://www.findagrave.com/memorial/132071125"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Edith Mae Boyer Stocks",
+      "identifiers": [
+        "TG09000090"
+      ],
+      "database_record_id": 43,
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [],
+      "children": [],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://raw.githubusercontent.com/we6jbo/AncesTale/refs/heads/master/records/TG09000090.md"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Edith Marie Perry Gabel",
+      "identifiers": [
+        "TG09000079"
+      ],
+      "database_record_id": 44,
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [],
+      "children": [],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://raw.githubusercontent.com/we6jbo/AncesTale/refs/heads/master/records/TG09000079.md"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Eleanor Emerson Davis",
+      "identifiers": [
+        "TG09000108"
+      ],
+      "database_record_id": 46,
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [],
+      "children": [],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://raw.githubusercontent.com/we6jbo/AncesTale/refs/heads/master/records/TG09000108.md"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Eleanor Gail Nordstrom Kennington",
+      "identifiers": [
+        "TG09000015"
+      ],
+      "database_record_id": 47,
+      "birth_date": "28 May 1910",
+      "birth_location": null,
+      "death_date": "26 Feb 1996 (aged 85)",
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [],
+      "children": [],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://www.findagrave.com/memorial/39569"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "birth_location",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Elijah Prickett",
+      "identifiers": [
+        "TG09000054"
+      ],
+      "database_record_id": 49,
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [],
+      "children": [],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://raw.githubusercontent.com/we6jbo/AncesTale/refs/heads/master/records/TG09000054.md"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Elizabeth Heyhoe Coke King Holderman",
+      "identifiers": [
+        "TG09000085"
+      ],
+      "database_record_id": 50,
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [],
+      "children": [],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://raw.githubusercontent.com/we6jbo/AncesTale/refs/heads/master/records/TG09000085.md"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Ella Marie Grounds Bowman",
+      "identifiers": [
+        "TG09000076"
+      ],
+      "database_record_id": 52,
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [],
+      "children": [],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://raw.githubusercontent.com/we6jbo/AncesTale/refs/heads/master/records/TG09000076.md"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Emily Hensel Ryan",
+      "identifiers": [
+        "TG09000016"
+      ],
+      "database_record_id": 53,
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [],
+      "children": [],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://raw.githubusercontent.com/we6jbo/AncesTale/refs/heads/master/records/TG09000016.md"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Ernest Dennis Perry",
+      "identifiers": [
+        "TG09000093"
+      ],
+      "database_record_id": 54,
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [],
+      "children": [],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://raw.githubusercontent.com/we6jbo/AncesTale/refs/heads/master/records/TG09000093.md"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Ernest Robert Schlorff",
+      "identifiers": [
+        "TG09000112"
+      ],
+      "database_record_id": 55,
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [],
+      "children": [],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://raw.githubusercontent.com/we6jbo/AncesTale/refs/heads/master/records/TG09000112.md"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Ervin F Schmelter",
+      "identifiers": [
+        "TG09000068"
+      ],
+      "database_record_id": 56,
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [
+        "Martha Gravenow Schmelter"
+      ],
+      "children": [
+        {
+          "name": "Louise Schmelter Schlorff",
+          "identifiers": [
+            "TG09000100"
+          ],
+          "other_parent_name": "Martha Gravenow Schmelter",
+          "other_parent_identifiers": [
+            "TG09000066"
+          ],
+          "mother_name": null,
+          "father_name": null,
+          "relationship_status": "recorded in archived database; review conflicts"
+        }
+      ],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://raw.githubusercontent.com/we6jbo/AncesTale/refs/heads/master/records/TG09000068.md"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Ethel E. Maynard",
+      "identifiers": [
+        "TG09000094"
+      ],
+      "database_record_id": 57,
+      "birth_date": "1912",
+      "birth_location": null,
+      "death_date": "2010 (aged 97&ndash;98)",
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [
+        "Burke C Maynard 1904–1986"
+      ],
+      "children": [],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://www.findagrave.com/memorial/144633350"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "birth_location",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Everett Milton Bailey",
+      "identifiers": [
+        "TG09000106"
+      ],
+      "database_record_id": 58,
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [],
+      "children": [],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://raw.githubusercontent.com/we6jbo/AncesTale/refs/heads/master/records/TG09000106.md"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "F. Howard Hillman",
+      "identifiers": [
+        "TG09000017"
+      ],
+      "database_record_id": 59,
+      "birth_date": "1881",
+      "birth_location": null,
+      "death_date": "1963 (aged 81–82)",
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [
+        "Agnes Loretta Pendergast Hillman",
+        "Agnes Loretta Pendergast Hillman 1892–1945 (m. 1909)",
+        "Gael Agnes Hillman Welsh 1884–1982"
+      ],
+      "children": [
+        {
+          "name": "Eleanor Gail Nordstrom Kennington",
+          "identifiers": [
+            "TG09000015"
+          ],
+          "other_parent_name": "Agnes Loretta Pendergast Hillman",
+          "other_parent_identifiers": [
+            "TG09000009"
+          ],
+          "mother_name": null,
+          "father_name": null,
+          "relationship_status": "recorded in archived database; review conflicts"
+        }
+      ],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://www.findagrave.com/memorial/64425590"
+      },
+      "inclusion_reasons": [
+        "flagged in recheck.csv"
+      ],
+      "recheck_cases": [
+        {
+          "RecordType": "UnverifiedPerson",
+          "PersonSerial": "TS000136",
+          "Name": "F. Howard Hillman",
+          "BirthYear": "",
+          "FullDateOfBirth": "",
+          "CaseID": "E8573517",
+          "Child": "Fred Ernest Hillman",
+          "ParentAgeAtChildBirth": "",
+          "RelatedCaseID": "",
+          "ReviewNote": "Could not verify the child's birth date. Ask whether this person or the related person needs a date correction."
+        }
+      ],
+      "review_notes": [
+        "Review cases are not verified corrections; preserve recorded relationships pending evidence."
+      ],
+      "geography_serial": "TS000136",
+      "geography_context": [
+        {
+          "type": "Location",
+          "information": "Minnesota, USA (possible family-region estimate from parent birth place; unverified)"
+        },
+        {
+          "type": "Time period",
+          "information": "Unknown; establish an approximate birth date first"
+        }
+      ],
+      "missing_fields": [
+        "birth_location",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Frank A. Schlorff",
+      "identifiers": [
+        "TG09000018"
+      ],
+      "database_record_id": 61,
+      "birth_date": "15 Sep 1908",
+      "birth_location": "Chicago, Cook County, Illinois, USA",
+      "death_date": "11 May 2002 (aged 93)",
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [],
+      "children": [],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://raw.githubusercontent.com/we6jbo/AncesTale/refs/heads/master/records/TG09000018.md"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [
+        "Possible duplicate or alternate name; not merged automatically."
+      ],
+      "possible_duplicate_names": [
+        "Frank A. Schlorff VVeteran"
+      ],
+      "missing_fields": [
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Frank A. Schlorff VVeteran",
+      "identifiers": [
+        "TG09000103"
+      ],
+      "database_record_id": 62,
+      "birth_date": "15 Sep 1908",
+      "birth_location": "Chicago, Cook County, Illinois, USA",
+      "death_date": "11 May 2002 (aged 93)",
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [
+        "Ernest Robert Schlorff 1896–1961",
+        "Louise Schmelter Schlorff 1912–2011 (m. 1936)"
+      ],
+      "children": [],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://www.findagrave.com/memorial/230405026"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [
+        "Possible duplicate or alternate name; not merged automatically."
+      ],
+      "possible_duplicate_names": [
+        "Frank A. Schlorff"
+      ],
+      "missing_fields": [
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Frank Earl “Tub” Bailey",
+      "identifiers": [
+        "TG09000043"
+      ],
+      "database_record_id": 63,
+      "birth_date": "19 Apr 1884",
+      "birth_location": "Morgan County, Indiana, USA",
+      "death_date": "26 Mar 1961 (aged 76)",
+      "death_location": "Greencastle, Putnam County, Indiana, USA",
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [
+        "Alpha M. Bryant Bailey 1895–1970",
+        "Gertrude E. \"Gertie\" Bryant Bailey 1882–1952"
+      ],
+      "children": [],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://www.findagrave.com/memorial/8347083"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Gael Agnes Hillman Welsh",
+      "identifiers": [
+        "TG09000110"
+      ],
+      "database_record_id": 66,
+      "birth_date": "21 Sep 1884",
+      "birth_location": "Cannon Falls, Goodhue County, Minnesota, USA",
+      "death_date": "12 Apr 1982 (aged 97)",
+      "death_location": "Saint Paul, Ramsey County, Minnesota, USA",
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [
+        "F. Howard Hillman 1881–1963",
+        "Gail Agnes Hillman",
+        "William R Maynard",
+        "William Riley Maynard 1878–1958 (m. 1901)"
+      ],
+      "children": [
+        {
+          "name": "Burke C Maynard",
+          "identifiers": [
+            "TG239670"
+          ],
+          "other_parent_name": "Gail Agnes Hillman",
+          "other_parent_identifiers": [
+            "TG286753"
+          ],
+          "mother_name": "Gail Agnes Hillman",
+          "father_name": "William R Maynard",
+          "relationship_status": "recorded in archived database; review conflicts"
+        },
+        {
+          "name": "Gael Marguerite Maynard Biederman",
+          "identifiers": [
+            "TG09000019"
+          ],
+          "other_parent_name": "Gail Agnes Hillman",
+          "other_parent_identifiers": [
+            "TG286753"
+          ],
+          "mother_name": null,
+          "father_name": null,
+          "relationship_status": "recorded in archived database; review conflicts"
+        },
+        {
+          "name": "Burke C Maynard",
+          "identifiers": [
+            "TG239670"
+          ],
+          "other_parent_name": "William R Maynard",
+          "other_parent_identifiers": [
+            "TG715094"
+          ],
+          "mother_name": "Gail Agnes Hillman",
+          "father_name": "William R Maynard",
+          "relationship_status": "recorded in archived database; review conflicts"
+        }
+      ],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://www.findagrave.com/memorial/254034152"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Gael Marguerite Maynard Biederman",
+      "identifiers": [
+        "TG09000019"
+      ],
+      "database_record_id": 67,
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [],
+      "children": [],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://raw.githubusercontent.com/we6jbo/AncesTale/refs/heads/master/records/TG09000019.md"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "George Clarence Bryant",
+      "identifiers": [
+        "TG09000046"
+      ],
+      "database_record_id": 69,
+      "birth_date": "17 Apr 1880",
+      "birth_location": "Monrovia, Morgan County, Indiana, USA",
+      "death_date": "29 Jan 1948 (aged 67)",
+      "death_location": "Keyes, Cimarron County, Oklahoma, USA",
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [
+        "Jason Lorenza Bryant",
+        "Jason Lorenza Bryant 1880–1947",
+        "Nettie Emmaline Kirkendoll Bryant 1888–1970 (m. 1904)"
+      ],
+      "children": [
+        {
+          "name": "Henry Francis \"Francis\" Bryant",
+          "identifiers": [
+            "TG09000052"
+          ],
+          "other_parent_name": "Jason Lorenza Bryant",
+          "other_parent_identifiers": [
+            "TG09000041"
+          ],
+          "mother_name": null,
+          "father_name": null,
+          "relationship_status": "recorded in archived database; review conflicts"
+        }
+      ],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://www.findagrave.com/memorial/9422675"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "George M Prickett",
+      "identifiers": [
+        "TG09000063"
+      ],
+      "database_record_id": 70,
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [],
+      "children": [],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://raw.githubusercontent.com/we6jbo/AncesTale/refs/heads/master/records/TG09000063.md"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "George T Bowman",
+      "identifiers": [
+        "TG09000075"
+      ],
+      "database_record_id": 72,
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [],
+      "children": [],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://raw.githubusercontent.com/we6jbo/AncesTale/refs/heads/master/records/TG09000075.md"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "George W Bowman Jr",
+      "identifiers": [
+        "TG587699"
+      ],
+      "database_record_id": 73,
+      "birth_date": "Oct 1787",
+      "birth_location": "Lincoln County, North Carolina, United States of America",
+      "death_date": "5 Aug 1874",
+      "death_location": "Morgan County, Indiana, USA",
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [
+        "Mary Catherine Eisenhower"
+      ],
+      "children": [
+        {
+          "name": "Abel Bowman",
+          "identifiers": [
+            "TG940672"
+          ],
+          "other_parent_name": "Mary Catherine Eisenhower",
+          "other_parent_identifiers": [
+            "TG296993"
+          ],
+          "mother_name": "Mary Catherine Eisenhower",
+          "father_name": "George W Bowman Jr",
+          "relationship_status": "recorded in archived database; review conflicts"
+        }
+      ],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://www.wikitree.com/wiki/Bowman-1887"
+      },
+      "inclusion_reasons": [
+        "flagged in recheck.csv"
+      ],
+      "recheck_cases": [
+        {
+          "RecordType": "ParentDateCheck",
+          "PersonSerial": "TS000088",
+          "Name": "George W Bowman Jr",
+          "BirthYear": "1787",
+          "FullDateOfBirth": "",
+          "CaseID": "E7693945",
+          "Child": "Abel Bowman",
+          "ParentAgeAtChildBirth": "43",
+          "RelatedCaseID": "",
+          "ReviewNote": "Year-only age is outside the requested maternal review range of 16-42. Confirm whether this parent is the mother and verify the child birth year first."
+        }
+      ],
+      "review_notes": [
+        "Review cases are not verified corrections; preserve recorded relationships pending evidence."
+      ],
+      "geography_serial": "TS000088",
+      "geography_context": [
+        {
+          "type": "Location",
+          "information": "Oct  Lincoln County, North Carolina, United States of America (recorded; verify source)"
+        },
+        {
+          "type": "Time period",
+          "information": "Around 1787 (1780s)"
+        }
+      ],
+      "missing_fields": [
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Gertrude E. “Gertie” Bryant Bailey",
+      "identifiers": [
+        "TG09000044"
+      ],
+      "database_record_id": 74,
+      "birth_date": "19 Nov 1882",
+      "birth_location": "Morgan County, Indiana, USA",
+      "death_date": "23 Oct 1952 (aged 69)",
+      "death_location": "Martinsville, Morgan County, Indiana, USA",
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [
+        "Frank Earl \"Tub\" Bailey 1884–1961",
+        "George Clarence Bryant 1880–1948"
+      ],
+      "children": [],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://www.findagrave.com/memorial/8347085"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Gilderoy Holderman",
+      "identifiers": [
+        "TG09000048"
+      ],
+      "database_record_id": 75,
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [],
+      "children": [],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://raw.githubusercontent.com/we6jbo/AncesTale/refs/heads/master/records/TG09000048.md"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Hannah M. Schlorff Hensel",
+      "identifiers": [
+        "TG09000020"
+      ],
+      "database_record_id": 78,
+      "birth_date": "1903",
+      "birth_location": "Chicago, Cook County, Illinois, USA",
+      "death_date": "Aug 1984 (aged 80–81)",
+      "death_location": "Black River Falls, Jackson County, Wisconsin, USA",
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [
+        "Ernest Robert Schlorff 1896–1961",
+        "Walter F. Hensel 1902–1963 (m. 1927)"
+      ],
+      "children": [
+        {
+          "name": "Emily Hensel Ryan",
+          "identifiers": [
+            "TG09000016"
+          ],
+          "other_parent_name": null,
+          "other_parent_identifiers": [],
+          "mother_name": null,
+          "father_name": null,
+          "relationship_status": "recorded in archived database; review conflicts"
+        },
+        {
+          "name": "Walter F \"Bud\" Hensel",
+          "identifiers": [
+            "TG09000034"
+          ],
+          "other_parent_name": null,
+          "other_parent_identifiers": [],
+          "mother_name": null,
+          "father_name": null,
+          "relationship_status": "recorded in archived database; review conflicts"
+        },
+        {
+          "name": "William Schlorff",
+          "identifiers": [
+            "TG09000036"
+          ],
+          "other_parent_name": null,
+          "other_parent_identifiers": [],
+          "mother_name": null,
+          "father_name": null,
+          "relationship_status": "recorded in archived database; review conflicts"
+        }
+      ],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://www.findagrave.com/memorial/176035876"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Harriet Holderman Miller",
+      "identifiers": [
+        "TG09000086"
+      ],
+      "database_record_id": 79,
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [],
+      "children": [],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://raw.githubusercontent.com/we6jbo/AncesTale/refs/heads/master/records/TG09000086.md"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Henry Clark Shapley",
+      "identifiers": [
+        "TG09000021"
+      ],
+      "database_record_id": 80,
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [
+        "Mary Rice Shapley"
+      ],
+      "children": [
+        {
+          "name": "Carson Shapley",
+          "identifiers": [
+            "TG09000012"
+          ],
+          "other_parent_name": "Mary Rice Shapley",
+          "other_parent_identifiers": [
+            "TG09000025"
+          ],
+          "mother_name": null,
+          "father_name": null,
+          "relationship_status": "recorded in archived database; review conflicts"
+        },
+        {
+          "name": "William Ira “Will” Shapley",
+          "identifiers": [
+            "TG09000035"
+          ],
+          "other_parent_name": "Mary Rice Shapley",
+          "other_parent_identifiers": [
+            "TG09000025"
+          ],
+          "mother_name": null,
+          "father_name": null,
+          "relationship_status": "recorded in archived database; review conflicts"
+        }
+      ],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://raw.githubusercontent.com/we6jbo/AncesTale/refs/heads/master/records/TG09000021.md"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Henry Francis \"Francis\" Bryant",
+      "identifiers": [
+        "TG09000052"
+      ],
+      "database_record_id": 81,
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [
+        "Mary E. Turner Bryant"
+      ],
+      "children": [
+        {
+          "name": "Gertrude E. “Gertie” Bryant Bailey",
+          "identifiers": [
+            "TG09000044"
+          ],
+          "other_parent_name": "Mary E. Turner Bryant",
+          "other_parent_identifiers": [
+            "TG09000053"
+          ],
+          "mother_name": null,
+          "father_name": null,
+          "relationship_status": "recorded in archived database; review conflicts"
+        }
+      ],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://raw.githubusercontent.com/we6jbo/AncesTale/refs/heads/master/records/TG09000052.md"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Hortense Hull Emerson",
+      "identifiers": [
+        "TG09000091"
+      ],
+      "database_record_id": 83,
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [],
+      "children": [],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://raw.githubusercontent.com/we6jbo/AncesTale/refs/heads/master/records/TG09000091.md"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Ica Foster Rice",
+      "identifiers": [
+        "TG893959"
+      ],
+      "database_record_id": 85,
+      "birth_date": "1805",
+      "birth_location": "Charlotteville Twp, Norfolk co., Canada",
+      "death_date": "01 Jan 1859",
+      "death_location": "McLoughlin Canyon, Tonasket, Okanogan, Washington",
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [
+        "Kezia Bair"
+      ],
+      "children": [
+        {
+          "name": "Mary Rice",
+          "identifiers": [
+            "TG762503"
+          ],
+          "other_parent_name": "Kezia Bair",
+          "other_parent_identifiers": [
+            "TG275416"
+          ],
+          "mother_name": "Kezia Bair",
+          "father_name": "Ica Foster Rice",
+          "relationship_status": "recorded in archived database; review conflicts"
+        }
+      ],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://raw.githubusercontent.com/we6jbo/AncesTale/refs/heads/master/records/TG893959.md"
+      },
+      "inclusion_reasons": [
+        "flagged in recheck.csv"
+      ],
+      "recheck_cases": [
+        {
+          "RecordType": "ParentDateCheck",
+          "PersonSerial": "TS000114",
+          "Name": "Ica Foster Rice",
+          "BirthYear": "1805",
+          "FullDateOfBirth": "",
+          "CaseID": "E2574317",
+          "Child": "Mary Rice",
+          "ParentAgeAtChildBirth": "44",
+          "RelatedCaseID": "",
+          "ReviewNote": "Year-only age is outside the requested maternal review range of 16-42. Confirm whether this parent is the mother and verify the child birth year first."
+        }
+      ],
+      "review_notes": [
+        "Review cases are not verified corrections; preserve recorded relationships pending evidence."
+      ],
+      "geography_serial": "TS000114",
+      "geography_context": [
+        {
+          "type": "Location",
+          "information": "Charlotteville Twp, Norfolk co., Canada (recorded; verify source)"
+        },
+        {
+          "type": "Time period",
+          "information": "Around 1805 (1800s)"
+        }
+      ],
+      "missing_fields": [
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Irene Sophie Schmelter Zaitz",
+      "identifiers": [
+        "TG09000102"
+      ],
+      "database_record_id": 86,
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [],
+      "children": [],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://raw.githubusercontent.com/we6jbo/AncesTale/refs/heads/master/records/TG09000102.md"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Isaac Newton Ross",
+      "identifiers": [
+        "TG09000049"
+      ],
+      "database_record_id": 87,
+      "birth_date": "4 Apr 1812",
+      "birth_location": "Stark County, Ohio, USA",
+      "death_date": "21 May 1889 (aged 77)",
+      "death_location": "Stark County, Ohio, USA",
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [],
+      "children": [],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://www.findagrave.com/memorial/12715806"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Jacine Beatrice Bryant Emerson",
+      "identifiers": [
+        "TG09000064"
+      ],
+      "database_record_id": 88,
+      "birth_date": "26 Mar 1909",
+      "birth_location": "Paragon, Morgan County, Indiana, USA",
+      "death_date": "3 Oct 1981 (aged 72)",
+      "death_location": "North Indianapolis, Marion County, Indiana, USA",
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [
+        "Ernest Robert Schlorff 1896–1961",
+        "Jeanette Siebrandt Schlorff 1918–1982 (m. 1938)"
+      ],
+      "children": [],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://www.findagrave.com/memorial/63103033"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [
+        "Possible duplicate or alternate name; not merged automatically."
+      ],
+      "possible_duplicate_names": [
+        "Jacine Beatrice Bryant Emerson [Find a Grave 63103033]"
+      ],
+      "missing_fields": [
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Jacine Beatrice Bryant Emerson [Find a Grave 63103033]",
+      "identifiers": [
+        "TG09000069"
+      ],
+      "database_record_id": 89,
+      "birth_date": "26 Mar 1909",
+      "birth_location": "Paragon, Morgan County, Indiana, USA",
+      "death_date": "3 Oct 1981 (aged 72)",
+      "death_location": "North Indianapolis, Marion County, Indiana, USA",
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [],
+      "children": [],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://raw.githubusercontent.com/we6jbo/AncesTale/refs/heads/master/records/TG09000069.md"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [
+        "Possible duplicate or alternate name; not merged automatically."
+      ],
+      "possible_duplicate_names": [
+        "Jacine Beatrice Bryant Emerson"
+      ],
+      "missing_fields": [
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "James Elliott",
+      "identifiers": [
+        "TG673245",
+        "TG749502"
+      ],
+      "database_record_id": 91,
+      "birth_date": "Apr 1817",
+      "birth_location": "Somerset County, Pennsylvania, USA",
+      "death_date": "1906",
+      "death_location": "Butler County, Pennsylvania",
+      "mother_name": "Margaret Scott",
+      "father_name": "John Elliott",
+      "spouse_names": [
+        "Margaret Elliott",
+        "Margaret Scott"
+      ],
+      "children": [
+        {
+          "name": "James N Elliott",
+          "identifiers": [
+            "TG654890"
+          ],
+          "other_parent_name": "Margaret Elliott",
+          "other_parent_identifiers": [
+            "TG182976"
+          ],
+          "mother_name": "Margaret Elliott",
+          "father_name": "James Elliott",
+          "relationship_status": "recorded in archived database; review conflicts"
+        },
+        {
+          "name": "James Elliott",
+          "identifiers": [
+            "TG673245",
+            "TG749502"
+          ],
+          "other_parent_name": "Margaret Scott",
+          "other_parent_identifiers": [
+            "TG771250"
+          ],
+          "mother_name": "Margaret Scott",
+          "father_name": "John Elliott",
+          "relationship_status": "recorded in archived database; review conflicts"
+        }
+      ],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://www.ancestry.co.uk/genealogy/records/james-nelson-elliott-24-70x3yh?srsltid=AYCX9vI7Z_U6qPDWP50s3rW4dXeVrgcjCb4TBEJORBBcE3jEQvR8vKXE&geo_a=r&geo_s=uk&geo_t=uk&geo_v=2.0.0&o_iid=41012&o_lid=41012&o_sch=Web+Property"
+      },
+      "inclusion_reasons": [
+        "flagged in recheck.csv"
+      ],
+      "recheck_cases": [
+        {
+          "RecordType": "UnverifiedPerson",
+          "PersonSerial": "TS000129",
+          "Name": "John Elliott",
+          "BirthYear": "",
+          "FullDateOfBirth": "",
+          "CaseID": "E4500942",
+          "Child": "James Elliott",
+          "ParentAgeAtChildBirth": "",
+          "RelatedCaseID": "",
+          "ReviewNote": "Could not verify the parent's birth date. Ask whether this person or the related person needs a date correction."
+        }
+      ],
+      "review_notes": [
+        "Review cases are not verified corrections; preserve recorded relationships pending evidence."
+      ],
+      "recheck_names": [
+        "John Elliott"
+      ],
+      "geography_serial": "TS000129",
+      "geography_context": [
+        {
+          "type": "Location",
+          "information": "Unknown (no defensible location estimate from available records)"
+        },
+        {
+          "type": "Time period",
+          "information": "Unknown; establish an approximate birth date first"
+        }
+      ],
+      "missing_fields": []
+    },
+    {
+      "name": "James N Elliott",
+      "identifiers": [
+        "TG654890"
+      ],
+      "database_record_id": 94,
+      "birth_date": "12 Oct 1855",
+      "birth_location": "Center Twp Butler County, Pennsylvania",
+      "death_date": "1 Nov 1926",
+      "death_location": "Center, Butler, Pennsylvania, USA",
+      "mother_name": "Margaret Elliott",
+      "father_name": "James Elliott",
+      "spouse_names": [
+        "Elizabeth McQuiston"
+      ],
+      "children": [
+        {
+          "name": "Alice S Elliott",
+          "identifiers": [
+            "TG492705"
+          ],
+          "other_parent_name": "Elizabeth McQuiston",
+          "other_parent_identifiers": [
+            "TG270541"
+          ],
+          "mother_name": "Elizabeth McQuiston",
+          "father_name": "James N Elliott",
+          "relationship_status": "recorded in archived database; review conflicts"
+        }
+      ],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://www.findagrave.com/memorial/222439556/james-nelson-elliott"
+      },
+      "inclusion_reasons": [
+        "flagged in recheck.csv"
+      ],
+      "recheck_cases": [
+        {
+          "RecordType": "ParentDateCheck",
+          "PersonSerial": "TS000018",
+          "Name": "James N Elliott",
+          "BirthYear": "1855",
+          "FullDateOfBirth": "12 Oct 1855",
+          "CaseID": "E8748510",
+          "Child": "Alice S Elliott",
+          "ParentAgeAtChildBirth": "51",
+          "RelatedCaseID": "",
+          "ReviewNote": "Year-only age is outside the requested maternal review range of 16-42. Confirm whether this parent is the mother and verify the child birth year first."
+        }
+      ],
+      "review_notes": [
+        "Review cases are not verified corrections; preserve recorded relationships pending evidence."
+      ],
+      "geography_serial": "TS000018",
+      "geography_context": [
+        {
+          "type": "Location",
+          "information": "12 Oct  Center Twp Butler County, Pennsylvania (recorded; verify source)"
+        },
+        {
+          "type": "Time period",
+          "information": "Around 1855 (1850s)"
+        }
+      ],
+      "missing_fields": []
+    },
+    {
+      "name": "James Thomas \"Tuffy\" Bowman Sr",
+      "identifiers": [
+        "TG09000022"
+      ],
+      "database_record_id": 97,
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [],
+      "children": [],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://raw.githubusercontent.com/we6jbo/AncesTale/refs/heads/master/records/TG09000022.md"
+      },
+      "inclusion_reasons": [
+        "flagged in recheck.csv"
+      ],
+      "recheck_cases": [
+        {
+          "RecordType": "UnverifiedPerson",
+          "PersonSerial": "TS000134",
+          "Name": "James Thomas \"Tuffy\" Bowman Sr",
+          "BirthYear": "",
+          "FullDateOfBirth": "",
+          "CaseID": "E6294428",
+          "Child": "Raymon Vester Bowman",
+          "ParentAgeAtChildBirth": "",
+          "RelatedCaseID": "",
+          "ReviewNote": "Could not verify the child's birth date. Ask whether this person or the related person needs a date correction."
+        }
+      ],
+      "review_notes": [
+        "Review cases are not verified corrections; preserve recorded relationships pending evidence."
+      ],
+      "geography_serial": "TS000134",
+      "geography_context": [
+        {
+          "type": "Location",
+          "information": "Morgan County, Indiana, USA (possible family-region estimate from parent birth place; unverified)"
+        },
+        {
+          "type": "Time period",
+          "information": "Unknown; establish an approximate birth date first"
+        }
+      ],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Jane Ellen Prickett",
+      "identifiers": [
+        "TG09000057"
+      ],
+      "database_record_id": 98,
+      "birth_date": "1835",
+      "birth_location": "Newark, Kendall County, Illinois, USA",
+      "death_date": "1852 (aged 16&ndash;17)",
+      "death_location": "Newark, Kendall County, Illinois, USA",
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [],
+      "children": [],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://www.findagrave.com/memorial/33157533"
+      },
+      "inclusion_reasons": [
+        "flagged in recheck.csv"
+      ],
+      "recheck_cases": [
+        {
+          "RecordType": "UnverifiedPerson",
+          "PersonSerial": "TS000135",
+          "Name": "Jane Ellen Prickett",
+          "BirthYear": "1835",
+          "FullDateOfBirth": "",
+          "CaseID": "E9839837",
+          "Child": "James Prickett",
+          "ParentAgeAtChildBirth": "",
+          "RelatedCaseID": "",
+          "ReviewNote": "Parent age was reported as 40; birth date needs review. Ask whether this person or the related person needs a date correction."
+        }
+      ],
+      "review_notes": [
+        "Possible duplicate or alternate name; not merged automatically.",
+        "Review cases are not verified corrections; preserve recorded relationships pending evidence."
+      ],
+      "geography_serial": "TS000135",
+      "geography_context": [
+        {
+          "type": "Location",
+          "information": "Newark, Kendall County, Illinois, USA (recorded; verify source)"
+        },
+        {
+          "type": "Time period",
+          "information": "Around 1835 (1830s)"
+        }
+      ],
+      "possible_duplicate_names": [
+        "Jane Ellen Prickett Miller"
+      ],
+      "missing_fields": [
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Jane Ellen Prickett Miller",
+      "identifiers": [
+        "TG09000062"
+      ],
+      "database_record_id": 99,
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [],
+      "children": [],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://raw.githubusercontent.com/we6jbo/AncesTale/refs/heads/master/records/TG09000062.md"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [
+        "Possible duplicate or alternate name; not merged automatically."
+      ],
+      "possible_duplicate_names": [
+        "Jane Ellen Prickett"
+      ],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Jason Lorenza Bryant",
+      "identifiers": [
+        "TG09000041"
+      ],
+      "database_record_id": 100,
+      "birth_date": "15 Jul 1880",
+      "birth_location": "Monrovia, Morgan County, Indiana, USA",
+      "death_date": "25 Dec 1947 (aged 67)",
+      "death_location": "Paragon, Morgan County, Indiana, USA",
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [
+        "George Clarence Bryant",
+        "George Clarence Bryant 1880–1948",
+        "Myrtle Polly Bowman Smith 1887–1955 (m. 1906)"
+      ],
+      "children": [
+        {
+          "name": "Henry Francis \"Francis\" Bryant",
+          "identifiers": [
+            "TG09000052"
+          ],
+          "other_parent_name": "George Clarence Bryant",
+          "other_parent_identifiers": [
+            "TG09000046"
+          ],
+          "mother_name": null,
+          "father_name": null,
+          "relationship_status": "recorded in archived database; review conflicts"
+        },
+        {
+          "name": "Jacine Beatrice Bryant Emerson",
+          "identifiers": [
+            "TG09000064"
+          ],
+          "other_parent_name": null,
+          "other_parent_identifiers": [],
+          "mother_name": null,
+          "father_name": null,
+          "relationship_status": "recorded in archived database; review conflicts"
+        }
+      ],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://www.findagrave.com/memorial/7562614"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Jeanette Siebrandt Schlorff",
+      "identifiers": [
+        "TG09000070"
+      ],
+      "database_record_id": 101,
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [],
+      "children": [],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://raw.githubusercontent.com/we6jbo/AncesTale/refs/heads/master/records/TG09000070.md"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Joel R. Prickett",
+      "identifiers": [
+        "TG09000058"
+      ],
+      "database_record_id": 103,
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [],
+      "children": [],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://raw.githubusercontent.com/we6jbo/AncesTale/refs/heads/master/records/TG09000058.md"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Johanna Kiehlbauch",
+      "identifiers": [
+        "TG204672"
+      ],
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [],
+      "children": [
+        {
+          "name": "Joseph Kiehlbauch",
+          "other_parent_name": null,
+          "mother_name": null,
+          "father_name": null,
+          "relationship_status": "Pedigree captured relationship; verify"
+        }
+      ],
+      "unclassified_parent_names": [],
+      "unpaired_other_parent_names": [],
+      "source": {
+        "file": "Pedigree-ver-1.0.0.0(1).json",
+        "original_details": ""
+      },
+      "inclusion_reasons": [
+        "flagged in recheck.csv"
+      ],
+      "recheck_cases": [
+        {
+          "RecordType": "UnverifiedPerson",
+          "PersonSerial": "TS000139",
+          "Name": "Johanna Kiehlbauch",
+          "BirthYear": "",
+          "FullDateOfBirth": "",
+          "CaseID": "E6351989",
+          "Child": "Joseph Kiehlbauch",
+          "ParentAgeAtChildBirth": "",
+          "RelatedCaseID": "",
+          "ReviewNote": "Could not verify the parent's birth date. Ask whether this person or the related person needs a date correction."
+        }
+      ],
+      "review_notes": [
+        "Review cases are not verified corrections; preserve recorded relationships pending evidence."
+      ],
+      "geography_serial": "TS000139",
+      "geography_context": [
+        {
+          "type": "Location",
+          "information": "Unknown (no defensible location estimate from available records)"
+        },
+        {
+          "type": "Time period",
+          "information": "Unknown; establish an approximate birth date first"
+        }
+      ],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Johanna Kiehlbauch Setzer",
+      "identifiers": [
+        "TG206921"
+      ],
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [],
+      "children": [],
+      "unclassified_parent_names": [
+        "Joseph Kiehlbauch"
+      ],
+      "unpaired_other_parent_names": [],
+      "source": {
+        "file": "Pedigree-ver-1.0.0.0(1).json",
+        "original_details": ""
+      },
+      "inclusion_reasons": [
+        "flagged in recheck.csv"
+      ],
+      "recheck_cases": [
+        {
+          "RecordType": "UnverifiedPerson",
+          "PersonSerial": "TS000140",
+          "Name": "Johanna Kiehlbauch Setzer",
+          "BirthYear": "",
+          "FullDateOfBirth": "",
+          "CaseID": "E4081979",
+          "Child": "Joseph Kiehlbauch",
+          "ParentAgeAtChildBirth": "",
+          "RelatedCaseID": "",
+          "ReviewNote": "Could not verify the child's birth date. Ask whether this person or the related person needs a date correction."
+        }
+      ],
+      "review_notes": [
+        "Review cases are not verified corrections; preserve recorded relationships pending evidence."
+      ],
+      "geography_serial": "TS000140",
+      "geography_context": [
+        {
+          "type": "Location",
+          "information": "Russia (possible family-region estimate from parent birth place; unverified)"
+        },
+        {
+          "type": "Time period",
+          "information": "Unknown; establish an approximate birth date first"
+        }
+      ],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "John Schlorff",
+      "identifiers": [
+        "TG09000065"
+      ],
+      "database_record_id": 111,
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [],
+      "children": [],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://raw.githubusercontent.com/we6jbo/AncesTale/refs/heads/master/records/TG09000065.md"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Leland Josiah Andrews",
+      "identifiers": [
+        "TG09000037"
+      ],
+      "database_record_id": 118,
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [],
+      "children": [],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://raw.githubusercontent.com/we6jbo/AncesTale/refs/heads/master/records/TG09000037.md"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Leland Vaughn Shapley",
+      "identifiers": [
+        "TG09000099"
+      ],
+      "database_record_id": 119,
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [],
+      "children": [],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://raw.githubusercontent.com/we6jbo/AncesTale/refs/heads/master/records/TG09000099.md"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Leonard Marlow Sr",
+      "identifiers": [
+        "TG204761"
+      ],
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [],
+      "children": [],
+      "unclassified_parent_names": [
+        "Mary Richards Marlow"
+      ],
+      "unpaired_other_parent_names": [],
+      "source": {
+        "file": "Pedigree-ver-1.0.0.0(1).json",
+        "original_details": ""
+      },
+      "inclusion_reasons": [
+        "flagged in recheck.csv"
+      ],
+      "recheck_cases": [
+        {
+          "RecordType": "UnverifiedPerson",
+          "PersonSerial": "TS000130",
+          "Name": "Leonard Marlow Sr",
+          "BirthYear": "",
+          "FullDateOfBirth": "",
+          "CaseID": "E4943494",
+          "Child": "Mary Richards Marlow",
+          "ParentAgeAtChildBirth": "",
+          "RelatedCaseID": "",
+          "ReviewNote": "Could not verify the child's birth date. Ask whether this person or the related person needs a date correction."
+        }
+      ],
+      "review_notes": [
+        "Review cases are not verified corrections; preserve recorded relationships pending evidence."
+      ],
+      "geography_serial": "TS000130",
+      "geography_context": [
+        {
+          "type": "Location",
+          "information": "Charles County, Maryland, USA (possible family-region estimate from parent birth place; unverified)"
+        },
+        {
+          "type": "Time period",
+          "information": "Unknown; establish an approximate birth date first"
+        }
+      ],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Louisa Kiehlbauch",
+      "identifiers": [
+        "TG200915"
+      ],
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [],
+      "children": [],
+      "unclassified_parent_names": [
+        "Joseph Kiehlbauch"
+      ],
+      "unpaired_other_parent_names": [],
+      "source": {
+        "file": "Pedigree-ver-1.0.0.0(1).json",
+        "original_details": ""
+      },
+      "inclusion_reasons": [
+        "flagged in recheck.csv"
+      ],
+      "recheck_cases": [
+        {
+          "RecordType": "UnverifiedPerson",
+          "PersonSerial": "TS000141",
+          "Name": "Louisa Kiehlbauch",
+          "BirthYear": "",
+          "FullDateOfBirth": "",
+          "CaseID": "E6210277",
+          "Child": "Joseph Kiehlbauch",
+          "ParentAgeAtChildBirth": "",
+          "RelatedCaseID": "",
+          "ReviewNote": "Could not verify the child's birth date. Ask whether this person or the related person needs a date correction."
+        }
+      ],
+      "review_notes": [
+        "Review cases are not verified corrections; preserve recorded relationships pending evidence."
+      ],
+      "geography_serial": "TS000141",
+      "geography_context": [
+        {
+          "type": "Location",
+          "information": "Russia (possible family-region estimate from parent birth place; unverified)"
+        },
+        {
+          "type": "Time period",
+          "information": "Unknown; establish an approximate birth date first"
+        }
+      ],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Louise Rossow Deutscher",
+      "identifiers": [
+        "TG204295"
+      ],
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [],
+      "children": [],
+      "unclassified_parent_names": [
+        "John Rossow"
+      ],
+      "unpaired_other_parent_names": [],
+      "source": {
+        "file": "Pedigree-ver-1.0.0.0(1).json",
+        "original_details": ""
+      },
+      "inclusion_reasons": [
+        "flagged in recheck.csv"
+      ],
+      "recheck_cases": [
+        {
+          "RecordType": "UnverifiedPerson",
+          "PersonSerial": "TS000143",
+          "Name": "Louise Rossow Deutscher",
+          "BirthYear": "",
+          "FullDateOfBirth": "",
+          "CaseID": "E8110085",
+          "Child": "John Rossow",
+          "ParentAgeAtChildBirth": "",
+          "RelatedCaseID": "",
+          "ReviewNote": "Could not verify the child's birth date. Ask whether this person or the related person needs a date correction."
+        }
+      ],
+      "review_notes": [
+        "Review cases are not verified corrections; preserve recorded relationships pending evidence."
+      ],
+      "geography_serial": "TS000143",
+      "geography_context": [
+        {
+          "type": "Location",
+          "information": "Germany (possible family-region estimate from parent birth place; unverified)"
+        },
+        {
+          "type": "Time period",
+          "information": "Unknown; establish an approximate birth date first"
+        }
+      ],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Louise Schmelter Schlorff",
+      "identifiers": [
+        "TG09000100"
+      ],
+      "database_record_id": 123,
+      "birth_date": "8 Feb 1912",
+      "birth_location": "Kenosha, Kenosha County, Wisconsin, USA",
+      "death_date": "10 Jul 2011 (aged 99)",
+      "death_location": "Wittenberg, Shawano County, Wisconsin, USA",
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [
+        "Arno Erwin Schmelter 1918–1994",
+        "Frank A. Schlorff 1908–2002 (m. 1936)"
+      ],
+      "children": [],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://www.findagrave.com/memorial/193749554"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Lura Gladys Boyer Perry",
+      "identifiers": [
+        "TG09000104"
+      ],
+      "database_record_id": 125,
+      "birth_date": "1888",
+      "birth_location": "Marshall County, Indiana, USA",
+      "death_date": "7 Aug 1963 (aged 74&ndash;75)",
+      "death_location": "Iowa City, Johnson County, Iowa, USA",
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [
+        "Carson Shapley 1868–1950 (m. 1940)",
+        "Ernest Dennis Perry 1885–1930"
+      ],
+      "children": [
+        {
+          "name": "Anson Fredrick Perry",
+          "identifiers": [
+            "TG09000097"
+          ],
+          "other_parent_name": null,
+          "other_parent_identifiers": [],
+          "mother_name": null,
+          "father_name": null,
+          "relationship_status": "recorded in archived database; review conflicts"
+        },
+        {
+          "name": "Caroline A Morris Boyer",
+          "identifiers": [
+            "TG09000077"
+          ],
+          "other_parent_name": null,
+          "other_parent_identifiers": [],
+          "mother_name": null,
+          "father_name": null,
+          "relationship_status": "recorded in archived database; review conflicts"
+        },
+        {
+          "name": "Edith Marie Perry Gabel",
+          "identifiers": [
+            "TG09000079"
+          ],
+          "other_parent_name": null,
+          "other_parent_identifiers": [],
+          "mother_name": null,
+          "father_name": null,
+          "relationship_status": "recorded in archived database; review conflicts"
+        }
+      ],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://www.findagrave.com/memorial/237043252"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Marcia Jewell Emerson Gay",
+      "identifiers": [
+        "TG09000092"
+      ],
+      "database_record_id": 126,
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [],
+      "children": [],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://raw.githubusercontent.com/we6jbo/AncesTale/refs/heads/master/records/TG09000092.md"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Mark Raymond Emerson",
+      "identifiers": [
+        "TG09000061"
+      ],
+      "database_record_id": 130,
+      "birth_date": "14 Jun 1905",
+      "birth_location": "Owensville, Gibson County, Indiana, USA",
+      "death_date": "25 Mar 1973 (aged 67)",
+      "death_location": "Waco, McLennan County, Texas, USA",
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [
+        "Hortense Hull Emerson 1904–1990 (m. 1930)",
+        "Jacine Beatrice Bryant Emerson 1909–1981 (m. 1963)"
+      ],
+      "children": [
+        {
+          "name": "Marcia Jewell Emerson Gay",
+          "identifiers": [
+            "TG09000092"
+          ],
+          "other_parent_name": null,
+          "other_parent_identifiers": [],
+          "mother_name": null,
+          "father_name": null,
+          "relationship_status": "recorded in archived database; review conflicts"
+        },
+        {
+          "name": "Phillip Hull Emerson",
+          "identifiers": [
+            "TG09000101"
+          ],
+          "other_parent_name": null,
+          "other_parent_identifiers": [],
+          "mother_name": null,
+          "father_name": null,
+          "relationship_status": "recorded in archived database; review conflicts"
+        },
+        {
+          "name": "Stanley Cushman Emerson",
+          "identifiers": [
+            "TG09000113"
+          ],
+          "other_parent_name": null,
+          "other_parent_identifiers": [],
+          "mother_name": null,
+          "father_name": null,
+          "relationship_status": "recorded in archived database; review conflicts"
+        }
+      ],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://www.findagrave.com/memorial/36440868"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Martha Gravenow Schmelter",
+      "identifiers": [
+        "TG09000066"
+      ],
+      "database_record_id": 131,
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [
+        "Ervin F Schmelter"
+      ],
+      "children": [
+        {
+          "name": "Louise Schmelter Schlorff",
+          "identifiers": [
+            "TG09000100"
+          ],
+          "other_parent_name": "Ervin F Schmelter",
+          "other_parent_identifiers": [
+            "TG09000068"
+          ],
+          "mother_name": null,
+          "father_name": null,
+          "relationship_status": "recorded in archived database; review conflicts"
+        }
+      ],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://raw.githubusercontent.com/we6jbo/AncesTale/refs/heads/master/records/TG09000066.md"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Martha H. Coke Holderman",
+      "identifiers": [
+        "TG09000039"
+      ],
+      "database_record_id": 132,
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [],
+      "children": [],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://raw.githubusercontent.com/we6jbo/AncesTale/refs/heads/master/records/TG09000039.md"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Mary E. Holderman",
+      "identifiers": [
+        "TG09000038"
+      ],
+      "database_record_id": 135,
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [],
+      "children": [],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://raw.githubusercontent.com/we6jbo/AncesTale/refs/heads/master/records/TG09000038.md"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Mary E. Turner Bryant",
+      "identifiers": [
+        "TG09000053"
+      ],
+      "database_record_id": 136,
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [
+        "Henry Francis \"Francis\" Bryant"
+      ],
+      "children": [
+        {
+          "name": "Gertrude E. “Gertie” Bryant Bailey",
+          "identifiers": [
+            "TG09000044"
+          ],
+          "other_parent_name": "Henry Francis \"Francis\" Bryant",
+          "other_parent_identifiers": [
+            "TG09000052"
+          ],
+          "mother_name": null,
+          "father_name": null,
+          "relationship_status": "recorded in archived database; review conflicts"
+        },
+        {
+          "name": "George Clarence Bryant",
+          "identifiers": [
+            "TG09000046"
+          ],
+          "other_parent_name": null,
+          "other_parent_identifiers": [],
+          "mother_name": null,
+          "father_name": null,
+          "relationship_status": "recorded in archived database; review conflicts"
+        },
+        {
+          "name": "Jason Lorenza Bryant",
+          "identifiers": [
+            "TG09000041"
+          ],
+          "other_parent_name": null,
+          "other_parent_identifiers": [],
+          "mother_name": null,
+          "father_name": null,
+          "relationship_status": "recorded in archived database; review conflicts"
+        }
+      ],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://raw.githubusercontent.com/we6jbo/AncesTale/refs/heads/master/records/TG09000053.md"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Mary Isabella Hillman Scofield",
+      "identifiers": [
+        "TG09000082"
+      ],
+      "database_record_id": 137,
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [],
+      "children": [],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://raw.githubusercontent.com/we6jbo/AncesTale/refs/heads/master/records/TG09000082.md"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Mary Johansson Schlorff",
+      "identifiers": [
+        "TG09000023"
+      ],
+      "database_record_id": 140,
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [
+        "Mary Johannsen",
+        "William John Ludwig Sclorf",
+        "William Schlorff"
+      ],
+      "children": [
+        {
+          "name": "Minnie Schlorff",
+          "identifiers": [
+            "TG742018"
+          ],
+          "other_parent_name": "Mary Johannsen",
+          "other_parent_identifiers": [
+            "TG324786"
+          ],
+          "mother_name": "Mary Johannsen",
+          "father_name": "William John Ludwig Sclorf",
+          "relationship_status": "recorded in archived database; review conflicts"
+        },
+        {
+          "name": "Minnie Schlorff",
+          "identifiers": [
+            "TG742018"
+          ],
+          "other_parent_name": "William John Ludwig Sclorf",
+          "other_parent_identifiers": [
+            "TG916000"
+          ],
+          "mother_name": "Mary Johannsen",
+          "father_name": "William John Ludwig Sclorf",
+          "relationship_status": "recorded in archived database; review conflicts"
+        },
+        {
+          "name": "Frank A. Schlorff",
+          "identifiers": [
+            "TG09000018"
+          ],
+          "other_parent_name": "William Schlorff",
+          "other_parent_identifiers": [
+            "TG09000036"
+          ],
+          "mother_name": null,
+          "father_name": null,
+          "relationship_status": "recorded in archived database; review conflicts"
+        },
+        {
+          "name": "Frank A. Schlorff VVeteran",
+          "identifiers": [
+            "TG09000103"
+          ],
+          "other_parent_name": "William Schlorff",
+          "other_parent_identifiers": [
+            "TG09000036"
+          ],
+          "mother_name": null,
+          "father_name": null,
+          "relationship_status": "recorded in archived database; review conflicts"
+        },
+        {
+          "name": "Hannah M. Schlorff Hensel",
+          "identifiers": [
+            "TG09000020"
+          ],
+          "other_parent_name": "William Schlorff",
+          "other_parent_identifiers": [
+            "TG09000036"
+          ],
+          "mother_name": null,
+          "father_name": null,
+          "relationship_status": "recorded in archived database; review conflicts"
+        },
+        {
+          "name": "Jacine Beatrice Bryant Emerson [Find a Grave 63103033]",
+          "identifiers": [
+            "TG09000069"
+          ],
+          "other_parent_name": "William Schlorff",
+          "other_parent_identifiers": [
+            "TG09000036"
+          ],
+          "mother_name": null,
+          "father_name": null,
+          "relationship_status": "recorded in archived database; review conflicts"
+        },
+        {
+          "name": "Minnie Schlorff",
+          "identifiers": [
+            "TG742018"
+          ],
+          "other_parent_name": "William Schlorff",
+          "other_parent_identifiers": [
+            "TG09000036"
+          ],
+          "mother_name": "Mary Johannsen",
+          "father_name": "William John Ludwig Sclorf",
+          "relationship_status": "recorded in archived database; review conflicts"
+        },
+        {
+          "name": "Minnie Schlorff Andrews",
+          "identifiers": [
+            "TG09000105"
+          ],
+          "other_parent_name": "William Schlorff",
+          "other_parent_identifiers": [
+            "TG09000036"
+          ],
+          "mother_name": null,
+          "father_name": null,
+          "relationship_status": "recorded in archived database; review conflicts"
+        }
+      ],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://www.findagrave.com/memorial/51769230/mary-schlorff"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Mary McCabe",
+      "identifiers": [
+        "TG09000096"
+      ],
+      "database_record_id": 145,
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [],
+      "children": [],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://raw.githubusercontent.com/we6jbo/AncesTale/refs/heads/master/records/TG09000096.md"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Mary Rice Shapley",
+      "identifiers": [
+        "TG762503"
+      ],
+      "database_record_id": 146,
+      "birth_date": "Feb 1849",
+      "birth_location": "Wisconsin, USA",
+      "death_date": null,
+      "death_location": null,
+      "mother_name": "Kezia Bair",
+      "father_name": "Ica Foster Rice",
+      "spouse_names": [
+        "Henry Clark Shapley"
+      ],
+      "children": [
+        {
+          "name": "William Shapley",
+          "identifiers": [
+            "TG618235",
+            "TG637004"
+          ],
+          "other_parent_name": "Patrick Henry Shapley",
+          "other_parent_identifiers": [
+            "TG491628"
+          ],
+          "mother_name": "Mary Rice",
+          "father_name": "Patrick Henry Shapley",
+          "relationship_status": "recorded in archived database; review conflicts"
+        }
+      ],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://www.findagrave.com/memorial/242175109/mary-shapley"
+      },
+      "inclusion_reasons": [
+        "flagged in recheck.csv"
+      ],
+      "recheck_cases": [
+        {
+          "RecordType": "ParentDateCheck",
+          "PersonSerial": "TS000057",
+          "Name": "Mary Rice",
+          "BirthYear": "1849",
+          "FullDateOfBirth": "",
+          "CaseID": "E1703081",
+          "Child": "William Shapley",
+          "ParentAgeAtChildBirth": "-51",
+          "RelatedCaseID": "",
+          "ReviewNote": "Year-only age is outside the requested maternal review range of 16-42. Confirm whether this parent is the mother and verify the child birth year first."
+        }
+      ],
+      "review_notes": [
+        "Review cases are not verified corrections; preserve recorded relationships pending evidence."
+      ],
+      "recheck_names": [
+        "Mary Rice"
+      ],
+      "geography_serial": "TS000057",
+      "geography_context": [
+        {
+          "type": "Location",
+          "information": "Feb  Wisconsin, USA (recorded; verify source)"
+        },
+        {
+          "type": "Time period",
+          "information": "Around 1849 (1840s)"
+        }
+      ],
+      "missing_fields": [
+        "death_date",
+        "death_location"
+      ]
+    },
+    {
+      "name": "Mathia Lunde Shapley",
+      "identifiers": [
+        "TG09000088"
+      ],
+      "database_record_id": 149,
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [],
+      "children": [],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://raw.githubusercontent.com/we6jbo/AncesTale/refs/heads/master/records/TG09000088.md"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Mattie E. Boyer Ball",
+      "identifiers": [
+        "TG09000080"
+      ],
+      "database_record_id": 150,
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [],
+      "children": [],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://raw.githubusercontent.com/we6jbo/AncesTale/refs/heads/master/records/TG09000080.md"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Maude Belle Shapley Shankland",
+      "identifiers": [
+        "TG09000026"
+      ],
+      "database_record_id": 151,
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [],
+      "children": [],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://raw.githubusercontent.com/we6jbo/AncesTale/refs/heads/master/records/TG09000026.md"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Milton Rufus Bailey",
+      "identifiers": [
+        "TG09000071"
+      ],
+      "database_record_id": 155,
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [
+        "Rachel Emma Lineberry Bailey"
+      ],
+      "children": [
+        {
+          "name": "Frank Earl “Tub” Bailey",
+          "identifiers": [
+            "TG09000043"
+          ],
+          "other_parent_name": "Rachel Emma Lineberry Bailey",
+          "other_parent_identifiers": [
+            "TG09000072"
+          ],
+          "mother_name": null,
+          "father_name": null,
+          "relationship_status": "recorded in archived database; review conflicts"
+        }
+      ],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://raw.githubusercontent.com/we6jbo/AncesTale/refs/heads/master/records/TG09000071.md"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Minnie Schlorff Andrews",
+      "identifiers": [
+        "TG09000105"
+      ],
+      "database_record_id": 157,
+      "birth_date": "1 Mar 1905",
+      "birth_location": "Chicago, Cook County, Illinois, USA",
+      "death_date": "12 Apr 1946 (aged 41)",
+      "death_location": "Hennepin County, Minnesota, USA",
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [
+        "Leland Josiah Andrews 1898–1977 (m. 1943)",
+        "Percy Wayne Shapley 1901–1946 (m. 1924)"
+      ],
+      "children": [],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://www.findagrave.com/memorial/239646934"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [
+        "Possible duplicate or alternate name; not merged automatically."
+      ],
+      "possible_duplicate_names": [
+        "Minnie Schlorff"
+      ],
+      "missing_fields": [
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Minnie Sophia Rossow Schroeder",
+      "identifiers": [
+        "TG208990"
+      ],
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [],
+      "children": [],
+      "unclassified_parent_names": [
+        "John Rossow"
+      ],
+      "unpaired_other_parent_names": [],
+      "source": {
+        "file": "Pedigree-ver-1.0.0.0(1).json",
+        "original_details": ""
+      },
+      "inclusion_reasons": [
+        "flagged in recheck.csv"
+      ],
+      "recheck_cases": [
+        {
+          "RecordType": "UnverifiedPerson",
+          "PersonSerial": "TS000145",
+          "Name": "Minnie Sophia Rossow Schroeder",
+          "BirthYear": "",
+          "FullDateOfBirth": "",
+          "CaseID": "E4679881",
+          "Child": "John Rossow",
+          "ParentAgeAtChildBirth": "",
+          "RelatedCaseID": "",
+          "ReviewNote": "Could not verify the child's birth date. Ask whether this person or the related person needs a date correction."
+        }
+      ],
+      "review_notes": [
+        "Review cases are not verified corrections; preserve recorded relationships pending evidence."
+      ],
+      "geography_serial": "TS000145",
+      "geography_context": [
+        {
+          "type": "Location",
+          "information": "Germany (possible family-region estimate from parent birth place; unverified)"
+        },
+        {
+          "type": "Time period",
+          "information": "Unknown; establish an approximate birth date first"
+        }
+      ],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Myra Scofield Poe",
+      "identifiers": [
+        "TG09000081"
+      ],
+      "database_record_id": 160,
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [],
+      "children": [],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://raw.githubusercontent.com/we6jbo/AncesTale/refs/heads/master/records/TG09000081.md"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Nettie Emmaline Kirkendoll Bryant",
+      "identifiers": [
+        "TG09000045"
+      ],
+      "database_record_id": 165,
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [],
+      "children": [],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://raw.githubusercontent.com/we6jbo/AncesTale/refs/heads/master/records/TG09000045.md"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Olive Gertrude Stafford Shapley Dawley",
+      "identifiers": [
+        "TG09000028"
+      ],
+      "database_record_id": 168,
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [
+        "Olive G Stafford",
+        "William Ira “Will” Shapley",
+        "William Shapley"
+      ],
+      "children": [
+        {
+          "name": "Percy W Shapley",
+          "identifiers": [
+            "TG739123"
+          ],
+          "other_parent_name": "Olive G Stafford",
+          "other_parent_identifiers": [
+            "TG759401"
+          ],
+          "mother_name": "Olive G Stafford",
+          "father_name": "William Shapley",
+          "relationship_status": "recorded in archived database; review conflicts"
+        },
+        {
+          "name": "Percy W Shapley",
+          "identifiers": [
+            "TG739123"
+          ],
+          "other_parent_name": "William Ira “Will” Shapley",
+          "other_parent_identifiers": [
+            "TG09000035"
+          ],
+          "mother_name": "Olive G Stafford",
+          "father_name": "William Shapley",
+          "relationship_status": "recorded in archived database; review conflicts"
+        },
+        {
+          "name": "Percy Wayne Shapley",
+          "identifiers": [
+            "TG09000095"
+          ],
+          "other_parent_name": "William Ira “Will” Shapley",
+          "other_parent_identifiers": [
+            "TG09000035"
+          ],
+          "mother_name": null,
+          "father_name": null,
+          "relationship_status": "recorded in archived database; review conflicts"
+        },
+        {
+          "name": "Percy W Shapley",
+          "identifiers": [
+            "TG739123"
+          ],
+          "other_parent_name": "William Shapley",
+          "other_parent_identifiers": [
+            "TG618235",
+            "TG637004"
+          ],
+          "mother_name": "Olive G Stafford",
+          "father_name": "William Shapley",
+          "relationship_status": "recorded in archived database; review conflicts"
+        }
+      ],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://www.findagrave.com/memorial/34185165/olive-gertrude-shapley_dawley"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Otis Commodore Bailey",
+      "identifiers": [
+        "TG09000107"
+      ],
+      "database_record_id": 169,
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [],
+      "children": [],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://raw.githubusercontent.com/we6jbo/AncesTale/refs/heads/master/records/TG09000107.md"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Otis Emerson",
+      "identifiers": [
+        "TG09000060"
+      ],
+      "database_record_id": 170,
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [
+        "Anna Casey Cushman Emerson"
+      ],
+      "children": [
+        {
+          "name": "Mark Raymond Emerson",
+          "identifiers": [
+            "TG09000061"
+          ],
+          "other_parent_name": "Anna Casey Cushman Emerson",
+          "other_parent_identifiers": [
+            "TG09000059"
+          ],
+          "mother_name": null,
+          "father_name": null,
+          "relationship_status": "recorded in archived database; review conflicts"
+        }
+      ],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://raw.githubusercontent.com/we6jbo/AncesTale/refs/heads/master/records/TG09000060.md"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Patrick Henry Shapley",
+      "identifiers": [
+        "TG491628"
+      ],
+      "database_record_id": 171,
+      "birth_date": "10 APR 1846",
+      "birth_location": "Emmett, Calhoun, Michigan",
+      "death_date": null,
+      "death_location": null,
+      "mother_name": "Clarissa Gridley",
+      "father_name": "William Shapley",
+      "spouse_names": [
+        "Mary Rice"
+      ],
+      "children": [
+        {
+          "name": "William Shapley",
+          "identifiers": [
+            "TG618235",
+            "TG637004"
+          ],
+          "other_parent_name": "Mary Rice",
+          "other_parent_identifiers": [
+            "TG762503"
+          ],
+          "mother_name": "Mary Rice",
+          "father_name": "Patrick Henry Shapley",
+          "relationship_status": "recorded in archived database; review conflicts"
+        }
+      ],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://www.findagrave.com/memorial/242175117/henry_clark-shapley"
+      },
+      "inclusion_reasons": [
+        "flagged in recheck.csv"
+      ],
+      "recheck_cases": [
+        {
+          "RecordType": "ParentDateCheck",
+          "PersonSerial": "TS000056",
+          "Name": "Patrick Henry Shapley",
+          "BirthYear": "1846",
+          "FullDateOfBirth": "10 APR 1846",
+          "CaseID": "E5086635",
+          "Child": "William Shapley",
+          "ParentAgeAtChildBirth": "-48",
+          "RelatedCaseID": "",
+          "ReviewNote": "Year-only age is outside the requested maternal review range of 16-42. Confirm whether this parent is the mother and verify the child birth year first."
+        }
+      ],
+      "review_notes": [
+        "Review cases are not verified corrections; preserve recorded relationships pending evidence."
+      ],
+      "geography_serial": "TS000056",
+      "geography_context": [
+        {
+          "type": "Location",
+          "information": "10 APR  Emmett, Calhoun, Michigan (recorded; verify source)"
+        },
+        {
+          "type": "Time period",
+          "information": "Around 1846 (1840s)"
+        }
+      ],
+      "missing_fields": [
+        "death_date",
+        "death_location"
+      ]
+    },
+    {
+      "name": "Percy Wayne Shapley",
+      "identifiers": [
+        "TG09000095"
+      ],
+      "database_record_id": 173,
+      "birth_date": "6 May 1901",
+      "birth_location": "Floyd County, Iowa, USA",
+      "death_date": "11 Sep 1946 (aged 45)",
+      "death_location": "Pasco, Franklin County, Washington, USA",
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [
+        "Minnie Schlorff Andrews 1905–1946 (m. 1924)",
+        "Ronald Mayo Shapley 1902–1973",
+        "William Ira “Will” Shapley"
+      ],
+      "children": [
+        {
+          "name": "Dyson Miller",
+          "identifiers": [
+            "TG09000087"
+          ],
+          "other_parent_name": "William Ira “Will” Shapley",
+          "other_parent_identifiers": [
+            "TG09000035"
+          ],
+          "mother_name": null,
+          "father_name": null,
+          "relationship_status": "recorded in archived database; review conflicts"
+        }
+      ],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://www.findagrave.com/memorial/150045610"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Phillip Hull Emerson",
+      "identifiers": [
+        "TG09000101"
+      ],
+      "database_record_id": 174,
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [],
+      "children": [],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://raw.githubusercontent.com/we6jbo/AncesTale/refs/heads/master/records/TG09000101.md"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Rachel Emma Lineberry Bailey",
+      "identifiers": [
+        "TG09000072"
+      ],
+      "database_record_id": 176,
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [
+        "Milton Rufus Bailey"
+      ],
+      "children": [
+        {
+          "name": "Frank Earl “Tub” Bailey",
+          "identifiers": [
+            "TG09000043"
+          ],
+          "other_parent_name": "Milton Rufus Bailey",
+          "other_parent_identifiers": [
+            "TG09000071"
+          ],
+          "mother_name": null,
+          "father_name": null,
+          "relationship_status": "recorded in archived database; review conflicts"
+        }
+      ],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://raw.githubusercontent.com/we6jbo/AncesTale/refs/heads/master/records/TG09000072.md"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Rev William Jasper Bowman",
+      "identifiers": [
+        "TG09000030"
+      ],
+      "database_record_id": 181,
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [],
+      "children": [],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://raw.githubusercontent.com/we6jbo/AncesTale/refs/heads/master/records/TG09000030.md"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Ronald Mayo Shapley",
+      "identifiers": [
+        "TG09000031"
+      ],
+      "database_record_id": 184,
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [],
+      "children": [],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://raw.githubusercontent.com/we6jbo/AncesTale/refs/heads/master/records/TG09000031.md"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Rosa Ann “Rosie” Prickett Smith Washburn Clawson",
+      "identifiers": [
+        "TG09000032"
+      ],
+      "database_record_id": 185,
+      "birth_date": "30 Jul 1869",
+      "birth_location": "Braceville, Grundy County, Illinois, USA",
+      "death_date": "28 Oct 1952 (aged 83)",
+      "death_location": "Wray, Yuma County, Colorado, USA",
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [
+        "Albert Franklin Smith 1867–1946 (m. 1894)",
+        "Benjamin Hill Clawson 1864–1940 (m. 1930)"
+      ],
+      "children": [
+        {
+          "name": "Clyde Prickett",
+          "identifiers": [
+            "TG09000014"
+          ],
+          "other_parent_name": null,
+          "other_parent_identifiers": [],
+          "mother_name": null,
+          "father_name": null,
+          "relationship_status": "recorded in archived database; review conflicts"
+        }
+      ],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://www.findagrave.com/memorial/109946963"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Samuel H. Holderman",
+      "identifiers": [
+        "TG09000040"
+      ],
+      "database_record_id": 189,
+      "birth_date": "9 Oct 1828",
+      "birth_location": "Marion County, Ohio, USA",
+      "death_date": "14 Dec 1886 (aged 58)",
+      "death_location": "Morris, Grundy County, Illinois, USA",
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [
+        "Elizabeth Heyhoe Coke King Holderman 1826–1919 (m. 1870)",
+        "Martha H. Coke Holderman 1830–1866 (m. 1852)"
+      ],
+      "children": [
+        {
+          "name": "Charles Henry Holderman",
+          "identifiers": [
+            "TG09000084"
+          ],
+          "other_parent_name": null,
+          "other_parent_identifiers": [],
+          "mother_name": null,
+          "father_name": null,
+          "relationship_status": "recorded in archived database; review conflicts"
+        },
+        {
+          "name": "Mary E. Holderman",
+          "identifiers": [
+            "TG09000038"
+          ],
+          "other_parent_name": null,
+          "other_parent_identifiers": [],
+          "mother_name": null,
+          "father_name": null,
+          "relationship_status": "recorded in archived database; review conflicts"
+        }
+      ],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://www.findagrave.com/memorial/6883461"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Samuel Marlow Jr",
+      "identifiers": [
+        "TG204221"
+      ],
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [],
+      "children": [],
+      "unclassified_parent_names": [
+        "Mary Richards Marlow"
+      ],
+      "unpaired_other_parent_names": [],
+      "source": {
+        "file": "Pedigree-ver-1.0.0.0(1).json",
+        "original_details": ""
+      },
+      "inclusion_reasons": [
+        "flagged in recheck.csv"
+      ],
+      "recheck_cases": [
+        {
+          "RecordType": "UnverifiedPerson",
+          "PersonSerial": "TS000131",
+          "Name": "Samuel Marlow Jr",
+          "BirthYear": "",
+          "FullDateOfBirth": "",
+          "CaseID": "E7437013",
+          "Child": "Mary Richards Marlow",
+          "ParentAgeAtChildBirth": "",
+          "RelatedCaseID": "",
+          "ReviewNote": "Could not verify the child's birth date. Ask whether this person or the related person needs a date correction."
+        }
+      ],
+      "review_notes": [
+        "Review cases are not verified corrections; preserve recorded relationships pending evidence."
+      ],
+      "geography_serial": "TS000131",
+      "geography_context": [
+        {
+          "type": "Location",
+          "information": "Charles County, Maryland, USA (possible family-region estimate from parent birth place; unverified)"
+        },
+        {
+          "type": "Time period",
+          "information": "Unknown; establish an approximate birth date first"
+        }
+      ],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Stanley Cushman Emerson",
+      "identifiers": [
+        "TG09000113"
+      ],
+      "database_record_id": 197,
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [],
+      "children": [],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://raw.githubusercontent.com/we6jbo/AncesTale/refs/heads/master/records/TG09000113.md"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Susannah Clark Bacon",
+      "identifiers": [
+        "TG733873"
+      ],
+      "database_record_id": 198,
+      "birth_date": "20 August 1790",
+      "birth_location": "Randolph, Orange, Vermont, USA",
+      "death_date": "December 1870",
+      "death_location": "Lorain, Lorain, Ohio, USA",
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [
+        "Barton J Waite"
+      ],
+      "children": [
+        {
+          "name": "Alice Waite",
+          "identifiers": [
+            "TG907216"
+          ],
+          "other_parent_name": "Barton J Waite",
+          "other_parent_identifiers": [
+            "TG740772"
+          ],
+          "mother_name": "Susannah Clark Bacon",
+          "father_name": "Barton J Waite",
+          "relationship_status": "recorded in archived database; review conflicts"
+        }
+      ],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://raw.githubusercontent.com/we6jbo/AncesTale/refs/heads/master/records/TG733873.md"
+      },
+      "inclusion_reasons": [
+        "flagged in recheck.csv"
+      ],
+      "recheck_cases": [
+        {
+          "RecordType": "OtherParentDateCheck",
+          "PersonSerial": "TS000119",
+          "Name": "Susannah Clark Bacon",
+          "BirthYear": "1790",
+          "FullDateOfBirth": "20 August 1790",
+          "CaseID": "U3238048",
+          "Child": "Alice Waite",
+          "ParentAgeAtChildBirth": "50",
+          "RelatedCaseID": "E3238048",
+          "ReviewNote": "Other parent is over 48 by year-only calculation; verify identity, role, and date. U shares the associated E case number."
+        },
+        {
+          "RecordType": "ParentDateCheck",
+          "PersonSerial": "TS000119",
+          "Name": "Susannah Clark Bacon",
+          "BirthYear": "1790",
+          "FullDateOfBirth": "20 August 1790",
+          "CaseID": "E8155721",
+          "Child": "Alice Waite",
+          "ParentAgeAtChildBirth": "50",
+          "RelatedCaseID": "",
+          "ReviewNote": "Year-only age is outside the requested maternal review range of 16-42. Confirm whether this parent is the mother and verify the child birth year first."
+        }
+      ],
+      "review_notes": [
+        "Review cases are not verified corrections; preserve recorded relationships pending evidence."
+      ],
+      "geography_serial": "TS000119",
+      "geography_context": [
+        {
+          "type": "Location",
+          "information": "20 August  Randolph, Orange, Vermont, USA (recorded; verify source)"
+        },
+        {
+          "type": "Time period",
+          "information": "Around 1790 (1790s)"
+        }
+      ],
+      "missing_fields": [
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Sylvia Adelia Shapley Roberts",
+      "identifiers": [
+        "TG09000033"
+      ],
+      "database_record_id": 199,
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [],
+      "children": [],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://raw.githubusercontent.com/we6jbo/AncesTale/refs/heads/master/records/TG09000033.md"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Thomas Cleophas Hamilton",
+      "identifiers": [
+        "TG407091"
+      ],
+      "database_record_id": 203,
+      "birth_date": "1 Feb 1784",
+      "birth_location": "Lincoln County, North Carolina, USA",
+      "death_date": "23 Feb 1872",
+      "death_location": "Gnadenhutten, Tuscarawas County, Ohio, USA",
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [
+        "Sarah Elizabeth Marlow"
+      ],
+      "children": [
+        {
+          "name": "Ruanna Hamilton",
+          "identifiers": [
+            "TG463829"
+          ],
+          "other_parent_name": "Sarah Elizabeth Marlow",
+          "other_parent_identifiers": [
+            "TG122353"
+          ],
+          "mother_name": "Sarah Elizabeth Marlow",
+          "father_name": "Thomas Cleophas Hamilton",
+          "relationship_status": "recorded in archived database; review conflicts"
+        }
+      ],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://www.findagrave.com/memorial/56792735/thomas-hamilton"
+      },
+      "inclusion_reasons": [
+        "flagged in recheck.csv"
+      ],
+      "recheck_cases": [
+        {
+          "RecordType": "ParentDateCheck",
+          "PersonSerial": "TS000082",
+          "Name": "Thomas Cleophas Hamilton",
+          "BirthYear": "1784",
+          "FullDateOfBirth": "1 Feb 1784",
+          "CaseID": "E2720576",
+          "Child": "Ruanna Hamilton",
+          "ParentAgeAtChildBirth": "43",
+          "RelatedCaseID": "",
+          "ReviewNote": "Year-only age is outside the requested maternal review range of 16-42. Confirm whether this parent is the mother and verify the child birth year first."
+        }
+      ],
+      "review_notes": [
+        "Review cases are not verified corrections; preserve recorded relationships pending evidence."
+      ],
+      "geography_serial": "TS000082",
+      "geography_context": [
+        {
+          "type": "Location",
+          "information": "1 Feb  Lincoln County, North Carolina, USA (recorded; verify source)"
+        },
+        {
+          "type": "Time period",
+          "information": "Around 1784 (1780s)"
+        }
+      ],
+      "missing_fields": [
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Venza E. Bowman Rodgers",
+      "identifiers": [
+        "TG09000073"
+      ],
+      "database_record_id": 206,
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [],
+      "children": [],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://raw.githubusercontent.com/we6jbo/AncesTale/refs/heads/master/records/TG09000073.md"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Walter F \"Bud\" Hensel",
+      "identifiers": [
+        "TG09000034"
+      ],
+      "database_record_id": 207,
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [],
+      "children": [],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://raw.githubusercontent.com/we6jbo/AncesTale/refs/heads/master/records/TG09000034.md"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "Walter F. Hensel",
+      "identifiers": [
+        "TG09000098"
+      ],
+      "database_record_id": 208,
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [],
+      "children": [],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://raw.githubusercontent.com/we6jbo/AncesTale/refs/heads/master/records/TG09000098.md"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "William Ira “Will” Shapley",
+      "identifiers": [
+        "TG09000035"
+      ],
+      "database_record_id": 209,
+      "birth_date": "10 Oct 1871",
+      "birth_location": "Jackson County, Minnesota, USA",
+      "death_date": "1 Sep 1940 (aged 68)",
+      "death_location": "Floyd, Floyd County, Iowa, USA",
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [
+        "Charles Shapley 1866–1924",
+        "Olive G Stafford",
+        "Olive Gertrude Stafford Shapley Dawley",
+        "Olive Gertrude Stafford Shapley Dawley 1876–1946 (m. 1894)",
+        "Percy Wayne Shapley",
+        "William Shapley"
+      ],
+      "children": [
+        {
+          "name": "Percy W Shapley",
+          "identifiers": [
+            "TG739123"
+          ],
+          "other_parent_name": "Olive G Stafford",
+          "other_parent_identifiers": [
+            "TG759401"
+          ],
+          "mother_name": "Olive G Stafford",
+          "father_name": "William Shapley",
+          "relationship_status": "recorded in archived database; review conflicts"
+        },
+        {
+          "name": "Percy W Shapley",
+          "identifiers": [
+            "TG739123"
+          ],
+          "other_parent_name": "Olive Gertrude Stafford Shapley Dawley",
+          "other_parent_identifiers": [
+            "TG09000028"
+          ],
+          "mother_name": "Olive G Stafford",
+          "father_name": "William Shapley",
+          "relationship_status": "recorded in archived database; review conflicts"
+        },
+        {
+          "name": "Percy Wayne Shapley",
+          "identifiers": [
+            "TG09000095"
+          ],
+          "other_parent_name": "Olive Gertrude Stafford Shapley Dawley",
+          "other_parent_identifiers": [
+            "TG09000028"
+          ],
+          "mother_name": null,
+          "father_name": null,
+          "relationship_status": "recorded in archived database; review conflicts"
+        },
+        {
+          "name": "Dyson Miller",
+          "identifiers": [
+            "TG09000087"
+          ],
+          "other_parent_name": "Percy Wayne Shapley",
+          "other_parent_identifiers": [
+            "TG09000095"
+          ],
+          "mother_name": null,
+          "father_name": null,
+          "relationship_status": "recorded in archived database; review conflicts"
+        },
+        {
+          "name": "Percy W Shapley",
+          "identifiers": [
+            "TG739123"
+          ],
+          "other_parent_name": "William Shapley",
+          "other_parent_identifiers": [
+            "TG618235",
+            "TG637004"
+          ],
+          "mother_name": "Olive G Stafford",
+          "father_name": "William Shapley",
+          "relationship_status": "recorded in archived database; review conflicts"
+        },
+        {
+          "name": "Maude Belle Shapley Shankland",
+          "identifiers": [
+            "TG09000026"
+          ],
+          "other_parent_name": null,
+          "other_parent_identifiers": [],
+          "mother_name": null,
+          "father_name": null,
+          "relationship_status": "recorded in archived database; review conflicts"
+        },
+        {
+          "name": "Ronald Mayo Shapley",
+          "identifiers": [
+            "TG09000031"
+          ],
+          "other_parent_name": null,
+          "other_parent_identifiers": [],
+          "mother_name": null,
+          "father_name": null,
+          "relationship_status": "recorded in archived database; review conflicts"
+        }
+      ],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://www.findagrave.com/memorial/242175098"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "William Joseph Hillman",
+      "identifiers": [
+        "TG09000083"
+      ],
+      "database_record_id": 211,
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [],
+      "children": [],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://raw.githubusercontent.com/we6jbo/AncesTale/refs/heads/master/records/TG09000083.md"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "birth_date",
+        "birth_location",
+        "death_date",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "William Schlorff",
+      "identifiers": [
+        "TG09000036"
+      ],
+      "database_record_id": 216,
+      "birth_date": "1867",
+      "birth_location": null,
+      "death_date": "1937 (aged 69–70)",
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [
+        "Ernest Robert Schlorff 1896–1961",
+        "Mary Johannsen",
+        "Mary Johansson Schlorff",
+        "Mary Johansson Schlorff 1868–1951 (m. 1902)",
+        "William John Ludwig Sclorf"
+      ],
+      "children": [
+        {
+          "name": "Minnie Schlorff",
+          "identifiers": [
+            "TG742018"
+          ],
+          "other_parent_name": "Mary Johannsen",
+          "other_parent_identifiers": [
+            "TG324786"
+          ],
+          "mother_name": "Mary Johannsen",
+          "father_name": "William John Ludwig Sclorf",
+          "relationship_status": "recorded in archived database; review conflicts"
+        },
+        {
+          "name": "Frank A. Schlorff",
+          "identifiers": [
+            "TG09000018"
+          ],
+          "other_parent_name": "Mary Johansson Schlorff",
+          "other_parent_identifiers": [
+            "TG09000023"
+          ],
+          "mother_name": null,
+          "father_name": null,
+          "relationship_status": "recorded in archived database; review conflicts"
+        },
+        {
+          "name": "Frank A. Schlorff VVeteran",
+          "identifiers": [
+            "TG09000103"
+          ],
+          "other_parent_name": "Mary Johansson Schlorff",
+          "other_parent_identifiers": [
+            "TG09000023"
+          ],
+          "mother_name": null,
+          "father_name": null,
+          "relationship_status": "recorded in archived database; review conflicts"
+        },
+        {
+          "name": "Hannah M. Schlorff Hensel",
+          "identifiers": [
+            "TG09000020"
+          ],
+          "other_parent_name": "Mary Johansson Schlorff",
+          "other_parent_identifiers": [
+            "TG09000023"
+          ],
+          "mother_name": null,
+          "father_name": null,
+          "relationship_status": "recorded in archived database; review conflicts"
+        },
+        {
+          "name": "Jacine Beatrice Bryant Emerson [Find a Grave 63103033]",
+          "identifiers": [
+            "TG09000069"
+          ],
+          "other_parent_name": "Mary Johansson Schlorff",
+          "other_parent_identifiers": [
+            "TG09000023"
+          ],
+          "mother_name": null,
+          "father_name": null,
+          "relationship_status": "recorded in archived database; review conflicts"
+        },
+        {
+          "name": "Minnie Schlorff",
+          "identifiers": [
+            "TG742018"
+          ],
+          "other_parent_name": "Mary Johansson Schlorff",
+          "other_parent_identifiers": [
+            "TG09000023"
+          ],
+          "mother_name": "Mary Johannsen",
+          "father_name": "William John Ludwig Sclorf",
+          "relationship_status": "recorded in archived database; review conflicts"
+        },
+        {
+          "name": "Minnie Schlorff Andrews",
+          "identifiers": [
+            "TG09000105"
+          ],
+          "other_parent_name": "Mary Johansson Schlorff",
+          "other_parent_identifiers": [
+            "TG09000023"
+          ],
+          "mother_name": null,
+          "father_name": null,
+          "relationship_status": "recorded in archived database; review conflicts"
+        },
+        {
+          "name": "Minnie Schlorff",
+          "identifiers": [
+            "TG742018"
+          ],
+          "other_parent_name": "William John Ludwig Sclorf",
+          "other_parent_identifiers": [
+            "TG916000"
+          ],
+          "mother_name": "Mary Johannsen",
+          "father_name": "William John Ludwig Sclorf",
+          "relationship_status": "recorded in archived database; review conflicts"
+        }
+      ],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://www.findagrave.com/memorial/51769240"
+      },
+      "inclusion_reasons": [
+        "not matched to geography.csv by normalized name or known identifier"
+      ],
+      "recheck_cases": [],
+      "review_notes": [],
+      "missing_fields": [
+        "birth_location",
+        "death_location",
+        "mother_name",
+        "father_name"
+      ]
+    },
+    {
+      "name": "William Shapley",
+      "identifiers": [
+        "TG618235",
+        "TG637004"
+      ],
+      "database_record_id": 217,
+      "birth_date": "ABT 1798/9",
+      "birth_location": "Granville, Washington, New York",
+      "death_date": "BET 1861 AND 1864",
+      "death_location": "Iowa",
+      "mother_name": "Mary Rice",
+      "father_name": "Patrick Henry Shapley",
+      "spouse_names": [
+        "Clarissa Gridley",
+        "Olive G Stafford",
+        "Olive Gertrude Stafford Shapley Dawley",
+        "William Ira “Will” Shapley"
+      ],
+      "children": [
+        {
+          "name": "Patrick Henry Shapley",
+          "identifiers": [
+            "TG491628"
+          ],
+          "other_parent_name": "Clarissa Gridley",
+          "other_parent_identifiers": [
+            "TG193860"
+          ],
+          "mother_name": "Clarissa Gridley",
+          "father_name": "William Shapley",
+          "relationship_status": "recorded in archived database; review conflicts"
+        },
+        {
+          "name": "Percy W Shapley",
+          "identifiers": [
+            "TG739123"
+          ],
+          "other_parent_name": "Olive G Stafford",
+          "other_parent_identifiers": [
+            "TG759401"
+          ],
+          "mother_name": "Olive G Stafford",
+          "father_name": "William Shapley",
+          "relationship_status": "recorded in archived database; review conflicts"
+        },
+        {
+          "name": "Percy W Shapley",
+          "identifiers": [
+            "TG739123"
+          ],
+          "other_parent_name": "Olive Gertrude Stafford Shapley Dawley",
+          "other_parent_identifiers": [
+            "TG09000028"
+          ],
+          "mother_name": "Olive G Stafford",
+          "father_name": "William Shapley",
+          "relationship_status": "recorded in archived database; review conflicts"
+        },
+        {
+          "name": "Percy W Shapley",
+          "identifiers": [
+            "TG739123"
+          ],
+          "other_parent_name": "William Ira “Will” Shapley",
+          "other_parent_identifiers": [
+            "TG09000035"
+          ],
+          "mother_name": "Olive G Stafford",
+          "father_name": "William Shapley",
+          "relationship_status": "recorded in archived database; review conflicts"
+        }
+      ],
+      "source": {
+        "archive": "AncesTale(3).zip / AncesTale/lib/story.db",
+        "record_website": "https://www.findagrave.com/memorial/242175098/william_ira-shapley"
+      },
+      "inclusion_reasons": [
+        "flagged in recheck.csv"
+      ],
+      "recheck_cases": [
+        {
+          "RecordType": "ParentDateCheck",
+          "PersonSerial": "TS000112",
+          "Name": "William Shapley",
+          "BirthYear": "1798",
+          "FullDateOfBirth": "",
+          "CaseID": "E3054952",
+          "Child": "Percy W Shapley",
+          "ParentAgeAtChildBirth": "103",
+          "RelatedCaseID": "",
+          "ReviewNote": "Year-only age is outside the requested maternal review range of 16-42. Confirm whether this parent is the mother and verify the child birth year first."
+        },
+        {
+          "RecordType": "ParentDateCheck",
+          "PersonSerial": "TS000112",
+          "Name": "William Shapley",
+          "BirthYear": "1798",
+          "FullDateOfBirth": "",
+          "CaseID": "E8681257",
+          "Child": "Patrick Henry Shapley",
+          "ParentAgeAtChildBirth": "48",
+          "RelatedCaseID": "",
+          "ReviewNote": "Year-only age is outside the requested maternal review range of 16-42. Confirm whether this parent is the mother and verify the child birth year first."
+        }
+      ],
+      "review_notes": [
+        "Review cases are not verified corrections; preserve recorded relationships pending evidence."
+      ],
+      "geography_serial": "TS000112",
+      "geography_context": [
+        {
+          "type": "Location",
+          "information": "ABT /9 Granville, Washington, New York (recorded; verify source)"
+        },
+        {
+          "type": "Time period",
+          "information": "Around 1798 (1790s)"
+        }
+      ],
+      "missing_fields": []
+    }
+  ],
+  "possible_missing_generations": [
+    {
+      "case_id": "U9105285",
+      "name": null,
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [],
+      "children": [],
+      "hypothesis": {
+        "estimated_birth_year": "1880",
+        "unverified_placeholder_date": "01/01/1880",
+        "possibly_related_child": "Alice S Elliott",
+        "related_case_id": "E8748510",
+        "note": "Possible intermediate generation only; inferred from a 51-year parent-child year gap. Verify with Mr. O'Neal."
+      },
+      "status": "unverified hypothesis; do not import as person"
+    },
+    {
+      "case_id": "U2545589",
+      "name": null,
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [],
+      "children": [],
+      "hypothesis": {
+        "estimated_birth_year": "1823",
+        "unverified_placeholder_date": "01/01/1823",
+        "possibly_related_child": "Percy W Shapley",
+        "related_case_id": "E3054952",
+        "note": "Possible intermediate generation only; inferred from a 103-year parent-child year gap. Verify with Mr. O'Neal."
+      },
+      "status": "unverified hypothesis; do not import as person"
+    },
+    {
+      "case_id": "U6855265",
+      "name": null,
+      "birth_date": null,
+      "birth_location": null,
+      "death_date": null,
+      "death_location": null,
+      "mother_name": null,
+      "father_name": null,
+      "spouse_names": [],
+      "children": [],
+      "hypothesis": {
+        "estimated_birth_year": "1815",
+        "unverified_placeholder_date": "01/01/1815",
+        "possibly_related_child": "Alice Waite",
+        "related_case_id": "E8155721",
+        "note": "Possible intermediate generation only; inferred from a 50-year parent-child year gap. Verify with Mr. O'Neal."
+      },
+      "status": "unverified hypothesis; do not import as person"
+    }
+  ]
+}
