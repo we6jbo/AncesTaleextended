@@ -14,6 +14,8 @@
 #include <QCryptographicHash>
 #include <QFileInfo>
 #include <QTimer>
+#include <QQueue>
+#include <QSet>
 #include <QCloseEvent>
 namespace {
 const QString code="AncesTaleextended";
@@ -33,6 +35,130 @@ QString plain(QString x){QTextDocument d;d.setHtml(x);return d.toPlainText().tri
 MainWindow::MainWindow(QWidget *parent):QMainWindow(parent),ui(new Ui::MainWindow){
 ui->setupUi(this); auto *layout=ui->verticalLayout; auto *heading=new QLabel("AncesTaleextended 0.1.8 | Jeremiah O'Neal | "+code); layout->addWidget(heading);
 auto *tabs=new QTabWidget;layout->addWidget(tabs);
+
+// Logs tab is RAM only; persistent messages go to the system journal via logger.
+const QStringList wwxCategories={"Non-runtime files", "Family data in other locations", "Privacy/publication labels", "GitHub commits", "Pedigree imports"};
+auto *logsPage=new QWidget;auto *logsLayout=new QVBoxLayout(logsPage);
+auto *logsNotice=new QLabel("500 encoded wwX$qz7wx hypotheses. Sending one does not mean that event occurred. Results appear below; system journal receives a bounded copy.");
+logsNotice->setWordWrap(true);logsLayout->addWidget(logsNotice);
+auto *thoughtCategory=new QComboBox;thoughtCategory->addItems(wwxCategories);logsLayout->addWidget(thoughtCategory);
+auto *thoughtList=new QListWidget;logsLayout->addWidget(thoughtList,1);
+auto *thoughtSend=new QPushButton("Send selected thought");logsLayout->addWidget(thoughtSend);
+auto *thoughtOutput=new QPlainTextEdit;thoughtOutput->setReadOnly(true);thoughtOutput->setPlaceholderText("Session-only thought requests and results. Nothing from this tab is saved to a project file.");logsLayout->addWidget(thoughtOutput,1);
+tabs->addTab(logsPage,"Logs");
+struct ThoughtEntry{int id;int category;QString gibberish;};
+auto *thoughtEntries=new QVector<ThoughtEntry>;
+connect(logsPage,&QObject::destroyed,[thoughtEntries]{delete thoughtEntries;});
+QFile thoughtsResource(":/wwx/wwx_thoughts.tsv");
+if(thoughtsResource.open(QIODevice::ReadOnly|QIODevice::Text)){
+    const auto lines=QString::fromUtf8(thoughtsResource.readAll()).split('\n',Qt::SkipEmptyParts);
+    for(const auto &line:lines){auto parts=line.split('\t');if(parts.size()!=3)continue;
+        bool okId=false,okCat=false;int id=parts[0].toInt(&okId),cat=parts[1].toInt(&okCat);
+        if(okId&&okCat&&id>=1&&id<=500&&cat>=1&&cat<=5&&parts[2].startsWith("wwX$qz7wx:"))
+            thoughtEntries->append({id,cat,parts[2]});
+    }
+}
+auto fillThoughtList=[=]{thoughtList->clear();for(const auto &entry:*thoughtEntries){
+    if(entry.category!=thoughtCategory->currentIndex()+1)continue;
+    auto *item=new QListWidgetItem(QString("%1  %2").arg(entry.id).arg(entry.gibberish.left(68)+"..."),thoughtList);
+    item->setData(Qt::UserRole,entry.id);
+}};
+connect(thoughtCategory,QOverload<int>::of(&QComboBox::currentIndexChanged),this,[=](int){fillThoughtList();});
+fillThoughtList();
+auto journal=[=](const QString &message){
+    // Pass argument directly, never through a shell. System logs may persist.
+    const QString exe=QStandardPaths::findExecutable("logger");
+    if(!exe.isEmpty())QProcess::startDetached(exe,{"-t","AncesTaleextended","--",message.left(1600)});
+};
+auto writeThoughtStatus=[=](const QString &message){
+    const QString bounded=message.left(1600);
+    thoughtOutput->appendPlainText(bounded);
+    journal(bounded);
+};
+
+// ATE_AUTO_THOUGHT_V1: event-bound encoded-only requests; no English question is used.
+// Serialized asynchronous queue: no overlapping thought processes or arbitrary shell execution.
+auto *thoughtQueue=new QQueue<int>;
+auto *thoughtProc=new QProcess(logsPage);
+auto *thoughtActive=new int(0);
+auto *thoughtSeen=new QSet<int>;
+connect(logsPage,&QObject::destroyed,[thoughtQueue,thoughtActive,thoughtSeen]{
+    delete thoughtQueue;delete thoughtActive;delete thoughtSeen;
+});
+thoughtProc->setProcessChannelMode(QProcess::SeparateChannels);
+auto *thoughtKick=new QTimer(logsPage);
+thoughtKick->setSingleShot(true);
+connect(thoughtKick,&QTimer::timeout,this,[=]{
+    if(thoughtProc->state()!=QProcess::NotRunning || thoughtQueue->isEmpty())return;
+    *thoughtActive=thoughtQueue->dequeue();
+    QString token;
+    for(const auto &entry:*thoughtEntries)
+        if(entry.id==*thoughtActive){token=entry.gibberish;break;}
+    if(token.isEmpty()){
+        writeThoughtStatus(QString("wwX$qz7wx entry %1 unavailable").arg(*thoughtActive));
+        thoughtKick->start(0);return;
+    }
+    const QString exe=QStandardPaths::findExecutable("thought");
+    if(exe.isEmpty()){
+        writeThoughtStatus("thought executable unavailable in PATH");
+        thoughtKick->start(0);return;
+    }
+    writeThoughtStatus(QString("wwX$qz7wx request %1: %2").arg(*thoughtActive).arg(token));
+    thoughtSend->setEnabled(false);
+    thoughtProc->setProperty("wwx_token",token);
+    thoughtProc->start(exe,{});
+});
+connect(thoughtProc,&QProcess::started,this,[=]{
+    thoughtProc->write(thoughtProc->property("wwx_token").toString().toUtf8()+"\n");
+    thoughtProc->closeWriteChannel();
+});
+connect(thoughtProc,QOverload<int,QProcess::ExitStatus>::of(&QProcess::finished),this,
+ [=](int exitCode,QProcess::ExitStatus exitStatus){
+    // Display the external executable's response, not any source question/explanation.
+    const QString output=QString::fromUtf8(thoughtProc->readAllStandardOutput());
+    const QString errors=QString::fromUtf8(thoughtProc->readAllStandardError());
+    writeThoughtStatus(QString("wwX$qz7wx response %1 exit=%2 normal=%3 result=%4 stderr=%5")
+      .arg(*thoughtActive).arg(exitCode).arg(exitStatus==QProcess::NormalExit)
+      .arg(output.left(3000),errors.left(400)));
+    thoughtSend->setEnabled(true);
+    thoughtKick->start(0);
+});
+connect(thoughtProc,&QProcess::errorOccurred,this,[=](QProcess::ProcessError){
+    writeThoughtStatus("thought invocation error: "+thoughtProc->errorString());
+    thoughtSend->setEnabled(true);
+    // FailedToStart may not emit finished; continue later requests.
+    if(thoughtProc->state()==QProcess::NotRunning)thoughtKick->start(0);
+});
+auto submitThought=[=](int id){
+    if(id<1||id>500)return;
+    if(thoughtQueue->size()>=64){writeThoughtStatus("wwX$qz7wx queue capacity reached");return;}
+    thoughtQueue->enqueue(id);
+    if(!thoughtKick->isActive())thoughtKick->start(0);
+};
+// Automatic triggers only after a matching observable event, not for all hypotheses.
+auto autoThought=[=](int id){
+    if(id<1||id>500||thoughtSeen->contains(id))return;
+    thoughtSeen->insert(id);
+    submitThought(id);
+};
+connect(thoughtSend,&QPushButton::clicked,this,[=]{
+    const auto *item=thoughtList->currentItem();
+    if(item)submitThought(item->data(Qt::UserRole).toInt());
+});
+// Startup facts observed in this session. Only source-defined encoded IDs are sent.
+QTimer::singleShot(0,this,[=]{
+    autoThought(401); // Startup has not invoked Import preview.
+    if(QDir(root+"/build").exists()||QDir(root+"/build-ate").exists()||QDir(root+"/build-main").exists())autoThought(21);
+    if(QFileInfo(root+"/.local-logs/session.log").exists())autoThought(31);
+    if(QFileInfo("/home/cgoneal-vault/gooddays.md").isFile())autoThought(246);
+    if(QFileInfo(root+"/ghtree.json").exists()){
+        QProcess checker;checker.start("git",{"-C",root,"check-ignore","-q","ghtree.json"});
+        if(checker.waitForFinished(1500)&&checker.exitStatus()==QProcess::NormalExit&&checker.exitCode()==0)
+            autoThought(301);
+    }
+});
+
+
 auto *captureFooter=new QLabel("infoartrecorder\nntfy-Jeremiah_B_ONeal_GPLv3@ntfy.sh");
 captureFooter->setTextFormat(Qt::PlainText);captureFooter->setAlignment(Qt::AlignCenter);
 captureFooter->setStyleSheet("QLabel { font-family: monospace; font-size: 16px; font-weight: bold; background-color: white; color: black; padding: 8px; }");
@@ -52,6 +178,7 @@ auto *identity=new QString;connect(state,&QObject::destroyed,[identity]{delete i
 connect(load,&QPushButton::clicked,this,[=]{auto *i=tree->currentItem();if(!i)return;if(!identity->isEmpty()&&QMessageBox::question(this,"Replace draft?","Discard current unsaved form and load selected record?")!=QMessageBox::Yes)return;auto p=i->data(0,Qt::UserRole+1).toJsonObject();for(auto *e:*edits)e->clear();auto name=p.value("name").toString();*identity=QString::fromUtf8(QJsonDocument(p).toJson(QJsonDocument::Compact));selected->setText("Selected JSON record: "+name+" | Review name split and all relationships before saving.");auto fillName=[=](int role,QString n){int k=n.lastIndexOf(' ');if(k<0){(*edits)[role*9+1]->setText(n);}else{(*edits)[role*9]->setText(n.left(k));(*edits)[role*9+1]->setText(n.mid(k+1));}};fillName(0,name);fillName(1,str(p.value("father_name")));fillName(2,str(p.value("mother_name")));for(auto pair:QList<QPair<int,QString>>{{3,"birth_date"},{4,"birth_location"},{6,"death_date"},{7,"death_location"}})(*edits)[pair.first]->setText(str(p.value(pair.second)));(*edits)[8]->setText(str(p.value("source").toObject().value("record_website")));for(int x:{3,6}){auto matches=QRegularExpression("\\b[0-9]{4}\\b").globalMatch((*edits)[x]->text());if(matches.hasNext()){auto m=matches.next();if(!matches.hasNext())(*edits)[x-1]->setText(m.captured());}} formTabs->setCurrentIndex(0);tabs->setCurrentWidget(family);});
 connect(save,&QPushButton::clicked,this,[=]{if(identity->isEmpty()||((*edits)[0]->text().trimmed().isEmpty()&&(*edits)[1]->text().trimmed().isEmpty())){status->setText("Select a person and enter a name first.");return;}QStringList cols,marks;QVariantList values;for(int r=0;r<roles.size();r++)for(int f=0;f<fields.size();f++){cols<<roles[r]+"_"+fields[f];marks<<"?";QString v=(*edits)[r*9+f]->text().trimmed();if(f==2||f==5){bool ok;int year=v.toInt(&ok);if(!v.isEmpty()&&(!ok||year<1||year>9999)){status->setText("Invalid year in "+roles[r]);return;}values<< (v.isEmpty()?QVariant():QVariant(year));}else values<<(v.isEmpty()?QVariant():QVariant(v));}if(QMessageBox::question(this,"Append record","Append one family group? Existing rows will not be edited.")!=QMessageBox::Yes)return;QString path=root+"/family_groups.db";if(!QFileInfo(path).isFile()){status->setText("Existing database not found. Nothing written.");return;}QString connection=uid();QString result;{auto db=QSqlDatabase::addDatabase("QSQLITE",connection);db.setDatabaseName(path);if(!db.open())result=db.lastError().text();else if(!db.transaction())result=db.lastError().text();else{QSqlQuery q(db);q.exec("PRAGMA foreign_keys=ON");if(!q.prepare("INSERT INTO family_groups ("+cols.join(',')+") VALUES ("+marks.join(',')+")"))result=q.lastError().text();else{for(auto v:values)q.addBindValue(v);if(!q.exec())result=q.lastError().text();else{auto id=q.lastInsertId();QSqlQuery n(db);n.prepare("INSERT INTO record_notes (family_group_id,field_name,note) VALUES (?,?,?)");n.addBindValue(id);n.addBindValue("person_source_url");n.addBindValue("Selected family JSON record; project provenance "+code+"; "+*identity);if(!n.exec())result=n.lastError().text();}}if(result.isEmpty()&&!db.commit())result=db.lastError().text();if(!result.isEmpty())db.rollback();}db.close();}QSqlDatabase::removeDatabase(connection);status->setText(result.isEmpty()?"Family group appended successfully.":"Save failed: "+result);if(result.isEmpty())log("Family group appended");});
 auto *geography=new GeographyWidget(root,this);tabs->addTab(geography,"Geography");
+connect(geography,&GeographyWidget::exportCompleted,this,[=]{autoThought(126);});
 
 // Private Import + Version workflow. Incoming xwtree is read-only; ghtree has priority.
 auto *importPage=new QWidget;auto *importLayout=new QVBoxLayout(importPage);
@@ -96,11 +223,44 @@ auto callBridge=[=](QStringList args,QPlainTextEdit *target, std::function<void(
   QString result=QString::fromUtf8(process->readAllStandardOutput()+process->readAllStandardError());
   const bool succeeded=(exit==0&&state==QProcess::NormalExit);
   target->setPlainText(result);
+  writeThoughtStatus(QString("Operation %1: %2 | result: %3").arg(args.join(' '),succeeded?"success":"failure",result.left(900)));
+  // Match encoded questions to proven operation/result rather than to a random hypothesis.
+  const QString action=args.value(0);
+  const QString lower=result.toLower();
+  if(action=="prepare-import"){
+      if(result.contains("USB EXPORT OK"))autoThought(107);
+      if(result.contains("USB WARNING:") && (lower.contains("not mounted")||lower.contains("mount failed")))autoThought(462);
+      if(result.contains("USB SETTINGS WARNING:"))autoThought(72);
+      if(result.contains("[0] GitHub raw")||result.contains("[1] GitHub raw")||result.contains("[2] GitHub raw"))autoThought(122);
+      if(result.contains("REMOTE WARNING:")){
+          if(lower.contains("timed out")||lower.contains("timeout"))autoThought(407);
+          else if(lower.contains("http error"))autoThought(412);
+          else if(lower.contains("json")||lower.contains("decode"))autoThought(417);
+      }
+  }else if(action=="apply" && succeeded && result.contains("IMPORTED OVERLAY")){
+      autoThought(112);
+  }else if(action=="commit-startup" && succeeded && result.contains("COMMIT OK")){
+      autoThought(103);
+  }else if(action=="versions" && succeeded && result.contains("LOCAL PRIVATE HISTORY:")){
+      autoThought(313);
+  }else if(action=="publish-tree"){
+      if(succeeded && result.contains("PUBLIC GHTREE PUSH SUCCESS:"))autoThought(498);
+      else if(result.contains("ALREADY MATCHES LOCAL"))autoThought(343);
+  }else if(action=="publish-date" && !succeeded && lower.contains("push")){
+      if(lower.contains("branch")||lower.contains("differ"))autoThought(333);
+      else if(lower.contains("staged"))autoThought(353);
+  }
+  if(!succeeded){
+      if(lower.contains("authorizej03")||lower.contains("unauthorized"))autoThought(338);
+      if(lower.contains("gitignore")||lower.contains("ignored"))autoThought(303);
+      if(lower.contains("merge conflict"))autoThought(393);
+      if(lower.contains("not found")||lower.contains("missing file"))autoThought(358);
+  }
   if(!succeeded) *rememberConfirmation=false;
   if(succeeded && after) after(result);
   process->deleteLater();
  });
- connect(process,&QProcess::errorOccurred,this,[=](QProcess::ProcessError){target->setPlainText(process->errorString());*rememberConfirmation=false;});
+ connect(process,&QProcess::errorOccurred,this,[=](QProcess::ProcessError){target->setPlainText(process->errorString());writeThoughtStatus("Operation "+args.join(" ")+" failed: "+process->errorString());*rememberConfirmation=false;});
  process->start("python3",QStringList{bridge}+args);
  process->closeWriteChannel();
 };
@@ -172,7 +332,7 @@ connect(preview,&QPushButton::clicked,this,[=]{runMusic("preview");});
 connect(download,&QPushButton::clicked,this,[=]{if(*reviewed!=url->text().trimmed())return;if(QMessageBox::question(this,"Rights review","Have you checked the recording, composition, attribution and license terms? Save locally only?")==QMessageBox::Yes)runMusic("download");});
 connect(proc,&QProcess::finished,this,[=](int exitCode,QProcess::ExitStatus exitStatus){output->setPlainText(QString::fromUtf8(proc->readAllStandardOutput()+proc->readAllStandardError()));preview->setEnabled(true);url->setEnabled(true);if(exitCode==0&&exitStatus==QProcess::NormalExit&&proc->property("mode").toString()=="preview"){*reviewed=url->text().trimmed();download->setEnabled(true);}else{reviewed->clear();download->setEnabled(false);}});
 connect(proc,&QProcess::errorOccurred,this,[=](QProcess::ProcessError){output->setPlainText(proc->errorString());preview->setEnabled(true);url->setEnabled(true);});
-connect(shot,&QPushButton::clicked,this,[=]{QString dir=QDir::homePath()+"/.38bTqEvQc/ancestaleextended";if(!QDir().mkpath(dir)){status->setText("Screenshot directory unavailable");return;}QString stamp=QDateTime::currentDateTime().toString("yyyyMMdd-HHmmss-zzz");QString path=dir+"/AncesTaleextended-0.1.8-"+stamp+"-"+uid()+".png";auto old=heading->text();heading->setText(old+" | "+QDate::currentDate().toString(Qt::ISODate));captureFooter->show();QCoreApplication::processEvents(QEventLoop::ExcludeUserInputEvents);QPixmap image=grab();captureFooter->hide();heading->setText(old);if(!image.save(path,"PNG")){status->setText("Screenshot save failed");log("Screenshot save failed");return;}QFile::setPermissions(path,QFileDevice::ReadOwner|QFileDevice::WriteOwner);log("Screenshot saved "+path);status->setText("Screenshot saved locally; registering for review.");auto *reg=new QProcess(this);connect(reg,&QProcess::finished,this,[=](int c,QProcess::ExitStatus e){bool ok=c==0&&e==QProcess::NormalExit;status->setText(ok?"Screenshot registered; review status must be verified.":"Screenshot retained; registration failed.");log(ok?"Screenshot registration returned success":"Screenshot registration failed");reg->deleteLater();});connect(reg,&QProcess::errorOccurred,this,[=](QProcess::ProcessError){status->setText("Screenshot retained; infoartrecorder unavailable or failed.");log("Screenshot registration process error");reg->deleteLater();});if(QStandardPaths::findExecutable("infoartrecorder").isEmpty()){
+connect(shot,&QPushButton::clicked,this,[=]{QString dir=QDir::homePath()+"/.38bTqEvQc/ancestaleextended";if(!QDir().mkpath(dir)){status->setText("Screenshot directory unavailable");return;}QString stamp=QDateTime::currentDateTime().toString("yyyyMMdd-HHmmss-zzz");QString path=dir+"/AncesTaleextended-0.1.8-"+stamp+"-"+uid()+".png";auto old=heading->text();heading->setText(old+" | "+QDate::currentDate().toString(Qt::ISODate));captureFooter->show();QCoreApplication::processEvents(QEventLoop::ExcludeUserInputEvents);QPixmap image=grab();captureFooter->hide();heading->setText(old);if(!image.save(path,"PNG")){status->setText("Screenshot save failed");log("Screenshot save failed");return;}QFile::setPermissions(path,QFileDevice::ReadOwner|QFileDevice::WriteOwner);log("Screenshot saved "+path);autoThought(152);status->setText("Screenshot saved locally; registering for review.");auto *reg=new QProcess(this);connect(reg,&QProcess::finished,this,[=](int c,QProcess::ExitStatus e){bool ok=c==0&&e==QProcess::NormalExit;status->setText(ok?"Screenshot registered; review status must be verified.":"Screenshot retained; registration failed.");log(ok?"Screenshot registration returned success":"Screenshot registration failed");reg->deleteLater();});connect(reg,&QProcess::errorOccurred,this,[=](QProcess::ProcessError){status->setText("Screenshot retained; infoartrecorder unavailable or failed.");log("Screenshot registration process error");reg->deleteLater();});if(QStandardPaths::findExecutable("infoartrecorder").isEmpty()){
  status->setText("Screenshot saved; optional infoartrecorder not installed."); reg->deleteLater();
 }else reg->start("infoartrecorder",{"add",path,"--project","AncesTaleextended"});});
 }

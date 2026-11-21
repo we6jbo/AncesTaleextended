@@ -218,5 +218,6 @@ void GeographyWidget::exportSelected(){
   QMessageBox::critical(this,"Export failed",file.errorString());return;
  }
  QFile::setPermissions(path,QFileDevice::ReadOwner|QFileDevice::WriteOwner);
+ emit exportCompleted();
  QMessageBox::information(this,"Export successful","Saved locally:\n"+path+"\n\nNothing was uploaded to ChatGPT.");
 }

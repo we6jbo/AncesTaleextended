@@ -14,6 +14,8 @@ class GeographyWidget : public QWidget {
  Q_OBJECT
 public:
  explicit GeographyWidget(const QString &dataRoot, QWidget *parent=nullptr);
+signals:
+ void exportCompleted();
 private:
  QString dataRoot_;
  QVector<GeoEntry> geography_;
