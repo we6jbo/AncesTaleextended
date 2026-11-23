@@ -1,4 +1,5 @@
 #include "geographywidget.h"
+#include "teachai_events.h"
 #include <QtWidgets>
 #include <QJsonDocument>
 #include <QJsonArray>
@@ -114,6 +115,7 @@ GeographyWidget::GeographyWidget(const QString &dataRoot,QWidget *parent)
  list_->setAlternatingRowColors(true);list_->setRootIsDecorated(false);split->addWidget(list_);
  details_=new QPlainTextEdit;details_->setReadOnly(true);details_->setPlaceholderText("Select a person to view birth/death information and recommended research sources.");split->addWidget(details_);
  split->setStretchFactor(0,3);split->setStretchFactor(1,2);
+ teachAiEvent("file.read",":/reference/geography.csv","embedded geography resource");
  QFile resource(":/reference/geography.csv");
  if(!resource.open(QIODevice::ReadOnly)) {
   summary_->setText("ERROR: Embedded geography database not found.");return;
@@ -144,6 +146,7 @@ GeographyWidget::GeographyWidget(const QString &dataRoot,QWidget *parent)
 }
 void GeographyWidget::reload(){
  matches_.clear();QJsonArray people;
+ teachAiEvent("file.read",dataRoot_+"/missing_family_records.json","geography reload");
  QFile file(dataRoot_+"/missing_family_records.json");
  if(file.open(QIODevice::ReadOnly)){
   auto j=QJsonDocument::fromJson(file.readAll());people=j.object().value("people").toArray();

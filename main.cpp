@@ -1,3 +1,11 @@
+#include "hoeu_shutdown.h"
+#include <QTimer>
+#include <QFile>
+#include <QFileInfo>
+#include <QDir>
+#include <QDateTime>
+#include <QDebug>
+#include <QCoreApplication>
 #include <QApplication>
 #include <QProcess>
 #include <QCoreApplication>
@@ -5,6 +13,13 @@
 #include "mainwindow.h"
 int main(int argc,char **argv) {
   QApplication app(argc,argv);
+  // ANCESTALEEXTENDED_RUNNING_HOEU_SAFE_CLOSE_V2
+  HoeuShutdown runningHoeuShutdown(&app);
+  if (!runningHoeuShutdown.start()) return 1;
+
+  // Replaced by the safe-close controller.
+
+
   app.setApplicationName("AncesTaleextended");
   app.setApplicationVersion("0.1.7");
   const QString helper=QCoreApplication::applicationDirPath()+"/tree_sync.py";
