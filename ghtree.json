@@ -126,6 +126,24 @@
       "code": "TG637004",
       "kind": "TG",
       "permanent": 0
+    },
+    {
+      "display_name": "Margaret Scott",
+      "code": "TG771250",
+      "kind": "TG",
+      "permanent": 0
+    },
+    {
+      "display_name": "Edward Mccabe",
+      "code": "TG307645",
+      "kind": "TG",
+      "permanent": 1
+    },
+    {
+      "display_name": "John McCabe",
+      "code": "TG628417",
+      "kind": "TG",
+      "permanent": 1
     }
   ],
   "imports": [],
@@ -873,6 +891,24 @@
       "display_name": "Abram1 Holderman1",
       "details": "birth_date: 8 Feb 1781; birth_location: Chester County, Pennsylvania, USA1; death_date: 8 May 1861; death_location: Kendall County, Illinois, USA1",
       "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Margaret Scott",
+      "details": "B:10 Feb 1793 Mercer, Franklin Co., Pennsylvania, United States D:1 Apr 1868 Butler, Butler Co., Pennsylvania, United States",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Edward Mccabe",
+      "details": "B:Mar1861 Scotland D:1900 Pennsylvania",
+      "name_permanent": 1
+    },
+    {
+      "person_no": 0,
+      "display_name": "John McCabe",
+      "details": "B:9 Feb 1896 Allegheny County Pittsburgh PA D:Aug 1982 Chestnut Ridge Cemetery, Eldersville, Washington, Pennsylvania, USA",
+      "name_permanent": 1
     }
   ],
   "provisional_facts": [],
@@ -932,6 +968,33 @@
       "relation": "parent",
       "confidence": 0.5,
       "permanent": 0
+    },
+    {
+      "child_id": "TG673245",
+      "parent_id": "TG771250",
+      "relation": "parent",
+      "confidence": 1.0,
+      "permanent": 1,
+      "verified": true,
+      "source": "ResearchNodeNetwork data/tg_registry_snapshot.json + tg_context_snapshot.json (TG673245/TG749502 record: 'Margaret Scott' parent of 'James Elliott', confidence 1.0, permanent 1; registry person_no 73 Margaret Scott TG771250); corroborated by ghtree.json captured_people 'James Elliott' parents ['John Elliott','Margaret Scott']"
+    },
+    {
+      "child_id": "TG654890",
+      "parent_id": "TG673245",
+      "relation": "parent",
+      "confidence": 1.0,
+      "permanent": 1,
+      "verified": true,
+      "source": "ResearchNodeNetwork data/tg_registry_snapshot.json + tg_context_snapshot.json (TG673245 record: 'James Elliott' parent of 'James N Elliott', confidence 1.0, permanent 1); corroborated by ghtree.json captured_people 'James N Elliott' parents ['James Elliott','Margaret Elliott']"
+    },
+    {
+      "child_id": "TG628417",
+      "parent_id": "TG307645",
+      "relation": "parent",
+      "confidence": 1.0,
+      "permanent": 1,
+      "verified": true,
+      "source": "ResearchNodeNetwork data/tg_registry_snapshot.json + tg_context_snapshot.json (TG307645 record: 'Edward Mccabe' parent of 'John McCabe', confidence 1.0, permanent 1; registry person_no 8 John McCabe TG628417; Sarah McAvoy TG918273 also recorded as parent)"
     }
   ],
   "record_overrides": [],
