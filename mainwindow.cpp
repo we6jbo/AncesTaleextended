@@ -1,3 +1,4 @@
+#include "nov27_speech.h"
 #include <QGuiApplication>
 #include <QClipboard>
 #include "mainwindow.h"
@@ -390,6 +391,7 @@ connect(shot,&QPushButton::clicked,this,[=]{QString dir=QDir::homePath()+"/.38bT
     
 
 ATEMission::install(this,tabs);
+ATENov27::install(this,tabs);
 }
 MainWindow::~MainWindow(){delete ui;}
 

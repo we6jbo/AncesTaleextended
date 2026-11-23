@@ -14,3 +14,6 @@ install(FILES music_import.py DESTINATION bin)
 
 configure_file(${CMAKE_CURRENT_SOURCE_DIR}/tree_sync.py ${CMAKE_CURRENT_BINARY_DIR}/tree_sync.py COPYONLY)
 install(FILES tree_sync.py DESTINATION bin)
+
+# Original genealogy GUI: the new launcher owns the plain AncesTaleextended name.
+set_target_properties(AncesTaleextended PROPERTIES OUTPUT_NAME "AncesTaleextended-program")

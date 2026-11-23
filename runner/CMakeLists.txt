@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.21)
+project(AncesRunner LANGUAGES CXX)
+set(CMAKE_CXX_STANDARD 17)
+find_package(Qt6 REQUIRED COMPONENTS Widgets)
+qt_add_executable(runner runner.cpp)
+target_link_libraries(runner PRIVATE Qt6::Widgets)
