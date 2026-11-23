@@ -144,6 +144,30 @@
       "code": "TG628417",
       "kind": "TG",
       "permanent": 1
+    },
+    {
+      "display_name": "Olive G Stafford",
+      "code": "TG759401",
+      "kind": "TG",
+      "permanent": 1
+    },
+    {
+      "display_name": "Alice Waite",
+      "code": "TG907216",
+      "kind": "TG",
+      "permanent": 1
+    },
+    {
+      "display_name": "Samuel Waite",
+      "code": "LZD5-JZ2",
+      "kind": "FS",
+      "permanent": 0
+    },
+    {
+      "display_name": "Sarah Greene",
+      "code": "LYFQ-H8N",
+      "kind": "FS",
+      "permanent": 0
     }
   ],
   "imports": [],
@@ -909,6 +933,30 @@
       "display_name": "John McCabe",
       "details": "B:9 Feb 1896 Allegheny County Pittsburgh PA D:Aug 1982 Chestnut Ridge Cemetery, Eldersville, Washington, Pennsylvania, USA",
       "name_permanent": 1
+    },
+    {
+      "person_no": 0,
+      "display_name": "Olive G Stafford",
+      "details": "B:30 Apr 1876 Calamus, Wisconsin D:22 May 1946 Charles City, Floyd, Iowa, USA (FamilySearch LVLQ-PB6, 36 sources)",
+      "name_permanent": 1
+    },
+    {
+      "person_no": 0,
+      "display_name": "Alice Waite",
+      "details": "B:27 November 1840 Lorain, Lorain, Ohio D:4 July 1914 Gardena, Bottineau, North Dakota, USA",
+      "name_permanent": 1
+    },
+    {
+      "person_no": 0,
+      "display_name": "Samuel Waite",
+      "details": "B:1 Jan 1738 Fisherville, Exeter, Washington, Rhode Island, United States D:31 Dec 1811 Prince Edward Island, British North America (FamilySearch LZD5-JZ2, 8 sources)",
+      "name_permanent": 0
+    },
+    {
+      "person_no": 0,
+      "display_name": "Sarah Greene",
+      "details": "B:1701 Portsmouth, Newport, Rhode Island, USA D:24 Oct 1774 Washington, Rhode Island, USA (FamilySearch LYFQ-H8N, 32 sources)",
+      "name_permanent": 0
     }
   ],
   "provisional_facts": [],
@@ -995,6 +1043,42 @@
       "permanent": 1,
       "verified": true,
       "source": "ResearchNodeNetwork data/tg_registry_snapshot.json + tg_context_snapshot.json (TG307645 record: 'Edward Mccabe' parent of 'John McCabe', confidence 1.0, permanent 1; registry person_no 8 John McCabe TG628417; Sarah McAvoy TG918273 also recorded as parent)"
+    },
+    {
+      "child_id": "TG759401",
+      "parent_id": "TG907216",
+      "relation": "parent",
+      "confidence": 1.0,
+      "permanent": 1,
+      "verified": true,
+      "source": "ResearchNodeNetwork data/tg_registry_snapshot.json + tg_context_snapshot.json: 'Alice Waite' parent of 'Olive G Stafford', confidence 1.0, permanent 1; FamilySearch LVLQ-PB6 (Olive Gertrude Stafford, 36 sources, quality High)"
+    },
+    {
+      "child_id": "TG907216",
+      "parent_id": "TG740772",
+      "relation": "parent",
+      "confidence": 1.0,
+      "permanent": 1,
+      "verified": true,
+      "source": "ResearchNodeNetwork data/tg_registry_snapshot.json + tg_context_snapshot.json: 'Barton J Waite' parent of 'Alice Waite', confidence 1.0, permanent 1; user FamilySearch notes /tmp/heman/it.txt (2026-11-23): Barton Waite married Sarah Elizabeth Mendenhall (FS LC9N-G2N)"
+    },
+    {
+      "child_id": "TG740772",
+      "parent_id": "LZD5-JZ2",
+      "relation": "parent",
+      "confidence": 1.0,
+      "permanent": 1,
+      "verified": true,
+      "source": "user FamilySearch notes /tmp/heman/it.txt (2026-11-23): Barton Waite's father is Samuel Waite (FS LZD5-JZ2, b. 1738 Fisherville, Exeter, Washington, RI, d. 1811 PEI, 8 sources); corroborated by FamilySearch public tree LZD5-1XQ (Eleanor Waite, lists brother Barton Waite)"
+    },
+    {
+      "child_id": "LZD5-JZ2",
+      "parent_id": "LYFQ-H8N",
+      "relation": "parent",
+      "confidence": 1.0,
+      "permanent": 1,
+      "verified": true,
+      "source": "user FamilySearch notes /tmp/heman/it.txt (2026-11-23): Samuel Waite's mother is Sarah Greene (FS LYFQ-H8N, b. 1701 Portsmouth, Newport, RI, d. 24 Oct 1774 Washington, RI, 32 sources); corroborated by FamilySearch public tree LZD5-1XQ (mother 'Sarah Greene 1700-1774') and WikiTree Greene-1537 'Sarah (Greene) Waite (1700-1774)'"
     }
   ],
   "record_overrides": [],
