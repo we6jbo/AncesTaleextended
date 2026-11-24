@@ -276,6 +276,48 @@
       "code": "TG999320",
       "kind": "TG",
       "permanent": 0
+    },
+    {
+      "display_name": "Sarah McAvoy",
+      "code": "TG918273",
+      "kind": "TG",
+      "permanent": 0
+    },
+    {
+      "display_name": "James McAvoy",
+      "code": "TG891052",
+      "kind": "TG",
+      "permanent": 0
+    },
+    {
+      "display_name": "Rosamund Sloan",
+      "code": "TG540918",
+      "kind": "TG",
+      "permanent": 0
+    },
+    {
+      "display_name": "James McCabe",
+      "code": "TG654147",
+      "kind": "TG",
+      "permanent": 0
+    },
+    {
+      "display_name": "Mary McCabe",
+      "code": "TG812186",
+      "kind": "TG",
+      "permanent": 0
+    },
+    {
+      "display_name": "Sarah Ann McAvoy",
+      "code": "TG932996",
+      "kind": "TG",
+      "permanent": 0
+    },
+    {
+      "display_name": "John Sloan",
+      "code": "TG857477",
+      "kind": "TG",
+      "permanent": 0
     }
   ],
   "imports": [],
@@ -1322,6 +1364,60 @@
       "permanent": 1,
       "verified": true,
       "source": "ResearchNodeNetwork export ~/.local/state/research-node-network/exports/network-20261123-152002.json (2026-11-23 15:20 PST; confirmed again via research-node-network-agent traverse 2026-11-23 ~17:41): Nancy Jane Lambert TG348671 (perm 1) parent Tabitha Ann Brown TG370924 (perm 1); Tabitha Ann Brown parents John W Brown TG718808 (perm 0), Nancy Jan Wilhite TG999320 (perm 0)"
+    },
+    {
+      "child_id": "TG628417",
+      "parent_id": "TG918273",
+      "relation": "parent",
+      "confidence": 1.0,
+      "permanent": 1,
+      "verified": true,
+      "source": "ResearchNodeNetwork export ~/.local/state/research-node-network/exports/network-20261123-152002.json (2026-11-23): John McCabe TG628417 parents Edward Mccabe TG307645 + Sarah McAvoy TG918273; Edward Mccabe TG307645 parents James McCabe TG654147 + Mary TG812186; Sarah McAvoy TG918273 parents James McAvoy TG891052 + Rosamund Sloan TG540918; James McAvoy TG891052 children incl. Sarah Ann McAvoy TG932996; user FamilySearch scrape /tmp/ec/read.txt preserved at /home/we6jbo/.local/state/AncesTaleextended/research/2026-11-23-ec-read-txt-FS-scrape-McCabe.txt (sha256 15571ddd3b2d7b2f10c97e82b2fd945c97a850ffea8fa5f17d0111e00fb5be26): line 202 'John McCabes father is Edward McCabe and mom is Sarah Ann McAvoy' (John McCabe GWGG-1HG, Edward McCabe GLZ8-8ZX, Sarah Ann McAvoy L16Q-LV8); line 113 'John McCabe was married to Alice Elliott' (L16Q-LK4); line 287 'Edward Mccabe was married to Sarah Ann McAvoy'; line 364 'Edward McCabes parents are James McCabe (GZK2-LMJ) and Mary McCabe (GZK2-VTN)'; line 416 'James McCabe was married to Mary McCabe'; line 465 \"Sarah McAvoys parents are James McAvoy (L16J-ZZY) and Rose Sloan (GFCT-LD1)\"; line 528 'James McAvoy was married to Rose Sloan' (mother; scrape spells 'Sarah Ann McAvoy' L16Q-LV8, RNN parent node 'Sarah McAvoy' TG918273)"
+    },
+    {
+      "child_id": "TG307645",
+      "parent_id": "TG654147",
+      "relation": "parent",
+      "confidence": 1.0,
+      "permanent": 1,
+      "verified": true,
+      "source": "ResearchNodeNetwork export ~/.local/state/research-node-network/exports/network-20261123-152002.json (2026-11-23): John McCabe TG628417 parents Edward Mccabe TG307645 + Sarah McAvoy TG918273; Edward Mccabe TG307645 parents James McCabe TG654147 + Mary TG812186; Sarah McAvoy TG918273 parents James McAvoy TG891052 + Rosamund Sloan TG540918; James McAvoy TG891052 children incl. Sarah Ann McAvoy TG932996; user FamilySearch scrape /tmp/ec/read.txt preserved at /home/we6jbo/.local/state/AncesTaleextended/research/2026-11-23-ec-read-txt-FS-scrape-McCabe.txt (sha256 15571ddd3b2d7b2f10c97e82b2fd945c97a850ffea8fa5f17d0111e00fb5be26): line 202 'John McCabes father is Edward McCabe and mom is Sarah Ann McAvoy' (John McCabe GWGG-1HG, Edward McCabe GLZ8-8ZX, Sarah Ann McAvoy L16Q-LV8); line 113 'John McCabe was married to Alice Elliott' (L16Q-LK4); line 287 'Edward Mccabe was married to Sarah Ann McAvoy'; line 364 'Edward McCabes parents are James McCabe (GZK2-LMJ) and Mary McCabe (GZK2-VTN)'; line 416 'James McCabe was married to Mary McCabe'; line 465 \"Sarah McAvoys parents are James McAvoy (L16J-ZZY) and Rose Sloan (GFCT-LD1)\"; line 528 'James McAvoy was married to Rose Sloan'"
+    },
+    {
+      "child_id": "TG307645",
+      "parent_id": "TG812186",
+      "relation": "parent",
+      "confidence": 1.0,
+      "permanent": 1,
+      "verified": true,
+      "source": "ResearchNodeNetwork export ~/.local/state/research-node-network/exports/network-20261123-152002.json (2026-11-23): John McCabe TG628417 parents Edward Mccabe TG307645 + Sarah McAvoy TG918273; Edward Mccabe TG307645 parents James McCabe TG654147 + Mary TG812186; Sarah McAvoy TG918273 parents James McAvoy TG891052 + Rosamund Sloan TG540918; James McAvoy TG891052 children incl. Sarah Ann McAvoy TG932996; user FamilySearch scrape /tmp/ec/read.txt preserved at /home/we6jbo/.local/state/AncesTaleextended/research/2026-11-23-ec-read-txt-FS-scrape-McCabe.txt (sha256 15571ddd3b2d7b2f10c97e82b2fd945c97a850ffea8fa5f17d0111e00fb5be26): line 202 'John McCabes father is Edward McCabe and mom is Sarah Ann McAvoy' (John McCabe GWGG-1HG, Edward McCabe GLZ8-8ZX, Sarah Ann McAvoy L16Q-LV8); line 113 'John McCabe was married to Alice Elliott' (L16Q-LK4); line 287 'Edward Mccabe was married to Sarah Ann McAvoy'; line 364 'Edward McCabes parents are James McCabe (GZK2-LMJ) and Mary McCabe (GZK2-VTN)'; line 416 'James McCabe was married to Mary McCabe'; line 465 \"Sarah McAvoys parents are James McAvoy (L16J-ZZY) and Rose Sloan (GFCT-LD1)\"; line 528 'James McAvoy was married to Rose Sloan' (scrape: Mary McCabe FS GZK2-VTN)"
+    },
+    {
+      "child_id": "TG918273",
+      "parent_id": "TG891052",
+      "relation": "parent",
+      "confidence": 1.0,
+      "permanent": 1,
+      "verified": true,
+      "source": "ResearchNodeNetwork export ~/.local/state/research-node-network/exports/network-20261123-152002.json (2026-11-23): John McCabe TG628417 parents Edward Mccabe TG307645 + Sarah McAvoy TG918273; Edward Mccabe TG307645 parents James McCabe TG654147 + Mary TG812186; Sarah McAvoy TG918273 parents James McAvoy TG891052 + Rosamund Sloan TG540918; James McAvoy TG891052 children incl. Sarah Ann McAvoy TG932996; user FamilySearch scrape /tmp/ec/read.txt preserved at /home/we6jbo/.local/state/AncesTaleextended/research/2026-11-23-ec-read-txt-FS-scrape-McCabe.txt (sha256 15571ddd3b2d7b2f10c97e82b2fd945c97a850ffea8fa5f17d0111e00fb5be26): line 202 'John McCabes father is Edward McCabe and mom is Sarah Ann McAvoy' (John McCabe GWGG-1HG, Edward McCabe GLZ8-8ZX, Sarah Ann McAvoy L16Q-LV8); line 113 'John McCabe was married to Alice Elliott' (L16Q-LK4); line 287 'Edward Mccabe was married to Sarah Ann McAvoy'; line 364 'Edward McCabes parents are James McCabe (GZK2-LMJ) and Mary McCabe (GZK2-VTN)'; line 416 'James McCabe was married to Mary McCabe'; line 465 \"Sarah McAvoys parents are James McAvoy (L16J-ZZY) and Rose Sloan (GFCT-LD1)\"; line 528 'James McAvoy was married to Rose Sloan'"
+    },
+    {
+      "child_id": "TG918273",
+      "parent_id": "TG540918",
+      "relation": "parent",
+      "confidence": 1.0,
+      "permanent": 1,
+      "verified": true,
+      "source": "ResearchNodeNetwork export ~/.local/state/research-node-network/exports/network-20261123-152002.json (2026-11-23): John McCabe TG628417 parents Edward Mccabe TG307645 + Sarah McAvoy TG918273; Edward Mccabe TG307645 parents James McCabe TG654147 + Mary TG812186; Sarah McAvoy TG918273 parents James McAvoy TG891052 + Rosamund Sloan TG540918; James McAvoy TG891052 children incl. Sarah Ann McAvoy TG932996; user FamilySearch scrape /tmp/ec/read.txt preserved at /home/we6jbo/.local/state/AncesTaleextended/research/2026-11-23-ec-read-txt-FS-scrape-McCabe.txt (sha256 15571ddd3b2d7b2f10c97e82b2fd945c97a850ffea8fa5f17d0111e00fb5be26): line 202 'John McCabes father is Edward McCabe and mom is Sarah Ann McAvoy' (John McCabe GWGG-1HG, Edward McCabe GLZ8-8ZX, Sarah Ann McAvoy L16Q-LV8); line 113 'John McCabe was married to Alice Elliott' (L16Q-LK4); line 287 'Edward Mccabe was married to Sarah Ann McAvoy'; line 364 'Edward McCabes parents are James McCabe (GZK2-LMJ) and Mary McCabe (GZK2-VTN)'; line 416 'James McCabe was married to Mary McCabe'; line 465 \"Sarah McAvoys parents are James McAvoy (L16J-ZZY) and Rose Sloan (GFCT-LD1)\"; line 528 'James McAvoy was married to Rose Sloan' (scrape: Rose Sloan FS GFCT-LD1)"
+    },
+    {
+      "child_id": "TG932996",
+      "parent_id": "TG891052",
+      "relation": "parent",
+      "confidence": 1.0,
+      "permanent": 1,
+      "verified": true,
+      "source": "ResearchNodeNetwork export ~/.local/state/research-node-network/exports/network-20261123-152002.json (2026-11-23): John McCabe TG628417 parents Edward Mccabe TG307645 + Sarah McAvoy TG918273; Edward Mccabe TG307645 parents James McCabe TG654147 + Mary TG812186; Sarah McAvoy TG918273 parents James McAvoy TG891052 + Rosamund Sloan TG540918; James McAvoy TG891052 children incl. Sarah Ann McAvoy TG932996; user FamilySearch scrape /tmp/ec/read.txt preserved at /home/we6jbo/.local/state/AncesTaleextended/research/2026-11-23-ec-read-txt-FS-scrape-McCabe.txt (sha256 15571ddd3b2d7b2f10c97e82b2fd945c97a850ffea8fa5f17d0111e00fb5be26): line 202 'John McCabes father is Edward McCabe and mom is Sarah Ann McAvoy' (John McCabe GWGG-1HG, Edward McCabe GLZ8-8ZX, Sarah Ann McAvoy L16Q-LV8); line 113 'John McCabe was married to Alice Elliott' (L16Q-LK4); line 287 'Edward Mccabe was married to Sarah Ann McAvoy'; line 364 'Edward McCabes parents are James McCabe (GZK2-LMJ) and Mary McCabe (GZK2-VTN)'; line 416 'James McCabe was married to Mary McCabe'; line 465 \"Sarah McAvoys parents are James McAvoy (L16J-ZZY) and Rose Sloan (GFCT-LD1)\"; line 528 'James McAvoy was married to Rose Sloan'"
     }
   ],
   "record_overrides": [],
@@ -1332,6 +1428,12 @@
       "person2_id": "TG286753",
       "verified": true,
       "source": "user FamilySearch scrape preserved at ~/.local/state/AncesTaleextended/research/2026-11-23-readme-tmp-r-FS-scrape-Maynard.txt (sha256 3def8aef4e912a9cb8897faf4a31182507361fda18fbc1256bf25aef3190be7f), line 311: 'Burke parents are William Riley Maynard and Gael Agnes Hillman'; ResearchNodeNetwork exports ~/.local/state/research-node-network/exports/network-20261123-152001.json and -152002.json (2026-11-23 ~15:20 PST): Gail Agnes Hillman TG286753 (perm 1) wife of William R Maynard TG715094"
+    },
+    {
+      "person1_id": "TG307645",
+      "person2_id": "TG918273",
+      "verified": true,
+      "source": "user FamilySearch scrape /tmp/ec/read.txt preserved at /home/we6jbo/.local/state/AncesTaleextended/research/2026-11-23-ec-read-txt-FS-scrape-McCabe.txt (sha256 15571ddd3b2d7b2f10c97e82b2fd945c97a850ffea8fa5f17d0111e00fb5be26): line 202 'John McCabes father is Edward McCabe and mom is Sarah Ann McAvoy' (John McCabe GWGG-1HG, Edward McCabe GLZ8-8ZX, Sarah Ann McAvoy L16Q-LV8); line 113 'John McCabe was married to Alice Elliott' (L16Q-LK4); line 287 'Edward Mccabe was married to Sarah Ann McAvoy'; line 364 'Edward McCabes parents are James McCabe (GZK2-LMJ) and Mary McCabe (GZK2-VTN)'; line 416 'James McCabe was married to Mary McCabe'; line 465 \"Sarah McAvoys parents are James McAvoy (L16J-ZZY) and Rose Sloan (GFCT-LD1)\"; line 528 'James McAvoy was married to Rose Sloan' (line 287); ResearchNodeNetwork export ~/.local/state/research-node-network/exports/network-20261123-152002.json (2026-11-23): John McCabe TG628417 parents Edward Mccabe TG307645 + Sarah McAvoy TG918273; Edward Mccabe TG307645 parents James McCabe TG654147 + Mary TG812186; Sarah McAvoy TG918273 parents James McAvoy TG891052 + Rosamund Sloan TG540918; James McAvoy TG891052 children incl. Sarah Ann McAvoy TG932996 (John McCabe TG628417 has parents Edward Mccabe TG307645 and Sarah McAvoy TG918273)"
     }
   ],
   "duplicate_reviews": [],
