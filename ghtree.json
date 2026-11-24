@@ -222,6 +222,36 @@
       "code": "TG286753",
       "kind": "TG",
       "permanent": 0
+    },
+    {
+      "display_name": "Gail Agnes Hillman",
+      "code": "TG286753",
+      "kind": "TG",
+      "permanent": 0
+    },
+    {
+      "display_name": "Agnes Maria Platt",
+      "code": "TG148675",
+      "kind": "TG",
+      "permanent": 0
+    },
+    {
+      "display_name": "Fred Ernest Hillman",
+      "code": "TG796320",
+      "kind": "TG",
+      "permanent": 0
+    },
+    {
+      "display_name": "David C Platt",
+      "code": "TG158342",
+      "kind": "TG",
+      "permanent": 0
+    },
+    {
+      "display_name": "Miranda McLane",
+      "code": "TG112471",
+      "kind": "TG",
+      "permanent": 0
     }
   ],
   "imports": [],
@@ -1196,6 +1226,51 @@
       "permanent": 1,
       "verified": true,
       "source": "ResearchNodeNetwork exports ~/.local/state/research-node-network/exports/network-20261123-152001.json and -152002.json (2026-11-23 ~15:20 PST): 'William R Maynard' TG715094 (perm 1) parents George Maynard TG859743, Margaret Rose Sansom TG502168; Burke C Maynard TG239670 child of William R Maynard; user FamilySearch scrape preserved at ~/.local/state/AncesTaleextended/research/2026-11-23-readme-tmp-r-FS-scrape-Maynard.txt (sha256 3def8aef4e912a9cb8897faf4a31182507361fda18fbc1256bf25aef3190be7f), line 311: 'Burke parents are William Riley Maynard and Gael Agnes Hillman'"
+    },
+    {
+      "child_id": "TG286753",
+      "parent_id": "TG148675",
+      "relation": "parent",
+      "confidence": 1.0,
+      "permanent": 1,
+      "verified": true,
+      "source": "ResearchNodeNetwork exports ~/.local/state/research-node-network/exports/network-20261123-152001.json and -152002.json (2026-11-23 ~15:20 PST): Gail Agnes Hillman TG286753 (perm 1) parents Agnes Maria Platt TG148675 (perm 1), Fred Ernest Hillman TG796320 (perm 1), child Burke C Maynard TG239670; Agnes Maria Platt TG148675 parents David C Platt TG158342 (perm 0), Miranda McLane TG112471 (perm 0); user FamilySearch scrape ~/.local/state/AncesTaleextended/research/2026-11-23-readme-tmp-r-FS-scrape-Maynard.txt (sha256 3def8aef...9be7f): Gael Agnes Hillman KHL2-C8S = William Riley Maynard's wife; line 311 'Burke parents are William Riley Maynard and Gael Agnes Hillman'; family_groups.db row id=4 (appended 2026-11-23 ~15:35 PST from these same sources)"
+    },
+    {
+      "child_id": "TG286753",
+      "parent_id": "TG796320",
+      "relation": "parent",
+      "confidence": 1.0,
+      "permanent": 1,
+      "verified": true,
+      "source": "ResearchNodeNetwork exports ~/.local/state/research-node-network/exports/network-20261123-152001.json and -152002.json (2026-11-23 ~15:20 PST): Gail Agnes Hillman TG286753 (perm 1) parents Agnes Maria Platt TG148675 (perm 1), Fred Ernest Hillman TG796320 (perm 1), child Burke C Maynard TG239670; Agnes Maria Platt TG148675 parents David C Platt TG158342 (perm 0), Miranda McLane TG112471 (perm 0); family_groups.db row id=4 (appended 2026-11-23 ~15:35 PST from these same sources)"
+    },
+    {
+      "child_id": "TG148675",
+      "parent_id": "TG158342",
+      "relation": "parent",
+      "confidence": 1.0,
+      "permanent": 1,
+      "verified": true,
+      "source": "ResearchNodeNetwork exports ~/.local/state/research-node-network/exports/network-20261123-152001.json and -152002.json (2026-11-23 ~15:20 PST): Gail Agnes Hillman TG286753 (perm 1) parents Agnes Maria Platt TG148675 (perm 1), Fred Ernest Hillman TG796320 (perm 1), child Burke C Maynard TG239670; Agnes Maria Platt TG148675 parents David C Platt TG158342 (perm 0), Miranda McLane TG112471 (perm 0); family_groups.db row id=4 (appended 2026-11-23 ~15:35 PST from these same sources)"
+    },
+    {
+      "child_id": "TG148675",
+      "parent_id": "TG112471",
+      "relation": "parent",
+      "confidence": 1.0,
+      "permanent": 1,
+      "verified": true,
+      "source": "ResearchNodeNetwork exports ~/.local/state/research-node-network/exports/network-20261123-152001.json and -152002.json (2026-11-23 ~15:20 PST): Gail Agnes Hillman TG286753 (perm 1) parents Agnes Maria Platt TG148675 (perm 1), Fred Ernest Hillman TG796320 (perm 1), child Burke C Maynard TG239670; Agnes Maria Platt TG148675 parents David C Platt TG158342 (perm 0), Miranda McLane TG112471 (perm 0)"
+    },
+    {
+      "child_id": "TG239670",
+      "parent_id": "TG286753",
+      "relation": "parent",
+      "confidence": 1.0,
+      "permanent": 1,
+      "verified": true,
+      "source": "ResearchNodeNetwork exports ~/.local/state/research-node-network/exports/network-20261123-152001.json and -152002.json (2026-11-23 ~15:20 PST): Gail Agnes Hillman TG286753 (perm 1) parents Agnes Maria Platt TG148675 (perm 1), Fred Ernest Hillman TG796320 (perm 1), child Burke C Maynard TG239670; Agnes Maria Platt TG148675 parents David C Platt TG158342 (perm 0), Miranda McLane TG112471 (perm 0); user FamilySearch scrape ~/.local/state/AncesTaleextended/research/2026-11-23-readme-tmp-r-FS-scrape-Maynard.txt (sha256 3def8aef...9be7f): Gael Agnes Hillman KHL2-C8S = William Riley Maynard's wife; line 311 'Burke parents are William Riley Maynard and Gael Agnes Hillman'; family_groups.db row id=4 (appended 2026-11-23 ~15:35 PST from these same sources)"
     }
   ],
   "record_overrides": [],
