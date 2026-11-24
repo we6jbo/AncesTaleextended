@@ -252,6 +252,30 @@
       "code": "TG112471",
       "kind": "TG",
       "permanent": 0
+    },
+    {
+      "display_name": "Nancy Jane Lambert",
+      "code": "TG348671",
+      "kind": "TG",
+      "permanent": 0
+    },
+    {
+      "display_name": "Tabitha Brown",
+      "code": "TG370924",
+      "kind": "TG",
+      "permanent": 0
+    },
+    {
+      "display_name": "John W Brown",
+      "code": "TG718808",
+      "kind": "TG",
+      "permanent": 0
+    },
+    {
+      "display_name": "Nancy Jan Wilhite",
+      "code": "TG999320",
+      "kind": "TG",
+      "permanent": 0
     }
   ],
   "imports": [],
@@ -1271,6 +1295,33 @@
       "permanent": 1,
       "verified": true,
       "source": "ResearchNodeNetwork exports ~/.local/state/research-node-network/exports/network-20261123-152001.json and -152002.json (2026-11-23 ~15:20 PST): Gail Agnes Hillman TG286753 (perm 1) parents Agnes Maria Platt TG148675 (perm 1), Fred Ernest Hillman TG796320 (perm 1), child Burke C Maynard TG239670; Agnes Maria Platt TG148675 parents David C Platt TG158342 (perm 0), Miranda McLane TG112471 (perm 0); user FamilySearch scrape ~/.local/state/AncesTaleextended/research/2026-11-23-readme-tmp-r-FS-scrape-Maynard.txt (sha256 3def8aef...9be7f): Gael Agnes Hillman KHL2-C8S = William Riley Maynard's wife; line 311 'Burke parents are William Riley Maynard and Gael Agnes Hillman'; family_groups.db row id=4 (appended 2026-11-23 ~15:35 PST from these same sources)"
+    },
+    {
+      "child_id": "TG348671",
+      "parent_id": "TG370924",
+      "relation": "parent",
+      "confidence": 1.0,
+      "permanent": 1,
+      "verified": true,
+      "source": "ResearchNodeNetwork export ~/.local/state/research-node-network/exports/network-20261123-152002.json (2026-11-23 15:20 PST; confirmed again via research-node-network-agent traverse 2026-11-23 ~17:41): Nancy Jane Lambert TG348671 (perm 1) parent Tabitha Ann Brown TG370924 (perm 1); Tabitha Ann Brown parents John W Brown TG718808 (perm 0), Nancy Jan Wilhite TG999320 (perm 0) (quest Q10 endpoint 'Tabitha Brown' = RNN node 'Tabitha Ann Brown' TG370924)"
+    },
+    {
+      "child_id": "TG370924",
+      "parent_id": "TG718808",
+      "relation": "parent",
+      "confidence": 1.0,
+      "permanent": 1,
+      "verified": true,
+      "source": "ResearchNodeNetwork export ~/.local/state/research-node-network/exports/network-20261123-152002.json (2026-11-23 15:20 PST; confirmed again via research-node-network-agent traverse 2026-11-23 ~17:41): Nancy Jane Lambert TG348671 (perm 1) parent Tabitha Ann Brown TG370924 (perm 1); Tabitha Ann Brown parents John W Brown TG718808 (perm 0), Nancy Jan Wilhite TG999320 (perm 0)"
+    },
+    {
+      "child_id": "TG370924",
+      "parent_id": "TG999320",
+      "relation": "parent",
+      "confidence": 1.0,
+      "permanent": 1,
+      "verified": true,
+      "source": "ResearchNodeNetwork export ~/.local/state/research-node-network/exports/network-20261123-152002.json (2026-11-23 15:20 PST; confirmed again via research-node-network-agent traverse 2026-11-23 ~17:41): Nancy Jane Lambert TG348671 (perm 1) parent Tabitha Ann Brown TG370924 (perm 1); Tabitha Ann Brown parents John W Brown TG718808 (perm 0), Nancy Jan Wilhite TG999320 (perm 0)"
     }
   ],
   "record_overrides": [],
