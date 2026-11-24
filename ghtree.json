@@ -168,6 +168,60 @@
       "code": "LYFQ-H8N",
       "kind": "FS",
       "permanent": 0
+    },
+    {
+      "display_name": "William R Maynard",
+      "code": "TG715094",
+      "kind": "TG",
+      "permanent": 0
+    },
+    {
+      "display_name": "George Maynard",
+      "code": "TG859743",
+      "kind": "TG",
+      "permanent": 0
+    },
+    {
+      "display_name": "Margaret Rose Sansom",
+      "code": "TG502168",
+      "kind": "TG",
+      "permanent": 0
+    },
+    {
+      "display_name": "Riley Sansom",
+      "code": "TG563953",
+      "kind": "TG",
+      "permanent": 0
+    },
+    {
+      "display_name": "Sarah Cline",
+      "code": "TG208743",
+      "kind": "TG",
+      "permanent": 0
+    },
+    {
+      "display_name": "William Cline",
+      "code": "GTW5-Y8Y",
+      "kind": "FS",
+      "permanent": 0
+    },
+    {
+      "display_name": "Hannah Clevenger",
+      "code": "2M6C-D9X",
+      "kind": "FS",
+      "permanent": 0
+    },
+    {
+      "display_name": "Burke C Maynard",
+      "code": "TG239670",
+      "kind": "TG",
+      "permanent": 0
+    },
+    {
+      "display_name": "Gael Agnes Hillman",
+      "code": "TG286753",
+      "kind": "TG",
+      "permanent": 0
     }
   ],
   "imports": [],
@@ -1079,11 +1133,81 @@
       "permanent": 1,
       "verified": true,
       "source": "user FamilySearch notes /tmp/heman/it.txt (2026-11-23): Samuel Waite's mother is Sarah Greene (FS LYFQ-H8N, b. 1701 Portsmouth, Newport, RI, d. 24 Oct 1774 Washington, RI, 32 sources); corroborated by FamilySearch public tree LZD5-1XQ (mother 'Sarah Greene 1700-1774') and WikiTree Greene-1537 'Sarah (Greene) Waite (1700-1774)'"
+    },
+    {
+      "child_id": "TG715094",
+      "parent_id": "TG859743",
+      "relation": "parent",
+      "confidence": 1.0,
+      "permanent": 1,
+      "verified": true,
+      "source": "ResearchNodeNetwork exports ~/.local/state/research-node-network/exports/network-20261123-152001.json and -152002.json (2026-11-23 ~15:20 PST): 'William R Maynard' TG715094 (perm 1) parents George Maynard TG859743, Margaret Rose Sansom TG502168; Burke C Maynard TG239670 child of William R Maynard; user FamilySearch scrape preserved at ~/.local/state/AncesTaleextended/research/2026-11-23-readme-tmp-r-FS-scrape-Maynard.txt (sha256 3def8aef4e912a9cb8897faf4a31182507361fda18fbc1256bf25aef3190be7f), line 696: 'William Riley Maynards parents are George Maynard and Margaret Sansom' (FS KCPP-6TZ / KZL3-B8H / KF45-KRH)"
+    },
+    {
+      "child_id": "TG715094",
+      "parent_id": "TG502168",
+      "relation": "parent",
+      "confidence": 1.0,
+      "permanent": 1,
+      "verified": true,
+      "source": "ResearchNodeNetwork exports ~/.local/state/research-node-network/exports/network-20261123-152001.json and -152002.json (2026-11-23 ~15:20 PST): 'William R Maynard' TG715094 (perm 1) parents George Maynard TG859743, Margaret Rose Sansom TG502168; Burke C Maynard TG239670 child of William R Maynard; user FamilySearch scrape preserved at ~/.local/state/AncesTaleextended/research/2026-11-23-readme-tmp-r-FS-scrape-Maynard.txt (sha256 3def8aef4e912a9cb8897faf4a31182507361fda18fbc1256bf25aef3190be7f), line 696: 'William Riley Maynards parents are George Maynard and Margaret Sansom' (FS KCPP-6TZ / KZL3-B8H / KF45-KRH)"
+    },
+    {
+      "child_id": "TG502168",
+      "parent_id": "TG563953",
+      "relation": "parent",
+      "confidence": 1.0,
+      "permanent": 1,
+      "verified": true,
+      "source": "ResearchNodeNetwork exports ~/.local/state/research-node-network/exports/network-20261123-152001.json and -152002.json (2026-11-23 ~15:20 PST): 'Margaret Rose Sansom' TG502168 parents Riley Sansom TG563953 (perm 0), Sarah Sally Kline TG208743 (perm 0); user FamilySearch scrape preserved at ~/.local/state/AncesTaleextended/research/2026-11-23-readme-tmp-r-FS-scrape-Maynard.txt (sha256 3def8aef4e912a9cb8897faf4a31182507361fda18fbc1256bf25aef3190be7f), line 1121: 'Margaret Sansom's parents are Riley Sansom and Sarah Cline' (FS LVTN-YX6 / LZN6-Z2D)"
+    },
+    {
+      "child_id": "TG502168",
+      "parent_id": "TG208743",
+      "relation": "parent",
+      "confidence": 1.0,
+      "permanent": 1,
+      "verified": true,
+      "source": "ResearchNodeNetwork exports ~/.local/state/research-node-network/exports/network-20261123-152001.json and -152002.json (2026-11-23 ~15:20 PST): 'Margaret Rose Sansom' TG502168 parents Riley Sansom TG563953 (perm 0), Sarah Sally Kline TG208743 (perm 0); user FamilySearch scrape preserved at ~/.local/state/AncesTaleextended/research/2026-11-23-readme-tmp-r-FS-scrape-Maynard.txt (sha256 3def8aef4e912a9cb8897faf4a31182507361fda18fbc1256bf25aef3190be7f), line 1121: 'Margaret Sansom's parents are Riley Sansom and Sarah Cline' (FS LVTN-YX6 / LZN6-Z2D)"
+    },
+    {
+      "child_id": "TG208743",
+      "parent_id": "GTW5-Y8Y",
+      "relation": "parent",
+      "confidence": 1.0,
+      "permanent": 1,
+      "verified": true,
+      "source": "user FamilySearch scrape preserved at ~/.local/state/AncesTaleextended/research/2026-11-23-readme-tmp-r-FS-scrape-Maynard.txt (sha256 3def8aef4e912a9cb8897faf4a31182507361fda18fbc1256bf25aef3190be7f), line 1464: 'Sarah Cline's parents are William Cline and Hannah Clevenger' (FS GTW5-Y8Y / 2M6C-D9X) (William Cline has no RNN TG node; FS GTW5-Y8Y only)"
+    },
+    {
+      "child_id": "TG208743",
+      "parent_id": "2M6C-D9X",
+      "relation": "parent",
+      "confidence": 1.0,
+      "permanent": 1,
+      "verified": true,
+      "source": "user FamilySearch scrape preserved at ~/.local/state/AncesTaleextended/research/2026-11-23-readme-tmp-r-FS-scrape-Maynard.txt (sha256 3def8aef4e912a9cb8897faf4a31182507361fda18fbc1256bf25aef3190be7f), line 1464: 'Sarah Cline's parents are William Cline and Hannah Clevenger' (FS GTW5-Y8Y / 2M6C-D9X) (Hannah Clevenger has no RNN TG node; FS 2M6C-D9X only)"
+    },
+    {
+      "child_id": "TG239670",
+      "parent_id": "TG715094",
+      "relation": "parent",
+      "confidence": 1.0,
+      "permanent": 1,
+      "verified": true,
+      "source": "ResearchNodeNetwork exports ~/.local/state/research-node-network/exports/network-20261123-152001.json and -152002.json (2026-11-23 ~15:20 PST): 'William R Maynard' TG715094 (perm 1) parents George Maynard TG859743, Margaret Rose Sansom TG502168; Burke C Maynard TG239670 child of William R Maynard; user FamilySearch scrape preserved at ~/.local/state/AncesTaleextended/research/2026-11-23-readme-tmp-r-FS-scrape-Maynard.txt (sha256 3def8aef4e912a9cb8897faf4a31182507361fda18fbc1256bf25aef3190be7f), line 311: 'Burke parents are William Riley Maynard and Gael Agnes Hillman'"
     }
   ],
   "record_overrides": [],
   "duplicate_records": [],
-  "spouse_relationships": [],
+  "spouse_relationships": [
+    {
+      "person1_id": "TG715094",
+      "person2_id": "TG286753",
+      "verified": true,
+      "source": "user FamilySearch scrape preserved at ~/.local/state/AncesTaleextended/research/2026-11-23-readme-tmp-r-FS-scrape-Maynard.txt (sha256 3def8aef4e912a9cb8897faf4a31182507361fda18fbc1256bf25aef3190be7f), line 311: 'Burke parents are William Riley Maynard and Gael Agnes Hillman'; ResearchNodeNetwork exports ~/.local/state/research-node-network/exports/network-20261123-152001.json and -152002.json (2026-11-23 ~15:20 PST): Gail Agnes Hillman TG286753 (perm 1) wife of William R Maynard TG715094"
+    }
+  ],
   "duplicate_reviews": [],
   "captured_people": [
     {
