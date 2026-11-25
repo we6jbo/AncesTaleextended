@@ -22,3 +22,31 @@ __pycache__/
 build/
 build-*/
 running-hoeu.running
+
+# Private notes, logs and Qwen handoff data — must not be uploaded to GitHub
+# (contain protected tokens/dates, credentials handling, raw logs, or personal notes)
+qwen2-5-3b/
+memory.md
+what-oneal-wants.md
+audits-for-misunderstood-info.txt
+user-options.md
+daily.md
+nov23.md
+chatgpt-report.md
+vibe-init.md
+11am.txt
+runner-report.md
+thought
+
+# Local AI consultations, Qt settings and temporary data
+/classical-ai-design/
+/.qtcreator/
+*.log
+*.swp
+*.swo
+*.db-wal
+*.db-shm
+*.db-journal
+.env
+.env.*
+!.env.example

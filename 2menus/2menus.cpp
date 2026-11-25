@@ -38,6 +38,8 @@ int main(int argc,char**argv){
   const auto rows=QString::fromUtf8(proc.readAllStandardOutput()).split('\n');
   for(int i=1;i<rows.size();i++){auto s=rows[i].trimmed().split(QRegularExpression("\\s+"));if(!s.isEmpty()&&!s.first().isEmpty())choices->addItem("Ollama: "+s.first(),s.first());}
  }
+ bool hasQwen=false;for(int i=0;i<choices->count();i++)if(choices->itemData(i).toString()=="qwen2.5:3b")hasQwen=true;
+ if(!hasQwen)choices->addItem("Ollama: qwen2.5:3b (local)","qwen2.5:3b");
  v->addWidget(choices);
  auto *detail=new QPlainTextEdit;detail->setPlaceholderText("Optional instructions. Saved to ~/Projects/AncesTaleextended/user-options.md and read first by Vibe.");v->addWidget(detail);
  auto *start=new QPushButton("Start selected AI");auto *back=new QPushButton("Run genealogy program directly (no AI)");
@@ -52,7 +54,7 @@ int main(int argc,char**argv){
     QMessageBox::warning(&window,"Invalid model ID","Ollama returned a model name that cannot safely be launched.");return;
    }
    // A local model operates as a chat session only. Do not misrepresent this as an autonomous agent.
-   ok=runInTerminal("cd \"$HOME/Projects/AncesTaleextended\"; ollama run '"+selected+"'");
+   ok=runInTerminal("systemctl --user start qwen-local.service 2>/dev/null; sleep 2; cd \"$HOME/Projects/AncesTaleextended\"; OLLAMA_HOST=127.0.0.1:11434 ollama run '"+selected+"'");
   }
   if(!ok)QMessageBox::warning(&window,"Terminal unavailable","GNOME Console (kgx) could not start. Check that kgx is installed.");
  });
